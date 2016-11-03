@@ -10,3 +10,8 @@ Cada form do Elipse Mobile representa uma tabela.
 
 Para criar um form vá em _Menu -> Conexões -> "+" -> Form_
 
+![Forms](i10.PNG)
+
+![Forms](i20.PNG)
+
+
