@@ -74,3 +74,45 @@ WriteNode("form:",
          });
 
 ```
+
+
+##Script ao receber form
+
+Quando uma resposta é criada/edita, um evento de script de é chamado no lado do servidor.
+
+Este evento pode ser usado para :
+ * Validar o form
+ * Copiar dados para outros sistema (EPM/E3) via writetag
+ * Enviar um e-mail de notificação sobre alteração do form
+ 
+Exemplo:
+```
+
+function OnChange(args)
+{
+  //Se estado for 2 então é aprovado
+  if (args._state == 2/*aprovado*/)
+  {
+     WriteTag("demo:TagInternal1", 
+      args.campo.toString(),
+       function (er) { }
+      );
+  }
+}
+
+```
+
+args.campo é o nome dado ao campo do formulário.
+Além dos campos definidos pelo usuário existe campos pré-definidos.
+São eles
+
+```
+_id
+_lastupdate_at
+_lastupdate_by
+_state
+_assigned_to
+
+```
+
+
