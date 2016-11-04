@@ -45,7 +45,14 @@ Usuários podem:
  
 ##Fluxo de edição do Form
 
-Ao ser criada 
+Ao ser criado o form se encontra o estado 0=pendente.
+Qualquer usuário do form pode atribuir um registro para si com a finalidade de editá-lo. 
+Estado 1=Atribuído.
+Ao concluir, o usuário passa o form para o estado 2=Finalizado.
+Ele também pode desistir de preencher o form e ele volta para o estado 0=pendente.
+
+Se o form estiver com a opção "ëtapa de revisão" então após a finalização um administrador do form precisa aprovar. Desta forma o form passa para o estado 3=Aprovado.
+
 
 
 ##Agendamento de criação de forms
