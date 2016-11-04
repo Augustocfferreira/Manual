@@ -46,3 +46,31 @@ Usuários podem:
 ##Fluxo de edição do Form
 
 Ao ser criada 
+
+
+##Agendamento de criação de forms
+
+Condição -  ser sexta feira
+
+```
+(new Date(ValueOf("demo:_now"))).getDay() == 5
+```
+Note: Sunday is 0, Monday is 1, and so on.
+http://www.w3schools.com/jsref/jsref_obj_date.asp
+
+Script
+
+```
+SendMail("a",
+ "Dia de preencher form",
+ "message",
+ function (er) 
+ {
+ });
+
+WriteNode("form:", 
+         {campo: 1}, 
+         function(er){
+         });
+
+```
