@@ -116,3 +116,12 @@ _assigned_to
 ```
 
 
+##Modo OffLine
+
+Quando o usuário entra no modo offline, é feito uma cópia de todas as páginas dos servidor para o celular. 
+Além das páginas, todos os forms atribuídos para o usuário serão copiados.
+No modo offline o usuário pode editar os formularios que estão atribuídos para sí. 
+
+Quando ele voltar ao modo online, as alterações dos formulários serão enviadas para o servidor.
+
+
