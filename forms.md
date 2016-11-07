@@ -49,6 +49,33 @@ Entre com o nome do formulário:
 
 ###Tipos de campos
 
+ * Número
+ Para valores numéricos
+ 
+ * Texto Curto
+ Para nomes, descrições
+ 
+ * Texto Longo
+ Para anotações maiores, comentários
+ 
+ * Digital
+ True/False
+ 
+ * Imagem
+ Imagem enviada para o servidor
+ 
+ * QRCode
+ Ativa a leitura de um qrcode
+ 
+ * Grupo
+ Usado para fazer a separação de perguntas no form. Não salva nada no banco de dados.
+ 
+ * Imagem estática
+ Usado para colocar uma imagem de auxílio entre as perguntas do form. Não salva nada no banco de dados.
+ 
+ * Data
+Entrada de uma data.
+
 ###Fase de revisão 
 [X] Incluir fase de revisão
 Esta opção faz com que exista uma fase adicional no fluxo do formário.
