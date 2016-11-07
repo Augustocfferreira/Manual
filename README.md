@@ -1,5 +1,5 @@
 # Manual
 Manual do Elipse Mobile
 
-[forms.md](Forms)
+[Mobile forms](forms.md)
 
