@@ -182,3 +182,6 @@ No modo offline o usuário pode editar os formularios que estão atribuídos par
 Quando ele voltar ao modo online, as alterações dos formulários serão enviadas para o servidor.
 
 
+##Sqlite browser
+
+http://sqlitebrowser.org/
