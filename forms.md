@@ -104,7 +104,16 @@ Ele também pode desistir de preencher o form e ele volta para o estado **0=pend
 Se o form estiver com a opção "etapa de revisão" então após a finalização um administrador do form precisa aprovar.
 Desta forma o form passa para o estado **3=Aprovado**.
 
-##Agendamento de criação de forms
+
+##Scripts
+
+Os scripts do Mobile são feitos na linguagem Javascript.
+
+Existe vasta documentação na web, por exemplo:
+https://www.w3schools.com/jsref/default.asp
+
+
+##Script de agendamento de criação de forms
 
 Condição -  ser sexta feira
 
@@ -131,7 +140,7 @@ WriteNode("form:",
 
 ```
 
-### Um form para cada dia da semana
+### Script para criar um form de acordo com o dia da semana
 
 ```
 Condição:  ValueOf("demo:_now") && (new Date().getDay() >= 1 && new Date().getDay() <= 5)
@@ -193,7 +202,7 @@ if (formName)
 ```
 
 
-##Script ao receber form
+##Script no evento de modificação do form
 
 Quando uma resposta é criada/edita, um evento de script de é chamado no lado do servidor.
 
