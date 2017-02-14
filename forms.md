@@ -132,6 +132,67 @@ WriteNode("form:",
 
 ```
 
+### Um form para cada dia da semana
+
+```
+Condição:  ValueOf("demo:_now") && (new Date().getDay() >= 1 && new Date().getDay() <= 5)
+```
+
+Script:
+```js
+
+var day = new Date().getDay();
+var title = "";
+var formName = "";
+
+switch (day)
+{
+ case 0: 
+  //title = "Domingo";
+  break;
+
+ case 1: 
+  title = "Segunda";
+  formName = "AciariaSeg";
+  break;
+
+ case 2: 
+  title = "Terça";
+  formName = "AciariaTer";
+  break;
+
+ case 3: 
+ title = "Quarta";
+ formName = "AciariaQua";
+ break;
+
+ case 4 :
+   title = "Quinta";
+   formName = "AciariaQui";
+  break;
+
+ case 5:
+  title = "Sexta";
+  formName = "AciariaSex";
+ break;
+
+ case 6:
+  //title = "Sábado";
+  break;
+}
+
+if (formName)
+{
+  WriteNode(formName + ":", 
+            { Diario : title }, 
+              function(er)
+              {
+              }
+            );
+}
+
+```
+
 
 ##Script ao receber form
 
