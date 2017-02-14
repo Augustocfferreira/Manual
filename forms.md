@@ -115,11 +115,18 @@ https://www.w3schools.com/jsref/default.asp
 
 ##Script de agendamento de criação de forms
 
-Condição -  ser sexta feira
+Menu -> Eventos -> + -> Script
 
+Condição - Ser sexta feira
+
+Condição:
 ```
 (new Date(ValueOf("demo:_now"))).getDay() == 5
 ```
+Esta condição precisa ter um tag do mobile.
+Por isso, o tag "demo:now" foi adicionado na expressão.
+
+
 Note: Sunday is 0, Monday is 1, and so on.
 http://www.w3schools.com/jsref/jsref_obj_date.asp
 
