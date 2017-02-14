@@ -12,27 +12,27 @@ Estes formulários podem ser usados como pequenos bancos de dados e também para
 ##Conceitos
 
 Um formulário ou form é representa uma folha com respostas.
-No servidor Mobile se encontra a definição do modelo de form e o armazenamento de respostam preenchidas.
-Um formulário também pode ser visto como uma tabela de um banco de dados aonde cada linha representa um formulário e cada coluna a pergunta.
+No servidor Mobile se encontra a definição do modelo de form e o armazenamento das respostas preenchidas.
+Um formulário também pode ser visto como uma tabela de banco de dados aonde cada linha representa um formulário e cada coluna a pergunta deste formulário.
 
-No mobile as repostas possuem campos pré-definidos e um estado que controla o fluxo da edição.
-Ao ser criado o form nasce com o estado pendente, que significa que ele deve ser preenchido por alguém.
+No Mobile as repostas possuem campos pré-definidos e um estado que controla o fluxo de edição.
+Ao ser criado o form nasce com o estado **pendente**, que significa que ele deve ser preenchido por alguém.
 
 Cada definição de form possui a definição de usuários administradores ou apenas usuários.
-Os administradores são aqueles que podem criar novas entradas no banco (criar um form novo)  e usuário são aqueles que somentem podem preencher o form, mas não podem deletar ou criar uma formulário novo.
+Os administradores são aqueles que podem criar novas entradas no banco (criar um form novo) e usuário são aqueles que somentem podem preencher o form, mas não podem deletar ou criar uma formulário novo.
 
 Quando o form é criado e está pendente, qualquer usuário (grupo) do formulário pode atribuir a tarefa de preencher o formulário para si.
-Sendo assim o form entra no estado "Atribuído para alguém". Neste estado outros usuários não poderão editar este form. Isso evita que ele seja preenchido por mais de uma pessoa ao mesmo tempo.
+Sendo assim o form entra no estado **atribuído para alguém**. Neste estado outros usuários não poderão editar este form. Isso evita que ele seja preenchido por mais de uma pessoa ao mesmo tempo.
 
 O modelo de preenchimento offline também se baseia neste conceito de atribuição.
-Quando um usuário decide ir offline para fazer uma coleta todos os formuários que estão atribuídos para ele são armazenados no dipositivo móvel.
+Quando um usuário decide ir offline para fazer uma coleta todos os formulários que estão atribuídos para ele são armazenados no dipositivo móvel.
 
 Depois de preenchido o formulario é enviado automaticamente para o servidor (se online) ou fica armazenado até que a operação "Conectar" seja utilizada. Ao conectar, todos os formários editados offline serão enviados para o servidor.
 
-Depois da fase de edição existe a fase de finalização. Mesmo quando as repostas são enviadas para o servidor não significa que ele esteja pronto. Assim, a áltima etapa da edição consiste em marcar o form como "finalizado".
+Depois da fase de edição existe a fase de finalização. Mesmo quando as repostas são enviadas para o servidor não significa que ele esteja pronto. Assim, a última etapa da edição consiste em marcar o form como **finalizado**.
 
-Existe uma opção para o formulário que é "Revisão". Quando esta opção estiver marcada existe uma etapa extra após a finalizaçào. Esta etapa pode ser feita apenas pelos administrador do fom  e correspende a aprovação da coleta de dados.
-
+Existe uma opção para o formulário que é **revisão**. Quando esta opção estiver marcada existe uma etapa extra após a finalização.
+Esta etapa pode ser feita apenas pelos administradores do form e correspende a aprovação da coleta de dados.
 
 
 Cada form do Elipse Mobile representa uma tabela.
@@ -95,15 +95,14 @@ Usuários podem:
  
 ##Fluxo de edição do Form
 
-Ao ser criado o form se encontra o estado 0=pendente.
+Ao ser criado o form se encontra o estado **0=pendente**.
 Qualquer usuário do form pode atribuir um registro para si com a finalidade de editá-lo. 
-Estado 1=Atribuído.
-Ao concluir, o usuário passa o form para o estado 2=Finalizado.
-Ele também pode desistir de preencher o form e ele volta para o estado 0=pendente.
+Estado **1=Atribuído**.
+Ao concluir, o usuário passa o form para o estado **2=Finalizado**.
+Ele também pode desistir de preencher o form e ele volta para o estado **0=pendente**.
 
-Se o form estiver com a opção "ëtapa de revisão" então após a finalização um administrador do form precisa aprovar. Desta forma o form passa para o estado 3=Aprovado.
-
-
+Se o form estiver com a opção "etapa de revisão" então após a finalização um administrador do form precisa aprovar.
+Desta forma o form passa para o estado **3=Aprovado**.
 
 ##Agendamento de criação de forms
 
@@ -117,7 +116,7 @@ http://www.w3schools.com/jsref/jsref_obj_date.asp
 
 Script
 
-```
+```js
 SendMail("a",
  "Dia de preencher form",
  "message",
@@ -204,7 +203,9 @@ Este evento pode ser usado para :
  * Enviar um e-mail de notificação sobre alteração do form
  
 Exemplo:
-```
+
+
+```js
 
 function OnChange(args)
 {
@@ -212,8 +213,8 @@ function OnChange(args)
   if (args._state == 2/*aprovado*/)
   {
      WriteTag("demo:TagInternal1", 
-      args.campo.toString(),
-       function (er) { }
+              args.campo.toString(),
+              function (er) { }
       );
   }
 }
@@ -221,15 +222,17 @@ function OnChange(args)
 ```
 
 args.campo é o nome dado ao campo do formulário.
-Além dos campos definidos pelo usuário existe campos pré-definidos.
-São eles
+
+Além dos campos definidos pelo usuário existe campos pré-definidos e reservados.
+
+São eles:
 
 ```
-_id
-_lastupdate_at
-_lastupdate_by
-_state
-_assigned_to
+_id             : Uso interno
+_lastupdate_at  : Momento da última atualização
+_lastupdate_by  : Nome do usuário que alterou o form por último
+_state          : 0=pendente, 1=Atribuído, 2=Finalizado e 3=Aprovado
+_assigned_to    : No estado Atribuído, indica o nome do usuário 
 
 ```
 
