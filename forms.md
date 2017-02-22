@@ -150,51 +150,15 @@ WriteNode("form:",
 ### Script para criar um form de acordo com o dia da semana
 
 ```
-Condição:  ValueOf("demo:_now") && (new Date().getDay() >= 1 && new Date().getDay() <= 5)
+Condição:  ValueOf("demo:_now") && (new Date().getDay() == 1)
 ```
 
 Script:
 ```js
 
 var day = new Date().getDay();
-var title = "";
-var formName = "";
-
-switch (day)
-{
- case 0: 
-  //title = "Domingo";
-  break;
-
- case 1: 
-  title = "Segunda";
-  formName = "AciariaSeg";
-  break;
-
- case 2: 
-  title = "Terça";
-  formName = "AciariaTer";
-  break;
-
- case 3: 
- title = "Quarta";
- formName = "AciariaQua";
- break;
-
- case 4 :
-   title = "Quinta";
-   formName = "AciariaQui";
-  break;
-
- case 5:
-  title = "Sexta";
-  formName = "AciariaSex";
- break;
-
- case 6:
-  //title = "Sábado";
-  break;
-}
+var title = "Segunda";
+var formName = "FormName";
 
 if (formName)
 {
@@ -207,6 +171,11 @@ if (formName)
 }
 
 ```
+É possível criar outro script semelhante para outros dias.
+
+O script roda quando o evento **entrar na condição verdadeira**.
+Quando a condição for para false não acontece nada.
+
 
 
 ##Script no evento de modificação do form
