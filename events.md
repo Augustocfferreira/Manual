@@ -10,12 +10,12 @@ Exemplos:
 	=ValueOf("demo:TagInternal3") >= 50
 ```
 
-Obs: Os operadores lógicos e matemáticos possíveis são os mesmos utilizados em javascript. 
+*Obs: Os operadores lógicos e matemáticos possíveis são os mesmos utilizados em javascript.*
 
 ##Email:
 
 Antes de configurar os eventos de envio de email, é necessário configurar o Servidor de emails, que é o servidor SMTP que gerenciará os emails enviados pelos eventos.
-Primeiramente, acesse a aba Configurações e abra o Servidor de e-mails.
+Primeiramente, acesse a aba **Configurações** e abra o **Servidor de e-mails**.
 
 Configure o servidor SMTP conforme o servidor utilizado para envio de emails.
 No exemplo abaixo, está a configuração utilizada no SMTP do Gmail.
