@@ -10,6 +10,7 @@ https://www.elipse.com.br/produto/elipse-mobile/
 ##Usuários
 
 ##Eventos
+  [Eventos](events.md)
   
 ##Conexões 
 
