@@ -23,7 +23,7 @@ https://www.elipse.com.br/produto/elipse-mobile/
   
   Os eventos do Elipse Mobile possibilitam enviar emails e gerenciar scripts que rodam no servidor para que ações sejam tomadas pelo próprio servidor quando as condições dos eventos forem satisfeitas.
   
-###[Email](events.md)
+###[Email](https://github.com/elipsemobile/Manual/blob/master/events.md#email)
   
 ###[Script](events.md)
   
