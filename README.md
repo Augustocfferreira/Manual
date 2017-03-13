@@ -3,11 +3,13 @@
 Site oficial:
 https://www.elipse.com.br/produto/elipse-mobile/
 
-##Instalação
-
 ##Introdução
 
  Desenvolvido pela Elipse Software, o Elipse Mobile é uma solução móvel para integração com sistemas de automação (SCADA) que possibilita monitorar indicadores e comandar equipamentos do processo através de um smartphone ou tablet.
+ 
+##Instalação
+
+ A instalação do Elipse Mobile se divide em duas partes: Server (para o servidor da aplicação) e Client (para smartphones e tablets).
 
 ##Usuários
 
