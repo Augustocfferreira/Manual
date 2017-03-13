@@ -5,7 +5,7 @@ Em ambos os eventos, é necessário configurar a condição em que o mesmo ocorr
 
 Exemplos:
 ```
-=ValueOf("demo:TagInternal1") == 5
+	=ValueOf("demo:TagInternal1") == 5
 	=ValueOf("demo:TagInternal2") != 3
 	=ValueOf("demo:TagInternal3") >= 50
 ```
@@ -21,20 +21,17 @@ Obs: Para que o email seja enviado com sucesso, é necessário configurar sevido
 
 Permite que o servidor execute uma ou mais instruções ao validar a condição desejada.
 	Após configurada a condição, já é possível escrever o script que será executado. Os comandos possíveis e os parâmetros são:
-- WriteTag: Escrita somente do valor no tag.
+
+* [WriteTag](###WriteTag)
+* [WriteTagEx](###WriteTagEx)
+
+###WriteTag 
+Escrita somente do valor no tag.
 
 ```
 WriteTag( tagName, value , function (er) 
 {});
 ```
- - WriteTagEx: Escrita com timestamp e qualidade.
-
-```
-WriteTagEx( tagName, value , timestamp, quality, 
-function (er) 
-{});
-```
-
 
 Exemplo:
 ```
@@ -43,5 +40,16 @@ WriteTag( "demo:TagInternal3",
 function (er){});
 ```
 Escrevendo no tag interno 3, o valor 15.
+
+###WriteTagEx 
+Escrita com timestamp e qualidade.
+
+```
+WriteTagEx( tagName, value , timestamp, quality, 
+function (er) 
+{});
+```
+
+
 
 
