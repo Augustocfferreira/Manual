@@ -1,7 +1,7 @@
 #Eventos
 
-Os eventos do Elipse Mobile possibilitam enviar emails e gerenciar scripts que rodam no servidor para que ações sejam tomadas pelo próprio servidor quando as condições dos eventos forem satisfeitas.
-Em ambos os eventos, é necessário configurar a condição em que o mesmo ocorra. Para montar uma condição, utiliza-se a função ValueOf e a mesma permite a utilização de operadores lógicos, tais como == (comparação), != (diferente de), >= (maior ou igual), < (menor), entre outros. 
+Os eventos do Elipse Mobile possibilitam enviar emails e gerenciar ações para que decisões sejam tomadas pelo próprio servidor quando as condições dos eventos forem satisfeitas.
+Tanto para os emails como para os Scripts, é necessário configurar a condição para que o evento ocorra. Para montar esta condição, utiliza-se a função ValueOf, pois a mesma permite a utilização de operadores lógicos, tais como == (comparação), != (diferente de), >= (maior ou igual), < (menor), entre outros. 
 
 Exemplos:
 ```
@@ -10,11 +10,11 @@ Exemplos:
 	=ValueOf("demo:TagInternal3") >= 50
 ```
 
-*Obs: Os operadores lógicos e matemáticos possíveis são os mesmos utilizados em javascript.*
+*Obs: Os operadores lógicos possíveis são os mesmos utilizados em javascript.*
 
 ##Email:
 
-Antes de configurar os eventos de envio de email, é necessário configurar o Servidor de emails, que é o servidor SMTP que gerenciará os emails enviados pelos eventos.
+Antes de configurar os eventos de envio de email, é necessário configurar o servidor de emails, que é o servidor SMTP que gerenciará os emails enviados pelos eventos.
 Primeiramente, acesse a aba **Configurações** e abra o **Servidor de e-mails**.
 
 ![conf_emails](https://cloud.githubusercontent.com/assets/26389485/23870495/59624c0c-0805-11e7-8986-982a5f2e3a60.png)
@@ -59,6 +59,11 @@ function (er)
 {});
 ```
 
-
-
-
+Exemplo:
+```
+WriteTagEx("e3:Data.InternalTag1", 
+2,
+new Date().getTime(), 
+0,
+function (er){ });
+```
