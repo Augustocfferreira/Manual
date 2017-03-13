@@ -20,7 +20,7 @@ Primeiramente, acesse a aba Configurações e abra o Servidor de e-mails.
 Configure o servidor SMTP conforme o servidor utilizado para envio de emails.
 No exemplo abaixo, está a configuração utilizada no SMTP do Gmail.
 
-
+![smtp_gmail](https://cloud.githubusercontent.com/assets/26389485/23870246/99d9a56a-0804-11e7-8396-f8da5003b032.png)
 
 Permite configurar um evento que envia email para um usuário ou grupo de usuários quando a condição seja verdadeira.
 Obs: Para que o email seja enviado com sucesso, é necessário configurar sevidor de e-mails na janela de Configurações.
