@@ -1,7 +1,7 @@
 #Eventos
 
-	Os eventos do Elipse Mobile possibilitam enviar emails e gerenciar scripts que rodam no servidor para que ações sejam tomadas pelo próprio servidor quando as condições dos eventos forem satisfeitas.
-	Em ambos os eventos, é necessário configurar a condição em que o mesmo ocorra. Para montar uma condição, utiliza-se a função ValueOf e a mesma permite a utilização de operadores lógicos, tais como == (comparação), != (diferente de), >= (maior ou igual), < (menor), entre outros. 
+Os eventos do Elipse Mobile possibilitam enviar emails e gerenciar scripts que rodam no servidor para que ações sejam tomadas pelo próprio servidor quando as condições dos eventos forem satisfeitas.
+Em ambos os eventos, é necessário configurar a condição em que o mesmo ocorra. Para montar uma condição, utiliza-se a função ValueOf e a mesma permite a utilização de operadores lógicos, tais como == (comparação), != (diferente de), >= (maior ou igual), < (menor), entre outros. 
 
 Exemplos:
 ```
