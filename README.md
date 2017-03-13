@@ -25,7 +25,7 @@ https://www.elipse.com.br/produto/elipse-mobile/
   
 ###[Email](https://github.com/elipsemobile/Manual/blob/master/events.md#email)
   
-###[Script](events.md)
+###[Script](https://github.com/elipsemobile/Manual/blob/master/events.md#script)
   
 ##Conexões 
 
