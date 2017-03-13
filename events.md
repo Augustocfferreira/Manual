@@ -14,6 +14,14 @@ Obs: Os operadores lógicos e matemáticos possíveis são os mesmos utilizados 
 
 ##Email:
 
+Antes de configurar os eventos de envio de email, é necessário configurar o Servidor de emails, que é o servidor SMTP que gerenciará os emails enviados pelos eventos.
+Primeiramente, acesse a aba Configurações e abra o Servidor de e-mails.
+
+Configure o servidor SMTP conforme o servidor utilizado para envio de emails.
+No exemplo abaixo, está a configuração utilizada no SMTP do Gmail.
+
+
+
 Permite configurar um evento que envia email para um usuário ou grupo de usuários quando a condição seja verdadeira.
 Obs: Para que o email seja enviado com sucesso, é necessário configurar sevidor de e-mails na janela de Configurações.
 
