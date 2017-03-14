@@ -42,7 +42,7 @@ https://www.elipse.com.br/produto/elipse-mobile/
 ### Forms
 [Mobile forms](forms.md)
 
-## Configurações
+## [Configurações](config.md)
 
 ### Autenticação externa de usuários
 
