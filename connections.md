@@ -127,6 +127,131 @@ Ele também pode desistir de preencher o form e ele volta para o estado **0=pend
 Se o form estiver com a opção "etapa de revisão" então após a finalização um administrador do form precisa aprovar.
 Desta forma o form passa para o estado **3=Aprovado**.
 
+### Scripts
+
+Os scripts do Mobile são feitos na linguagem Javascript.
+
+Existe vasta documentação na web, por exemplo:
+https://www.w3schools.com/jsref/default.asp
+
+
+##Script de agendamento de criação de forms
+
+Menu -> Eventos -> + -> Script
+
+Condição - Ser sexta feira
+
+Condição:
+```
+(new Date(ValueOf("demo:_now"))).getDay() == 5
+```
+Esta condição precisa ter um tag do mobile.
+Por isso, o tag "demo:now" foi adicionado na expressão.
+
+
+Note: Sunday is 0, Monday is 1, and so on.
+http://www.w3schools.com/jsref/jsref_obj_date.asp
+
+Script
+
+```js
+SendMail("a",
+ "Dia de preencher form",
+ "message",
+ function (er) 
+ {
+ });
+
+WriteNode("form:", 
+         {campo: 1}, 
+         function(er){
+         });
+
+```
+
+#### Script para criar um form de acordo com o dia da semana
+
+```
+Condição:  ValueOf("demo:_now") && (new Date().getDay() == 1)
+```
+
+Script:
+```js
+
+var day = new Date().getDay();
+var title = "Segunda";
+var formName = "FormName";
+
+if (formName)
+{
+  WriteNode(formName + ":", 
+            { Diario : title }, 
+              function(er)
+              {
+              }
+            );
+}
+
+```
+É possível criar outro script semelhante para outros dias.
+
+O script roda quando o evento **entrar na condição verdadeira**.
+Quando a condição for para false não acontece nada.
+
+
+
+### Script no evento de modificação do form
+
+Quando uma resposta é criada/edita, um evento de script de é chamado no lado do servidor.
+
+Este evento pode ser usado para :
+ * Validar o form
+ * Copiar dados para outros sistema (EPM/E3) via writetag
+ * Enviar um e-mail de notificação sobre alteração do form
+ 
+Exemplo:
+
+
+```js
+
+function OnChange(args)
+{
+  //Se estado for 2 então é aprovado
+  if (args._state == 2/*aprovado*/)
+  {
+     WriteTag("demo:TagInternal1", 
+              args.campo.toString(),
+              function (er) { }
+      );
+  }
+}
+
+```
+
+args.campo é o nome dado ao campo do formulário.
+
+Além dos campos definidos pelo usuário existe campos pré-definidos e reservados.
+
+São eles:
+
+```
+_id             : Uso interno
+_lastupdate_at  : Momento da última atualização
+_lastupdate_by  : Nome do usuário que alterou o form por último
+_state          : 0=pendente, 1=Atribuído, 2=Finalizado e 3=Aprovado
+_assigned_to    : No estado Atribuído, indica o nome do usuário 
+
+```
+
+
+### Modo OffLine
+
+Quando o usuário entra no modo offline, é feito uma cópia de todas as páginas dos servidor para o celular. 
+Além das páginas, todos os forms atribuídos para o usuário serão copiados.
+No modo offline o usuário pode editar os formularios que estão atribuídos para sí. 
+
+Quando ele voltar ao modo online, as alterações dos formulários serão enviadas para o servidor.
+
 ## EPM (OPCA UA)
 
 
