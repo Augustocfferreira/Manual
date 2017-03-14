@@ -1,6 +1,8 @@
 # Notas de Versão
 
-- [Versão 1.1](releasenotes.md#versão-1.1)
+- [Versão 1.1](releasenotes.md#versão-11)
+- [Versão 1.2](releasenotes.md#versão-12)
+- [Versão 1.3](releasenotes.md#versão-13)
 
 
 ## Versão 1.3
