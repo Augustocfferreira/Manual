@@ -14,7 +14,7 @@ Exemplos:
 
 ## Email:
 
-Primeiramente é necessário fazer a [configuração do servidor de email](config.md), para depois ser possível configurar um evento de envio de emails. O mesmo permite enviar um ou mais emails para um usuário ou grupo de usuários quando a do evento condição ser verdadeira.
+Primeiramente é necessário fazer a [configuração do servidor de email](config.md#servidor-de-e-mails), para depois ser possível configurar um evento de envio de emails. O mesmo permite enviar um ou mais emails para um usuário ou grupo de usuários quando a do evento condição ser verdadeira.
 
 ## Script:
 
