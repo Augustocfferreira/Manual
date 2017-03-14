@@ -3,47 +3,47 @@
 Site oficial:
 https://www.elipse.com.br/produto/elipse-mobile/
 
-##Introdução
+## Introdução
 
  Desenvolvido pela Elipse Software, o Elipse Mobile é uma solução móvel para integração com sistemas de automação (SCADA) que possibilita monitorar indicadores e comandar equipamentos do processo através de um smartphone ou tablet.
  
-##Instalação
+## Instalação
 
  A instalação do Elipse Mobile se divide em duas partes: Server (para o servidor da aplicação) e Client (para smartphones e tablets).
 
-##Licenciamento
+## Licenciamento
 
  O licenciamento do Elipse Mobile se dá em função do número de usuários cadastrados dentro da aplicação. Porém, sem a utilização de uma licença, o Mobile pode ser executado em modo de **Demonstração** (ou **Demo**), o que é útil para a avaliação do software.
 
-##Aplicações
+## Aplicações
 
-##[Eventos](events.md)
+## [Eventos](events.md)
   
   Os eventos do Elipse Mobile possibilitam enviar emails e gerenciar scripts que rodam no servidor para que ações sejam tomadas pelo próprio servidor quando as condições dos eventos forem satisfeitas.
   
-###[Email](events.md#email)
+### [Email](events.md#email)
   
-###[Script](events.md#script)
+### [Script](events.md#script)
 
-##Páginas
+## Páginas
 
-##Usuários
+## Usuários
  
  Através da configuração de usuários, é possível limitar 
   
-##Conexões 
+## Conexões 
 
-###Demo
+### Demo
 
-###E3
+### E3
 
-###EPM (OPCA UA)
+### EPM (OPCA UA)
 
-###Forms
+### Forms
 [Mobile forms](forms.md)
 
-##Configurações
+## Configurações
 
-###Autenticação externa de usuários
+### Autenticação externa de usuários
 
-###Servidor de e-mails
+### Servidor de e-mails
