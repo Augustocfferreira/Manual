@@ -22,7 +22,7 @@ Quando a opção unique device é marcada na criação do usuário, significa qu
 
 O primeiro login deste usuário vai determinar o dispositivo que ele poderá usar.
 
-
+![dispositivo](https://cloud.githubusercontent.com/assets/26389485/23913395/a668de50-08c1-11e7-81fc-b273cd815a9d.png)
 
 Ele também não poderá usar o Elipse Mobile através de um web browser.
 
