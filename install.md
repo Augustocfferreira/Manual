@@ -8,13 +8,10 @@ A instalação do Elipse Mobile se divide em duas partes: Server (para o servido
  
  Para executar o Elipse Mobile Server exige-se um computador com a seguinte configuração:
 
-· CPU Intel Core i5, AMD 4 ou superior 
-
-· 4 GB de memória RAM 
-
-· 4 GB de espaço em disco rígido
-
-· Windows XP SP3 ou superior
+* CPU Intel Core i5, AMD 4 ou superior 
+* 4 GB de memória RAM 
+* 4 GB de espaço em disco rígido
+* Windows XP SP3 ou superior
 
  
  ### Instalador
