@@ -42,7 +42,10 @@ Uma mensagem de Instalação Completa aparece quando a instalação for bem-suce
   ### Android
    Para a instalação do aplicativo Elipse Mobile no Android, é necessário possuir a versão 4.0 ou superior do Android.
       
+![qr_code_android](https://cloud.githubusercontent.com/assets/26389485/23900691/f0c0d2ec-0898-11e7-9ac8-86843378195e.png)
+
    *[Link para download](https://play.google.com/store/apps/details?id=com.elipse.mobile&hl=pt_BR)*
+   
   ### IOS
   ### Windows Phone
   ### Navegador
