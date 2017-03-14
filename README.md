@@ -12,10 +12,10 @@ https://www.elipse.com.br/produto/elipse-mobile/
     - Instalador
  
   - [Client](install.md#client)
-    - [Android] (install.md#android)
-    - [IOS] (install.md#ios)
-    - [Windows Phone] (install.md#windows_phone)
-    - [Navegador] (install.md#navegador)
+    - [Android](install.md#android)
+    - [IOS](install.md#ios)
+    - [Windows Phone](install.md#windows_phone)
+    - [Navegador](install.md#navegador)
 
 - [Licenciamento](licence.md)
 
