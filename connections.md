@@ -46,7 +46,7 @@ Estes formulários podem ser usados como pequenos bancos de dados e também para
 
 ### Conceitos
 
-Um formulário ou form é representa uma folha com respostas.
+Um formulário ou form é a representação de uma folha com respostas.
 No servidor Mobile se encontra a definição do modelo de form e o armazenamento das respostas preenchidas.
 Um formulário também pode ser visto como uma tabela de banco de dados aonde cada linha representa um formulário e cada coluna a pergunta deste formulário.
 
