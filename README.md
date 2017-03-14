@@ -32,6 +32,10 @@ https://www.elipse.com.br/produto/elipse-mobile/
 - [Páginas](pages.md)
 
 - [Usuários](users.md)
+  - [Mobile](users.md#mobile)
+  - [LDAP](users.md#ldap)
+  - [Grupo](users.md#grupo)
+  - [Dispositivo Único](users.md#dispositivo-único)
  
 - Conexões 
 
