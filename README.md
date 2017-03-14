@@ -8,8 +8,8 @@ https://www.elipse.com.br/produto/elipse-mobile/
 - [Instalação](install.md)
 
   - [Server](install.md#server)
-    - Requerimentos mínimos
-    - Instalador
+    - [Requerimentos mínimos](install.md#requerimentos-mínimos)
+    - [Instalador](install.md#instalador)
  
   - [Client](install.md#client)
     - [Android](install.md#android)
