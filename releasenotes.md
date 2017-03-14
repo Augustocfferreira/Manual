@@ -1,5 +1,33 @@
 # Notas de Versão
 
+## Versão 1.2
+
+Geral
+
+- Leitura em blocos no client web. mais detalhes...
+- Controles nos aplicativos cliente agora têm fundo preenchido
+- Os clients também têm versão Francês e Chinês (Tradicional), além do Inglês e Português.
+- A web ganhou versão traduzida que escolhe o idioma através das configurações do browser.
+- Corrigido problema com HTTPs observado em testes de stress.
+- Pequena alteração no licenciamento. Agora é possível criar/editar mais usuários do que número licenciado. Só não é possível fazer login.
+- O servidor ganhou atualizações e otimizações para rodar na nuvem
+- Corrigido: Campos do tipo read-only estavam podendo ser editados no configurador
+- Alterado o formato do arquivo de dados e configuração que agora é json. A importação é automática. mais detalhes...
+- Adicionada proteção no server contra ataques do tipo cross-site request forgery. mais detalhes...
+- Criada uma opção no servidor para desabilitar conexões SSL3 e permitir apenas conexões TLS. mais detalhes...
+- Corrigido problema para enviar e-mails para mais de um usuário.
+
+Client Windows
+
+- Corrigido problema de formatação quando decimals era negativo
+- Corrigido problema que duplicava a string de useragent
+
+Client Android
+
+- Substituída a forma como era feito a conexão para corrigir problemas com certificados HTTPS
+- Separados os menus Sobre e Configurações
+- Alterado tela de login para ficar mais uniforme com outros clientes
+
 ## Versão 1.1
 
 **Novidades:**
