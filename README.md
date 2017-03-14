@@ -4,7 +4,7 @@ Site oficial:
 https://www.elipse.com.br/produto/elipse-mobile/
 
 - [Introdução](intro.md)
-
+  - [Arquitetura](intro.md#arquitetura)
 - [Instalação](install.md)
 
   - [Server](install.md#server)
