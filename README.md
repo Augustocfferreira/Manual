@@ -38,6 +38,8 @@ https://www.elipse.com.br/produto/elipse-mobile/
 - [Conexões](connections.md)
 
   - [Elipse E3](connections.md#e3)
+    - [E3 OPC-DA](connections.md#e3)
+    - [E3 Nativo](connections.md#e3)
   - [Elipse SCADA](connections.md#e3)
   - [OPC-DA](connections.md#e3)
   - [Arduino](connections.md#e3)
