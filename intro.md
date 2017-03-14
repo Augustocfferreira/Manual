@@ -3,4 +3,4 @@
   
   ## Arquitetura
   
-  
+  ![elipse-mobile-architecture-pt-br](https://cloud.githubusercontent.com/assets/26389485/23917800/5bddf2fe-08cf-11e7-8f67-dccff1ca7bc4.png)
