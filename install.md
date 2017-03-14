@@ -44,8 +44,6 @@ Uma mensagem de Instalação Completa aparece quando a instalação for bem-suce
     *[Link para download](https://play.google.com/store/apps/details?id=com.elipse.mobile&hl=pt_BR)*
       
 ![qr_code_android](https://cloud.githubusercontent.com/assets/26389485/23900691/f0c0d2ec-0898-11e7-9ac8-86843378195e.png)
-
-  
    
   ### IOS
   Para a instalação do aplicativo Elipse Mobile no IOS, é necessário possuir a versão 8.0 ou superior do IOS.
@@ -60,3 +58,10 @@ Uma mensagem de Instalação Completa aparece quando a instalação for bem-suce
 ![qr_code_wp](https://cloud.githubusercontent.com/assets/26389485/23900999/188d8986-089a-11e7-95c9-4b7bdbb491c6.png)
 
   ### Navegador
+
+  Caso não seja possível acessar com o aplicativo disponível nas lojas, é possível acessar via navegador, tanto nos dispositivos móveis como em qualquer computador.
+  
+  A sintaxe correta para o acesso é http://IP_DO_SERVIDOR:PORTA/. Exemplo: http://127.1.1.1:8080/.
+  Podendo ser acessado pelo nome da máquina servidora na rede. http://Nome_da_Maquina:Porta/. Exemplo:http://localhost:8080/.
+  
+  *Para a configuração da porta do Elipse Mobile, consute o capítulo [Configuração Elipse Mobile Server.]*
