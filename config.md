@@ -3,6 +3,10 @@
 ## Autenticação externa de usuários
 
   Lightweight Directory Access Protocol, ou LDAP, é um protocolo de aplicação aberto, livre de fornecedor e padrão de indústria para acessar e manter serviços de informação de diretório distribuído sobre uma rede de Protocolo da Internet (IP).
+  Para configurar esta opção, basta configurar o Hostname do servidor.
+
+![ldap](https://cloud.githubusercontent.com/assets/26389485/23898621/6e0ed824-0890-11e7-917c-4dfb9c340afe.png)
+
 
 ## Servidor de e-mails
 
