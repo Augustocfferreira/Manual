@@ -2,6 +2,8 @@
 
 ## Autenticação externa de usuários
 
+  Lightweight Directory Access Protocol, ou LDAP, é um protocolo de aplicação aberto, livre de fornecedor e padrão de indústria para acessar e manter serviços de informação de diretório distribuído sobre uma rede de Protocolo da Internet (IP).
+
 ## Servidor de e-mails
 
 Antes de configurar os eventos de envio de email, é necessário configurar o servidor de emails, que é o servidor SMTP que gerenciará os emails enviados pelos eventos.
