@@ -1,4 +1,4 @@
-# Configuração
+# Configurações
 
 ## Autenticação externa de usuários
 
