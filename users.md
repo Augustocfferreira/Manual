@@ -10,7 +10,7 @@ Dentro da página de usuários, é possível gerenciar todos os usuários da apl
 
 ### LDAP
 
-  O usuário LDAP é aquele que é gerenciado pelo servidor LDAP, servidor este que deve ser previamente configurado na aba **[Configurações](config.md)**.
+  O usuário LDAP é aquele que é gerenciado pelo servidor LDAP, servidor este que deve ser previamente configurado na aba **[Configurações](config.md#autenticação-externa-de-usuários)**.
 
 ### Grupo
 
