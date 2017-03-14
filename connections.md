@@ -5,9 +5,9 @@
 
 ## Elipse E3
 
-### OPC
+### E3 OPC-DA
 
-### Nativa
+### E3 Nativo
 
 ## Elipse SCADA
 
