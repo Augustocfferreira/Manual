@@ -50,6 +50,7 @@ https://www.elipse.com.br/produto/elipse-mobile/
   - [Servidor de e-mails](config.md#servidor-de-e-mails)
 
 - [Referência de Scripts](scripts.md)
+- [Notas de Versão](releasenotes.md)
 
 
 
