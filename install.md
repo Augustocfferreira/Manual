@@ -46,6 +46,11 @@ Uma mensagem de Instalação Completa aparece quando a instalação for bem-suce
 
    *[Link para download](https://play.google.com/store/apps/details?id=com.elipse.mobile&hl=pt_BR)*
    
-  ### IOS
+  ### IOS
+  Para a instalação do aplicativo Elipse Mobile no IOS, é necessário possuir a versão 8.0 ou superior do IOS.
+   *[Link para download](https://itunes.apple.com/br/app/elipse-mobile/id855194610?mt=8)*
+  
   ### Windows Phone
+  
+  
   ### Navegador
