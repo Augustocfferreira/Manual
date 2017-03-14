@@ -49,4 +49,4 @@ https://www.elipse.com.br/produto/elipse-mobile/
  
 ### [Servidor de e-mails](config.md#servidor-de-e-mails)
 
-# Referência de Scripts
+## Referência de Scripts
