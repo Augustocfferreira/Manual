@@ -3,7 +3,7 @@
 ## Demo
   A conexão Demo permite ao desenvolvedor da aplicação ter acesso à vários tags de demonstração. Sendo eles:
   
-| Nome do Tag     | Tipo do Tag   |
+| Nome    | Tipo  |
 | -------------   | ------------- |
 | TagInternal1    | Interno       |
 | TagInternal2    | Interno       |
