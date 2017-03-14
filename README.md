@@ -44,6 +44,6 @@ https://www.elipse.com.br/produto/elipse-mobile/
 
 ## [Configurações](config.md)
 
-### [Autenticação externa de usuários](config.md)
+### [Autenticação externa de usuários](config.md#autenticação-externa-de-usuários)
 
-### [Servidor de e-mails](config.md)
+### [Servidor de e-mails](config.md#servidor-de-e-mails)
