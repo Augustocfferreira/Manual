@@ -5,6 +5,8 @@
 
 ## Elipse E3
 
+  A conexão com o Elipse E3 pode se dar de duas formas, via OPC-DA, onde o Elipse Mobile interpreta o E3 como qualquer outro servidor OPC ou com a conexão E3 nativa presente no Mobile, o que possibilita uma gerência melhor do que é tag e o que é propriedade.
+  
 ### E3 OPC-DA
 
 ### E3 Nativo
