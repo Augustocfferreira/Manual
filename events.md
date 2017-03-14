@@ -19,6 +19,8 @@ Exemplos:
 
 O mesmo permite enviar um ou mais emails para um usuário ou grupo de usuários quando a do evento condição ser verdadeira. Porém, primeiramente é necessário fazer a [configuração do servidor de email](config.md#servidor-de-e-mails), para depois ser possível configurar um evento de envio de emails. 
 
+Após a configuração do servidor, basta configurar a condição de envio, selecionar para qual email será enviado e escrever o assunto e mensagem a ser enviada.
+
 ## Script:
 
 Permite que o servidor execute uma ou mais instruções ao validar a condição desejada.
