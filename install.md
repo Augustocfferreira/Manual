@@ -51,10 +51,12 @@ Uma mensagem de Instalação Completa aparece quando a instalação for bem-suce
   Para a instalação do aplicativo Elipse Mobile no IOS, é necessário possuir a versão 8.0 ou superior do IOS.
    *[Link para download](https://itunes.apple.com/br/app/elipse-mobile/id855194610?mt=8)*
    
-   
+![qr_code_ios](https://cloud.githubusercontent.com/assets/26389485/23900995/151a636e-089a-11e7-817f-a9d2684b7aa5.png)
   
   ### Windows Phone
   Para a instalação do aplicativo Elipse Mobile no Windows Phone, é necessário possuir a versão 8.1 ou superior do Windows Phone.
    *[Link para download](https://www.microsoft.com/pt-br/store/p/elipse-mobile/9wzdncrdh16c)*
-  
+
+![qr_code_wp](https://cloud.githubusercontent.com/assets/26389485/23900999/188d8986-089a-11e7-95c9-4b7bdbb491c6.png)
+
   ### Navegador
