@@ -37,7 +37,7 @@ https://www.elipse.com.br/produto/elipse-mobile/
   - [Grupo](users.md#grupo)
   - [Dispositivo Único](users.md#dispositivo-Único)
  
-- Conexões 
+- [Conexões](connections.md)
 
   - Demo
 
