@@ -24,9 +24,7 @@ https://www.elipse.com.br/produto/elipse-mobile/
 - [Eventos](events.md)
 
   - [Condição](events.md#condição)
-
   - [Email](events.md#email)
-  
   - [Script](events.md#script)
 
 - [Páginas](pages.md)
@@ -40,25 +38,17 @@ https://www.elipse.com.br/produto/elipse-mobile/
 - [Conexões](connections.md)
 
   - [Elipse E3](connections.md#e3)
-
   - [Elipse SCADA](connections.md#e3)
-
   - [OPC-DA](connections.md#e3)
-
   - [Arduino](connections.md#e3)
-
   - [Demo](connections.md#demo)
-
   - [Forms](connections.md#forms)  
-
   - [EPM (OPCA UA)](connections.md#epm-opca-ua)
-
   [original forms](forms.md)
 
 - [Configurações](config.md)
 
   - [Autenticação externa de usuários](config.md#autenticação-externa-de-usuários)
- 
   - [Servidor de e-mails](config.md#servidor-de-e-mails)
 
 - [Referência de Scripts](scripts.md)
