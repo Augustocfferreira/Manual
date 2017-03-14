@@ -13,6 +13,21 @@ Para isso vá em Configurações e informe o nome do servidor LDAP. O Active Dir
 
 ![7a1090776d_690x421](https://cloud.githubusercontent.com/assets/26389485/23913081/9a91761a-08c0-11e7-86a8-ba2203d4424d.png)
 
+### Como funciona a autenticação
+
+Como os aparelhos celulares podem estar em uma rede separada, e existe uma grande variedade de sistemas incluindo a página web, a autenticação é sempre feita pelo servidor e não pelo cliente.
+
+Isso significa que usuário e senha são passados pela internet do cliente até o server e o server verifica se o usuário existe.
+
+Por este motivo, esta autenticação só é feita quando o cliente está conversando com o server no modo seguro (https).
+
+A configuração de usuários, fica dentro do aplicativo em questão, que por sua vez fica na pasta Projects de dentro do diretório do Elipse Mobile Server. Nas configurações de usuário externos não é salva e nunca é informada a senha LDAP.
+
+Para usuários internos do elipse Mobile é salvo o SHA1 usuário senha.
+
+Por questões de segurança, recomendamos que o usuário administrador geral do sistema tenha uma senha complexa, de um tamanho razoável com letras e números. Este usuário não é autenticado via LDAP mas vai usar a conexão segura que criptografa todas as informações.
+Este usuário também vai ter acesso direto ao computador, e pode optar por evitar conexões via internet.
+
 
 ## Servidor de e-mails
 
