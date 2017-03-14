@@ -17,7 +17,7 @@ https://www.elipse.com.br/produto/elipse-mobile/
     - Windows Phone
     - Navegador
 
-- Licenciamento
+- [Licenciamento](licence.md)
 
 - Aplicações
 
