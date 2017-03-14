@@ -15,3 +15,5 @@
   No exemplo abaixo, está a configuração utilizada no SMTP do Gmail.
 
 ![smtp_gmail](https://cloud.githubusercontent.com/assets/26389485/23870246/99d9a56a-0804-11e7-8396-f8da5003b032.png)
+
+  Após esta configuração, já é possível configurar eventos de envio de email. Para mais informações [clique aqui.](events.md#email)
