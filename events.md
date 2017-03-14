@@ -23,3 +23,5 @@ Permite que o servidor execute uma ou mais instruções ao validar a condição 
 
 * [WriteTag](scripts.md#writetag)
 * [WriteTagEx](scripts.md#writetagex)
+
+*Para mais informações, consulte o capítulo [Referência de Scritps.](scripts.md)
