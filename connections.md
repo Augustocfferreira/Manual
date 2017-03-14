@@ -1,5 +1,8 @@
 # Conexões
 
+  As conexões servem de caminho entre as fontes de dados (E3, servidor OPC, EPM, Arduino) e os objetos que estarão na tela para monitoramento e controle.
+  Os tipo de conexões são:
+
 ## Demo
   A conexão Demo permite ao desenvolvedor da aplicação ter acesso à vários tags de demonstração. Sendo eles:
   
