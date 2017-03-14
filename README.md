@@ -56,13 +56,21 @@ https://www.elipse.com.br/produto/elipse-mobile/
 ## [Referência de Scripts](scripts.md)
 
 
+# Manual Elipse Mobile
+
 - Introdução
 
 - [Instalação](install.md)
 
   - [Server](install.md#server)
+    - Requerimentos mínimos
+    - Instalador
  
   - [Client](install.md#client)
+    - Android
+    - IOS
+    - Windows Phone
+    - Navegador
 
 - Licenciamento
 
