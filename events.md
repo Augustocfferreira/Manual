@@ -21,5 +21,5 @@ Após isto, já é possível configurar um evento de envio de emails. O mesmo pe
 Permite que o servidor execute uma ou mais instruções ao validar a condição desejada.
 	Após configurada a condição, já é possível escrever o script que será executado. Os comandos possíveis e os parâmetros são:
 
-* [WriteTag](###WriteTag)
-* [WriteTagEx](###WriteTagEx)
+* [WriteTag](scripts.md#writetag)
+* [WriteTagEx](scripts.md#writetagex)
