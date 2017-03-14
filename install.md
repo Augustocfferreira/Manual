@@ -62,6 +62,6 @@ Uma mensagem de Instalação Completa aparece quando a instalação for bem-suce
   Caso não seja possível acessar com o aplicativo disponível nas lojas, é possível acessar via navegador, tanto nos dispositivos móveis como em qualquer computador.
   
   A sintaxe correta para o acesso é http://IP_DO_SERVIDOR:PORTA/. Exemplo: http://127.1.1.1:8080/.
-  Podendo ser acessado pelo nome da máquina servidora na rede. http://Nome_da_Maquina:Porta/. Exemplo:http://localhost:8080/.
+  Podendo ser acessado pelo nome da máquina servidora na rede. http://Nome_da_Maquina:Porta/. Exemplo: http://localhost:8080/.
   
   *Para a configuração da porta do Elipse Mobile, consute o capítulo [Configuração Elipse Mobile Server.]*
