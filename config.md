@@ -4,11 +4,14 @@ Na aba de configurações do Elipse Mobile é possível configurar o servidor LD
 
 ## Autenticação externa de usuários
 
-  Lightweight Directory Access Protocol, ou LDAP, é um protocolo de aplicação aberto, livre de fornecedor e padrão de indústria para acessar e manter serviços de informação de diretório distribuído sobre uma rede de Protocolo da Internet (IP).
-  Para configurar esta opção, basta configurar o Hostname do servidor.
+LDAP (Lightweight Directory Access Protoco) é um protocolo independente de fabricante que permite compartilhar informações sobre sistemas, usuários etc.
+
+O Elipse Mobile pode usar um servidor LDAP para fazer a autenticação de usuários.
+Caso este parâmetro esteja em branco, o elipse mobile tentar encontrar o servidor LDAP padrão.
+
+Para isso vá em Configurações e informe o nome do servidor LDAP. O Active Directory da microsoft é um exemplo de serviço que aceita este protocolo.
 
 ![ldap](https://cloud.githubusercontent.com/assets/26389485/23898621/6e0ed824-0890-11e7-917c-4dfb9c340afe.png)
-
 
 ## Servidor de e-mails
 
