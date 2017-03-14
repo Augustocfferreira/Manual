@@ -39,13 +39,19 @@ https://www.elipse.com.br/produto/elipse-mobile/
  
 - [Conexões](connections.md)
 
+  - [Elipse E3](connections.md#e3)
+
+  - [Elipse SCADA](connections.md#e3)
+
+  - [OPC-DA](connections.md#e3)
+
+  - [Arduino](connections.md#e3)
+
   - [Demo](connections.md#demo)
 
-  - [E3](connections.md#e3)
+  - [Forms](connections.md#forms)  
 
   - [EPM (OPCA UA)](connections.md#epm-opca-ua)
-
-  - [Forms](connections.md#forms)
 
   [original forms](forms.md)
 
