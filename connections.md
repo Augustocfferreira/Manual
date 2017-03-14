@@ -3,6 +3,18 @@
   As conexões servem de caminho entre as fontes de dados (E3, servidor OPC, EPM, Arduino) e os objetos que estarão na tela para monitoramento e controle.
   Os tipo de conexões são:
 
+## Elipse E3
+
+### OPC
+
+### Nativa
+
+## Elipse SCADA
+
+## OPC-DA
+
+## Arduino
+
 ## Demo
   A conexão Demo permite ao desenvolvedor da aplicação ter acesso à vários tags de demonstração. Sendo eles:
   
@@ -18,8 +30,8 @@
 | TagDemoRamp2  | Rampa de subida 5 - 10|
 | TagDemoRamp3  | Rampa de subida 20 - 30|
 
-## E3
+## Form
 
 ## EPM (OPCA UA)
 
-## Forms
+
