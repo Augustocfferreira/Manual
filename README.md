@@ -14,7 +14,7 @@ https://www.elipse.com.br/produto/elipse-mobile/
   - [Client](install.md#client)
     - [Android](install.md#android)
     - [IOS](install.md#ios)
-    - [Windows Phone](install.md#windows_phone)
+    - [Windows Phone](install.md#windows-phone)
     - [Navegador](install.md#navegador)
 
 - [Licenciamento](licence.md)
