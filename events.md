@@ -1,6 +1,9 @@
 # Eventos
 
 Os eventos do Elipse Mobile possibilitam enviar emails e gerenciar ações para que decisões sejam tomadas pelo próprio servidor quando as condições dos eventos forem satisfeitas.
+
+## Condição:
+
 Tanto para os emails como para os Scripts, é necessário configurar a condição para que o evento ocorra. Para montar esta condição, utiliza-se a função ValueOf, pois a mesma permite a utilização de operadores lógicos, tais como == (comparação), != (diferente de), >= (maior ou igual), < (menor), entre outros. 
 
 Exemplos:
@@ -14,7 +17,7 @@ Exemplos:
 
 ## Email:
 
-Primeiramente é necessário fazer a [configuração do servidor de email](config.md#servidor-de-e-mails), para depois ser possível configurar um evento de envio de emails. O mesmo permite enviar um ou mais emails para um usuário ou grupo de usuários quando a do evento condição ser verdadeira.
+O mesmo permite enviar um ou mais emails para um usuário ou grupo de usuários quando a do evento condição ser verdadeira. Porém, primeiramente é necessário fazer a [configuração do servidor de email](config.md#servidor-de-e-mails), para depois ser possível configurar um evento de envio de emails. 
 
 ## Script:
 
