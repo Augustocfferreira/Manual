@@ -29,7 +29,7 @@ https://www.elipse.com.br/produto/elipse-mobile/
 
 - [Páginas](pages.md)
 
-- Usuários
+- [Usuários](users.md)
  
 - Conexões 
 
