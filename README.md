@@ -19,7 +19,7 @@ https://www.elipse.com.br/produto/elipse-mobile/
 
 - [Licenciamento](licence.md)
 
-- [Aplicações](application.md)
+- [Aplicações](applications.md)
 
 - [Eventos](events.md)
 
@@ -27,7 +27,7 @@ https://www.elipse.com.br/produto/elipse-mobile/
   
   - [Script](events.md#script)
 
-- Páginas
+- [Páginas](pages.md)
 
 - Usuários
  
