@@ -130,7 +130,7 @@ Por isso, o tag "demo:now" foi adicionado na expressão.
 Note: Sunday is 0, Monday is 1, and so on.
 http://www.w3schools.com/jsref/jsref_obj_date.asp
 
-Script
+Script:
 
 ```js
 SendMail("a",
