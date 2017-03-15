@@ -56,6 +56,7 @@ Os seguintes objetos podem ser inseridos em uma Página:
 | Subtítulo    | Subtítulo visível logo abaixo do título|
 | Cor    | Cor do objeto|
 | Tag  | Tag associado que terá o valor visualizado |
+| Pedir confirmação antes da alteração  | Habilita uma confirmação do valor antes da escrita |
 | Valor ON  | Valor que é intepretado como verdadeiro |
 | Texto ON  | Texto que é visualizado quando verdadeiro |
 | Imagem ON  | Imagem que é visualizada quando verdadeiro |
