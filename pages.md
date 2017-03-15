@@ -13,11 +13,11 @@ Os seguintes objetos podem ser inseridos em uma Página:
 * [Toggle](#toggle)
 * [Pulser](#pulser)
 * [Setpoint](#setpoint)
-* [Page Link](#d)
-* [Commands
-* [Form
-* [Chart
-* [Group
+* [Page Link](#page-link)
+* [Commands](#commands)
+* [Form](#form)
+* [Chart](#chart)
+* [Group](#group)
 
 ## Display
 ## Display Link
