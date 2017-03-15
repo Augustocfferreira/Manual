@@ -53,7 +53,7 @@ O Display Link é um objeto que possui as mesmas funcionalidades do display e ta
 | Tag  | Tag que será coletado o valor a ser exibido |
 | Sufixo  | String que aparecerá ao lado do valor do tag |
 | Decimais  | Número de casas decimais do valor|
-| Nome da Página  | Página que será aberta ao clicar no objeto |
+| Nome da Página  | Seleção da página a ser aberta |
 
 ## Toggle
 
@@ -65,8 +65,8 @@ O objeto Toggle tem a funcionalidade de realizar escritas persistentes de dois v
 | -------------   | ------------- |
 | Título    | Título visível no topo do objeto|
 | Subtítulo    | Subtítulo visível logo abaixo do título|
-| Cor    | Cor do objeto|
-| Tag  | Tag associado que terá o valor visualizado |
+| Cor    | Definição de cor do toggle |
+| Tag  | Tag que será utilizado para fazer a leitura e escrita de valor pelo toggle |
 | Pedir confirmação antes da alteração  | Habilita uma confirmação do valor antes da escrita |
 | Valor ON  | Valor que é intepretado como verdadeiro |
 | Texto ON  | Texto que é visualizado quando verdadeiro |
@@ -85,7 +85,7 @@ O Pulser permite realizar escritas quando a condição base é atendida. A escri
 | -------------   | ------------- |
 | Título    | Título visível no topo do objeto|
 | Subtítulo    | Subtítulo visível logo abaixo do título|
-| Cor    | Cor do objeto|
+| Cor    | Definição de cor do toggle |
 | Tag leitura  | Tag referência que terá o valor lido |
 | Valor ON  | Valor que é intepretado como verdadeiro |
 | Texto ON  | Texto que é visualizado quando verdadeiro |
@@ -108,7 +108,7 @@ O Setpoint permite realizar escrita de valores no tag. A escrita ela pode ser re
 | -------------   | ------------- |
 | Título    | Título visível no topo do objeto|
 | Subtítulo    | Subtítulo visível logo abaixo do título|
-| Cor    | Cor do objeto|
+| Cor    | Definição de cor do toggle |
 | Imagem  | Imagem visível à direita do objeto|
 | Tag  | Tag associado que terá o valor visualizado |
 | Incremento  | Resolução dos passos para a alteração do valor |
@@ -129,7 +129,7 @@ O Page Link é um objeto que a funcionalidade de mudança de página. Para traba
 | -------------   | ------------- |
 | Título    | Título visível no topo do objeto|
 | Subtítulo    | Subtítulo visível logo abaixo do título|
-| Cor    | Cor do objeto|
+| Cor    | Definição de cor do toggle |
 | Imagem  | Imagem visível à direita do objeto|
 | Nome da Página  | Página que será aberta ao clicar no objeto |
   
@@ -143,7 +143,7 @@ O Commands permite criar uma lista de comandos a serem realizados de acordo com 
 | -------------   | ------------- |
 | Título    | Título visível no topo do objeto|
 | Subtítulo    | Subtítulo visível logo abaixo do título|
-| Cor    | Cor do objeto|
+| Cor    | Definição de cor do toggle |
 | Imagem  | Imagem visível à direita do objeto|
 | Zonas  | ABCD1234 |
 | Comandos  | ABCD1234 |
@@ -157,7 +157,7 @@ O Commands permite criar uma lista de comandos a serem realizados de acordo com 
   
 | Propriedade    | Função  |
 | -------------   | ------------- |
-| Título    | Título visível no topo do objeto |
+| Título    | Título visível no topo do objeto|
 | Formulário    | Formulário que será mostrado |
 | Altura   | Quantos quadros de altura serão utilizados para a visualização |
   
