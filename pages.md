@@ -25,13 +25,13 @@ Os seguintes objetos podem ser inseridos em uma Página:
   
 | Propriedade    | Função  |
 | -------------   | ------------- |
-| Título    | Interno       |
-| Subtítulo    | Interno       |
-| Cor    | Interno       |
-| Imagem  | Randômico       |
-| Tag  | Randômico       |
-| Sufixo  | Randômico       |
-| Decimais  | Rampa de subida 0 - 100|
+| Título    | Título visível no topo do objeto|
+| Subtítulo    | Subtítulo visível logo abaixo do título|
+| Cor    | Cor do objeto|
+| Imagem  | Imagem visível à direita do objeto|
+| Tag  | Tag associado que terá o valor visualizado |
+| Sufixo  | String que aparecerá ao lado do valor do tag |
+| Decimais  | Quantidade de casas decimais |
 
   
   
