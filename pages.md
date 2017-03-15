@@ -67,6 +67,23 @@ Os seguintes objetos podem ser inseridos em uma Página:
 ## Pulser
   Escreve um pulso como valor.
   
+| Propriedade    | Função  |
+| -------------   | ------------- |
+| Título    | Título visível no topo do objeto|
+| Subtítulo    | Subtítulo visível logo abaixo do título|
+| Cor    | Cor do objeto|
+| Tag leitura  | Tag referência que terá o valor lido |
+| Valor ON  | Valor que é intepretado como verdadeiro |
+| Texto ON  | Texto que é visualizado quando verdadeiro |
+| Imagem ON  | Imagem que é visualizada quando verdadeiro |
+| Valor OFF  | Valor que é intepretado como falso |
+| Texto OFF  | Texto que é visualizado quando falso |
+| Imagem OFF  | Imagem que é visualizada quando falso |
+| Tag escrita  | Tag que terá o valor escrito |
+| Valor base  | Valor baixo do pulso |
+| Valor positivo  | Valor alto do pulso |
+| Pedir confirmação antes da alteração  | Habilita uma confirmação do valor antes da escrita |  
+
 ## Setpoint
   Escreve um valor em um tag.
   
