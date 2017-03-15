@@ -9,23 +9,35 @@
 * [WriteTagEx](#writetagex)
 
 ## SendMail
+  Envio de email.
 
 ```
-SendMail("a",
- "Dia de preencher form",
- "message",
+SendMail( user, subject, message,
  function (er) 
- {
- });
- ```
+ {});
+```
+ Exemplo:
+ 
+```
+SendMail("a", "Dia de preencher form", "message",
+ function (er) 
+ {});
+```
  
  ## WriteNode
+  Escrita
  
  ```
- WriteNode("form:", 
-         {campo: 1}, 
-         function(er){
-         });
+ WriteNode("form:", {campo: 1}, 
+ function(er)
+ {});
+ ```
+ 
+ Exemplo:
+ ```
+ WriteNode("form:", {campo: 1}, 
+ function(er)
+ {});
  ```
  
 
@@ -39,8 +51,7 @@ WriteTag( tagName, value , function (er)
 
 Exemplo:
 ```
-WriteTag( "demo:TagInternal3",
-15,
+WriteTag( "demo:TagInternal3", 15,
 function (er){});
 ```
 Escrevendo no tag interno 3, o valor 15.
@@ -56,9 +67,6 @@ function (er)
 
 Exemplo:
 ```
-WriteTagEx("e3:Data.InternalTag1", 
-2,
-new Date().getTime(), 
-0,
+WriteTagEx("e3:Data.InternalTag1", 2, new Date().getTime(), 0,
 function (er){ });
 ```
