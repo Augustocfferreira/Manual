@@ -58,10 +58,10 @@ Os seguintes objetos podem ser inseridos em uma Página:
 | Tag  | Tag associado que terá o valor visualizado |
 | Valor ON  | Valor que é intepretado como verdadeiro |
 | Texto ON  | Texto que é visualizado quando verdadeiro |
+| Imagem ON  | Imagem que é visualizada quando verdadeiro |
 | Valor OFF  | Valor que é intepretado como falso |
 | Texto OFF  | Texto que é visualizado quando falso |
-
-| Nome da Página  | Página que será aberta ao clicar no objeto |
+| Imagem OFF  | Imagem que é visualizada quando falsa |
   
 ## Pulser
   Escreve um pulso como valor.
