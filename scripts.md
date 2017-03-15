@@ -11,14 +11,14 @@
 ## SendMail
   Envio de email.
 
-```
+```js
 SendMail( user, subject, message,
  function (er) 
  {});
 ```
  Exemplo:
  
-```
+```js
 SendMail("a", "Dia de preencher form", "message",
  function (er) 
  {});
@@ -27,14 +27,14 @@ SendMail("a", "Dia de preencher form", "message",
  ## WriteNode
   Escrita
  
- ```
+ ```js
  WriteNode("form:", {campo: 1}, 
  function(er)
  {});
  ```
  
  Exemplo:
- ```
+ ```js
  WriteNode("form:", {campo: 1}, 
  function(er)
  {});
@@ -44,13 +44,13 @@ SendMail("a", "Dia de preencher form", "message",
 ## WriteTag 
 Escrita somente do valor no tag.
 
-```
+```js
 WriteTag( tagName, value , function (er) 
 {});
 ```
 
 Exemplo:
-```
+```js
 WriteTag( "demo:TagInternal3", 15,
 function (er){});
 ```
@@ -59,14 +59,14 @@ Escrevendo no tag interno 3, o valor 15.
 ## WriteTagEx 
 Escrita com timestamp e qualidade.
 
-```
+```js
 WriteTagEx( tagName, value , timestamp, quality, 
 function (er) 
 {});
 ```
 
 Exemplo:
-```
+```js
 WriteTagEx("e3:Data.InternalTag1", 2, new Date().getTime(), 0,
 function (er){ });
 ```
