@@ -114,11 +114,24 @@ Os seguintes objetos podem ser inseridos em uma Página:
 ## Commands
   Escolha uma opção para escrever em um tag.
   
+| Propriedade    | Função  |
+| -------------   | ------------- |
+| Título    | Título visível no topo do objeto|
+| Subtítulo    | Subtítulo visível logo abaixo do título|
+| Cor    | Cor do objeto|
+| Imagem  | Imagem visível à direita do objeto|
+| Zonas  | ABCD1234 |
+| Comandos  | ABCD1234 |
+| Interlocked | ABCD1234 |
+| Pedir confirmação antes da alteração  | Habilita uma confirmação do valor antes da escrita |  
+| Tag leitura  | Tag referência que terá o valor lido |
+| Tag escrita  | Tag que terá o valor escrito |
+  
 ## Form
   Mostra um Form.
   
 ## Chart
   
 ## Group
-  Grupo de controles.
+  Cria um novo grupo de controles.
 
