@@ -61,7 +61,7 @@ Os seguintes objetos podem ser inseridos em uma Página:
 | Imagem ON  | Imagem que é visualizada quando verdadeiro |
 | Valor OFF  | Valor que é intepretado como falso |
 | Texto OFF  | Texto que é visualizado quando falso |
-| Imagem OFF  | Imagem que é visualizada quando falsa |
+| Imagem OFF  | Imagem que é visualizada quando falso |
   
 ## Pulser
   Escreve um pulso como valor.
