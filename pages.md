@@ -22,6 +22,21 @@ Os seguintes objetos podem ser inseridos em uma Página:
 ## Display
   Exibe o valor de um tag.
   
+  
+| Propriedade    | Função  |
+| -------------   | ------------- |
+| Título    | Interno       |
+| Subtítulo    | Interno       |
+| Cor    | Interno       |
+| Imagem  | Randômico       |
+| Tag  | Randômico       |
+| Sufixo  | Randômico       |
+| Decimais  | Rampa de subida 0 - 100|
+
+  
+  
+  
+  
 ## Display Link
   
 ## Toggle
