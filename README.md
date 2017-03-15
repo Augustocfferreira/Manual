@@ -64,8 +64,8 @@ https://www.elipse.com.br/produto/elipse-mobile/
   - [WriteTagEx](scripts.md#WriteTagEx)
   
  - [Notas de Versão](releasenotes.md)
-  - [Versão 1.1](releasenotes.md#versão-11)
-  - [Versão 1.2](releasenotes.md#versão-12)
-  - [Versão 1.3](releasenotes.md#versão-13)
+    - [Versão 1.1](releasenotes.md#versão-11)
+    - [Versão 1.2](releasenotes.md#versão-12)
+    - [Versão 1.3](releasenotes.md#versão-13)
 
 
