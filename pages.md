@@ -20,18 +20,18 @@ Os seguintes objetos podem ser inseridos em uma Página:
 * [Group](#group)
 
 ## Display
-  Exibe o valor de um tag.
+  O display é um objeto para exibição de valores, para configurá-lo deve-se preencher seus campos da seguinte forma:
   
   
 | Propriedade    | Função  |
 | -------------   | ------------- |
 | Título    | Título visível no topo do objeto|
 | Subtítulo    | Subtítulo visível logo abaixo do título|
-| Cor    | Cor do objeto|
-| Imagem  | Imagem visível à direita do objeto|
-| Tag  | Tag associado que terá o valor visualizado |
+| Cor    | Definição de cor do display|
+| Imagem  | Imagem a ser exibida ao lado do valor|
+| Tag  | Tag que será coletado o valor a ser exibido |
 | Sufixo  | String que aparecerá ao lado do valor do tag |
-| Decimais  | Quantidade de casas decimais |
+| Decimais  | Número de casas decimais do valor|
 
 ## Display Link
   Exibe o valor de um tag e redireciona para outra página.
