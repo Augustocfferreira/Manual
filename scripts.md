@@ -11,10 +11,14 @@
 ## SendMail
   Envio de email.
 
+```
+ users    : <string> - Lista dos usuários separados por ponto e virgula
+ subject  : <string> - Assunto do e-mail
+ message  : <string> - Conteúdo do e-mail
+ callback : <function (er)> - Função que vai receber o retorno assincrono da operação
+```
 ```js
-SendMail( user, subject, message,
- function (er) 
- {});
+SendMail(users, subject, message, callback);
 ```
  Exemplo:
  
