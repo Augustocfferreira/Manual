@@ -21,7 +21,7 @@ Os seguintes objetos podem ser inseridos em uma Página:
 
 ## Display
 
-  O display é um objeto para exibição de valores, para configurá-lo deve-se preencher seus campos da seguinte forma:
+O display é um objeto para exibição de valores, para configurá-lo deve-se preencher seus campos da seguinte forma:
   
 ![display](https://cloud.githubusercontent.com/assets/26389485/23960369/9a532876-0986-11e7-9d27-6cbbc1c39d6f.jpg)
 
@@ -36,7 +36,11 @@ Os seguintes objetos podem ser inseridos em uma Página:
 | Decimais  | Número de casas decimais do valor|
 
 ## Display Link
-  Exibe o valor de um tag e redireciona para outra página.
+
+O Display Link é um objeto que possui as mesmas funcionalidades do display e também a função de mudança de página. Para trabalhar com ele é necessário executar as seguintes configurações:
+  
+1.	Deve-se criar uma página que será aberta por este display link;
+2.	Configurar o display link da seguinte maneira:
   
   ![disp_link](https://cloud.githubusercontent.com/assets/26389485/23960367/9a509958-0986-11e7-9ed7-f9afa0041c2e.jpg)
   
@@ -52,7 +56,8 @@ Os seguintes objetos podem ser inseridos em uma Página:
 | Nome da Página  | Página que será aberta ao clicar no objeto |
 
 ## Toggle
-  Lê/Escreve verdadeiro/falso em um tag.
+
+O objeto Toggle tem a funcionalidade de realizar escritas persistentes de dois valores em um tag. Para utiliza-lo deve-se configurar suas propriedades da seguinte forma:
   
   ![toggle](https://cloud.githubusercontent.com/assets/26389485/23960379/9a9305cc-0986-11e7-92e1-cc410aeeb4c3.jpg)
   
@@ -71,7 +76,8 @@ Os seguintes objetos podem ser inseridos em uma Página:
 | Imagem OFF  | Imagem que é visualizada quando falso |
   
 ## Pulser
-  Escreve um pulso como valor.
+  
+O Pulser permite realizar escritas quando a condição base é atendida. A escrita é realizada em um tag e o resultado/verificação do valor base é retornado através de outro tag. Para utilizá-lo deve-se configurar da seguinte maneira:
   
   ![pulser](https://cloud.githubusercontent.com/assets/26389485/23960374/9a75c304-0986-11e7-8137-5525e9e118d0.jpg)
   
@@ -93,7 +99,8 @@ Os seguintes objetos podem ser inseridos em uma Página:
 | Pedir confirmação antes da alteração  | Habilita uma confirmação do valor antes da escrita |  
 
 ## Setpoint
-  Escreve um valor em um tag.
+
+O Setpoint permite realizar escrita de valores no tag. A escrita ela pode ser realizada escrevendo o valor desejado diretamente no campo de valor, ou através dos botões de incremento (setas nas extremidades do valor). Para configurá-lo deve-se fazer da seguinte maneira:
 
 ![setpoint](https://cloud.githubusercontent.com/assets/26389485/23960377/9a88096a-0986-11e7-8e9c-79d671bc0b41.jpg)
 
@@ -111,7 +118,10 @@ Os seguintes objetos podem ser inseridos em uma Página:
 
 
 ## Page Link
-  Redireciona para outra página.
+
+O Page Link é um objeto que a funcionalidade de mudança de página. Para trabalhar com ele é necessário executar as seguintes configurações:
+1.	Deve-se criar uma página que será aberta pelo Page Link;
+2.	Configurar o Page Link da seguinte maneira:
   
   ![page_link](https://cloud.githubusercontent.com/assets/26389485/23960373/9a717402-0986-11e7-90ce-adf27a484bee.jpg)
   
@@ -124,7 +134,8 @@ Os seguintes objetos podem ser inseridos em uma Página:
 | Nome da Página  | Página que será aberta ao clicar no objeto |
   
 ## Commands
-  Escolha uma opção para escrever em um tag.
+
+O Commands permite criar uma lista de comandos a serem realizados de acordo com uma condição previa, sendo possível também travar os comandos baseado em uma condição da tag de leitura. A condição e o comando são realizados em tags diferentes. Para utilizar este objeto deve-se fazer a configuração da seguinte maneira:
   
   ![commands](https://cloud.githubusercontent.com/assets/26389485/23960365/9a40f8b8-0986-11e7-9ad5-9e3f25b11db4.jpg)
   
@@ -153,7 +164,8 @@ Os seguintes objetos podem ser inseridos em uma Página:
 ## Chart
   
 ## Group
-  Cria um novo grupo de controles.
+
+O Group permite criar uma divisão de objetos dentro de uma página. Para utilizá-lo deve-se configurar da seguinte forma:
   
   ![group](https://cloud.githubusercontent.com/assets/26389485/23960371/9a654c0e-0986-11e7-8a57-c6879b868fcd.jpg)
 
