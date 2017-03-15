@@ -130,6 +130,12 @@ Os seguintes objetos podem ser inseridos em uma Página:
 ## Form
   Mostra um Form.
   
+| Propriedade    | Função  |
+| -------------   | ------------- |
+| Título    | Título visível no topo do objeto |
+| Formulário    | Formulário que será mostrado |
+| Altura   | Quantos quadros de altura serão utilizados para a visualização |
+  
 ## Chart
   
 ## Group
