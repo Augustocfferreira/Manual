@@ -3,9 +3,31 @@
   Os Scripts são módulos de linguagem de programação nos quais se pode criar procedimentos associados a eventos específicos, permitindo uma maior flexibilidade no desenvolvimento de aplicações.
 
   Abaixo segue a lista de todas as funções disponíveis para a utilização no Elipse Mobile.
-
+* [SendMail](##SendMail)
+* [WriteNode](##WriteNode)
 * [WriteTag](##WriteTag)
 * [WriteTagEx](##WriteTagEx)
+
+## SendMail
+
+```
+SendMail("a",
+ "Dia de preencher form",
+ "message",
+ function (er) 
+ {
+ });
+ ```
+ 
+ ## WriteNode
+ 
+ ```
+ WriteNode("form:", 
+         {campo: 1}, 
+         function(er){
+         });
+ ```
+ 
 
 ## WriteTag 
 Escrita somente do valor no tag.
