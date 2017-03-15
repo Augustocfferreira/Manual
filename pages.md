@@ -86,9 +86,30 @@ Os seguintes objetos podem ser inseridos em uma Página:
 
 ## Setpoint
   Escreve um valor em um tag.
-  
+
+| Propriedade    | Função  |
+| -------------   | ------------- |
+| Título    | Título visível no topo do objeto|
+| Subtítulo    | Subtítulo visível logo abaixo do título|
+| Cor    | Cor do objeto|
+| Imagem  | Imagem visível à direita do objeto|
+| Tag  | Tag associado que terá o valor visualizado |
+| Incremento  | Resolução dos passos para a alteração do valor |
+| Pedir confirmação antes da alteração  | Habilita uma confirmação do valor antes da escrita |  
+| Sufixo  | String que aparecerá ao lado do valor do tag |
+| Decimais  | Quantidade de casas decimais |
+
+
 ## Page Link
   Redireciona para outra página.
+  
+| Propriedade    | Função  |
+| -------------   | ------------- |
+| Título    | Título visível no topo do objeto|
+| Subtítulo    | Subtítulo visível logo abaixo do título|
+| Cor    | Cor do objeto|
+| Imagem  | Imagem visível à direita do objeto|
+| Nome da Página  | Página que será aberta ao clicar no objeto |
   
 ## Commands
   Escolha uma opção para escrever em um tag.
