@@ -85,8 +85,8 @@ O Pulser permite realizar escritas quando a condição base é atendida. A escri
 | -------------   | ------------- |
 | Título    | Título visível no topo do objeto|
 | Subtítulo    | Subtítulo visível logo abaixo do título|
-| Cor    | Definição de cor do toggle |
-| Tag leitura  | Tag referência que terá o valor lido |
+| Cor    | Definição de cor do pulser |
+| Tag leitura  | Tag utilizado para saber o retorno da escrita |
 | Valor ON  | Valor que é intepretado como verdadeiro |
 | Texto ON  | Texto que é visualizado quando verdadeiro |
 | Imagem ON  | Imagem que é visualizada quando verdadeiro |
@@ -94,7 +94,7 @@ O Pulser permite realizar escritas quando a condição base é atendida. A escri
 | Texto OFF  | Texto que é visualizado quando falso |
 | Imagem OFF  | Imagem que é visualizada quando falso |
 | Tag escrita  | Tag que terá o valor escrito |
-| Valor base  | Valor baixo do pulso |
+| Valor base  | Condição que o tag de leitura deve estar para que o Pulser escreva o valor do campo valor positivo|
 | Valor positivo  | Valor alto do pulso |
 | Pedir confirmação antes da alteração  | Habilita uma confirmação do valor antes da escrita |  
 
