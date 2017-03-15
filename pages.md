@@ -50,6 +50,19 @@ Os seguintes objetos podem ser inseridos em uma Página:
 ## Toggle
   Lê/Escreve verdadeiro/falso em um tag.
   
+| Propriedade    | Função  |
+| -------------   | ------------- |
+| Título    | Título visível no topo do objeto|
+| Subtítulo    | Subtítulo visível logo abaixo do título|
+| Cor    | Cor do objeto|
+| Tag  | Tag associado que terá o valor visualizado |
+| Valor ON  | Valor que é intepretado como verdadeiro |
+| Texto ON  | Texto que é visualizado quando verdadeiro |
+| Valor OFF  | Valor que é intepretado como falso |
+| Texto OFF  | Texto que é visualizado quando falso |
+
+| Nome da Página  | Página que será aberta ao clicar no objeto |
+  
 ## Pulser
   Escreve um pulso como valor.
   
