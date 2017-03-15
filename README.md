@@ -24,7 +24,7 @@ https://www.elipse.com.br/produto/elipse-mobile/
   - [Email](events.md#email)
   - [Script](events.md#script)
 
-- [Páginas](pages.md)
+- [Páginas e Objetos de Página](pages.md)
 
 - [Usuários](users.md)
   - [Mobile](users.md#mobile)
