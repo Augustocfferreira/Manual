@@ -20,7 +20,10 @@ Os seguintes objetos podem ser inseridos em uma Página:
 * [Group](#group)
 
 ## Display
+  Exibe o valor de um tag.
+  
 ## Display Link
+  
 ## Toggle
 ## Pulser
 ## Setpoint
