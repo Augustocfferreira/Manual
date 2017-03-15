@@ -25,6 +25,16 @@ https://www.elipse.com.br/produto/elipse-mobile/
   - [Script](events.md#script)
 
 - [Páginas e Objetos de Página](pages.md)
+  - [Display](#display)
+  - [Display Link](#display-link)
+  - [Toggle](#toggle)
+  - [Pulser](#pulser)
+  - [Setpoint](#setpoint)
+  - [Page Link](#page-link)
+  - [Commands](#commands)
+  - [Form](#form)
+  - [Chart](#chart)
+  - [Group](#group)
 
 - [Usuários](users.md)
   - [Mobile](users.md#mobile)
