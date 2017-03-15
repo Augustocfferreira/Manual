@@ -20,9 +20,11 @@ Os seguintes objetos podem ser inseridos em uma Página:
 * [Group](#group)
 
 ## Display
+
   O display é um objeto para exibição de valores, para configurá-lo deve-se preencher seus campos da seguinte forma:
   
-  
+![display](https://cloud.githubusercontent.com/assets/26389485/23960369/9a532876-0986-11e7-9d27-6cbbc1c39d6f.jpg)
+
 | Propriedade    | Função  |
 | -------------   | ------------- |
 | Título    | Título visível no topo do objeto|
@@ -50,6 +52,8 @@ Os seguintes objetos podem ser inseridos em uma Página:
 ## Toggle
   Lê/Escreve verdadeiro/falso em um tag.
   
+  ![toggle](https://cloud.githubusercontent.com/assets/26389485/23960379/9a9305cc-0986-11e7-92e1-cc410aeeb4c3.jpg)
+  
 | Propriedade    | Função  |
 | -------------   | ------------- |
 | Título    | Título visível no topo do objeto|
@@ -66,6 +70,8 @@ Os seguintes objetos podem ser inseridos em uma Página:
   
 ## Pulser
   Escreve um pulso como valor.
+  
+  ![pulser](https://cloud.githubusercontent.com/assets/26389485/23960374/9a75c304-0986-11e7-8137-5525e9e118d0.jpg)
   
 | Propriedade    | Função  |
 | -------------   | ------------- |
@@ -87,6 +93,8 @@ Os seguintes objetos podem ser inseridos em uma Página:
 ## Setpoint
   Escreve um valor em um tag.
 
+![setpoint](https://cloud.githubusercontent.com/assets/26389485/23960377/9a88096a-0986-11e7-8e9c-79d671bc0b41.jpg)
+
 | Propriedade    | Função  |
 | -------------   | ------------- |
 | Título    | Título visível no topo do objeto|
@@ -103,6 +111,8 @@ Os seguintes objetos podem ser inseridos em uma Página:
 ## Page Link
   Redireciona para outra página.
   
+  ![page_link](https://cloud.githubusercontent.com/assets/26389485/23960373/9a717402-0986-11e7-90ce-adf27a484bee.jpg)
+  
 | Propriedade    | Função  |
 | -------------   | ------------- |
 | Título    | Título visível no topo do objeto|
@@ -113,6 +123,8 @@ Os seguintes objetos podem ser inseridos em uma Página:
   
 ## Commands
   Escolha uma opção para escrever em um tag.
+  
+  ![commands](https://cloud.githubusercontent.com/assets/26389485/23960365/9a40f8b8-0986-11e7-9ad5-9e3f25b11db4.jpg)
   
 | Propriedade    | Função  |
 | -------------   | ------------- |
@@ -140,4 +152,6 @@ Os seguintes objetos podem ser inseridos em uma Página:
   
 ## Group
   Cria um novo grupo de controles.
+  
+  ![group](https://cloud.githubusercontent.com/assets/26389485/23960371/9a654c0e-0986-11e7-8a57-c6879b868fcd.jpg)
 
