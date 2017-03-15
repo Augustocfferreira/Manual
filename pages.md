@@ -33,17 +33,40 @@ Os seguintes objetos podem ser inseridos em uma Página:
 | Sufixo  | String que aparecerá ao lado do valor do tag |
 | Decimais  | Quantidade de casas decimais |
 
-  
-  
-  
-  
 ## Display Link
+  Exibe o valor de um tag e redireciona para outra página.
   
+| Propriedade    | Função  |
+| -------------   | ------------- |
+| Título    | Título visível no topo do objeto|
+| Subtítulo    | Subtítulo visível logo abaixo do título|
+| Cor    | Cor do objeto|
+| Imagem  | Imagem visível à direita do objeto|
+| Tag  | Tag associado que terá o valor visualizado |
+| Sufixo  | String que aparecerá ao lado do valor do tag |
+| Decimais  | Quantidade de casas decimais |
+| Nome da Página  | Página que será aberta ao clicar no objeto |
+
 ## Toggle
+  Lê/Escreve verdadeiro/falso em um tag.
+  
 ## Pulser
+  Escreve um pulso como valor.
+  
 ## Setpoint
+  Escreve um valor em um tag.
+  
 ## Page Link
+  Redireciona para outra página.
+  
 ## Commands
+  Escolha uma opção para escrever em um tag.
+  
 ## Form
+  Mostra um Form.
+  
 ## Chart
+  
 ## Group
+  Grupo de controles.
+
