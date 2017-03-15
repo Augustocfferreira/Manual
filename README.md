@@ -58,10 +58,10 @@ https://www.elipse.com.br/produto/elipse-mobile/
   - [Servidor de e-mails](config.md#servidor-de-e-mails)
 
 - [Referência de Scripts](scripts.md)
-  - [SendMail](scripts.md##sendmail)
-  - [WriteNode](scripts.md##writenode)
-  - [WriteTag](scripts.md##writetag)
-  - [WriteTagEx](scripts.md##writetagex)
+  - [SendMail](scripts.md#sendmail)
+  - [WriteNode](scripts.md#writenode)
+  - [WriteTag](scripts.md#writetag)
+  - [WriteTagEx](scripts.md#writetagex)
   
  - [Notas de Versão](releasenotes.md)
     - [Versão 1.1](releasenotes.md#versão-11)
