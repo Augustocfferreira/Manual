@@ -38,6 +38,8 @@ Os seguintes objetos podem ser inseridos em uma Página:
 ## Display Link
   Exibe o valor de um tag e redireciona para outra página.
   
+  ![disp_link](https://cloud.githubusercontent.com/assets/26389485/23960367/9a509958-0986-11e7-9ed7-f9afa0041c2e.jpg)
+  
 | Propriedade    | Função  |
 | -------------   | ------------- |
 | Título    | Título visível no topo do objeto|
