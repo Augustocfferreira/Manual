@@ -25,7 +25,8 @@ Após a configuração do servidor, basta configurar a condição de envio, sele
 
 Permite que o servidor execute uma ou mais instruções ao validar a condição desejada.
 	Após configurada a condição, já é possível escrever o script que será executado. Os comandos possíveis e os parâmetros são:
-
+* [SendMail](scripts.md#sendmail)
+* [WriteNode](scripts.md#writenode)
 * [WriteTag](scripts.md#writetag)
 * [WriteTagEx](scripts.md#writetagex)
 
