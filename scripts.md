@@ -4,7 +4,7 @@
 
   Abaixo segue a lista de todas as funções disponíveis para a utilização no Elipse Mobile.
 * [SendMail](#sendmail)
-* [WriteNode](#writenode)
+* [WriteForm](#writeform)
 * [WriteTag](#writetag)
 * [WriteTagEx](#writetagex)
 
@@ -29,18 +29,18 @@ SendMail("a", "Dia de preencher form", "message",
  {});
 ```
  
- ## WriteNode
+ ## WriteForm
   Escrita
  
  ```js
- WriteNode("form:", {campo: 1}, 
+ WriteForm("form:", {campo: 1}, 
  function(er)
  {});
  ```
  
  Exemplo:
  ```js
- WriteNode("form:", {campo: 1}, 
+ WriteForm("form:", {campo: 1}, 
  function(er)
  {});
  ```
