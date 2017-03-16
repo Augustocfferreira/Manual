@@ -159,10 +159,8 @@ O Commands permite criar uma lista de comandos a serem realizados de acordo com 
 | Propriedade    | Função  |
 | -------------   | ------------- |
 | ![adicionar](https://cloud.githubusercontent.com/assets/26389485/23994544/25604f46-0a24-11e7-993d-4fbd0352950f.png)    | Adiciona uma nova zona |
-| ![editar](https://cloud.githubusercontent.com/assets/26389485/23994549/2585726c-0a24-11e7-8a27-c7a45e0394a7.png)
-    | Edita a zona selecionada na lista |
-| ![apagar](https://cloud.githubusercontent.com/assets/26389485/23994550/25916202-0a24-11e7-895c-28a6473c41e3.png)
-    | Apaga a zona selecionada na lista |
+| ![editar](https://cloud.githubusercontent.com/assets/26389485/23994549/2585726c-0a24-11e7-8a27-c7a45e0394a7.png)    | Edita a zona selecionada na lista |
+| ![apagar](https://cloud.githubusercontent.com/assets/26389485/23994550/25916202-0a24-11e7-895c-28a6473c41e3.png)    | Apaga a zona selecionada na lista |
 
 ![prop_zonas](https://cloud.githubusercontent.com/assets/26389485/23994551/2594d018-0a24-11e7-9b77-460830cafe8c.png)
 
@@ -178,10 +176,8 @@ O Commands permite criar uma lista de comandos a serem realizados de acordo com 
 | Propriedade    | Função  |
 | -------------   | ------------- |
 | ![adicionar](https://cloud.githubusercontent.com/assets/26389485/23994544/25604f46-0a24-11e7-993d-4fbd0352950f.png)    | Adiciona um novo comando |
-| ![editar](https://cloud.githubusercontent.com/assets/26389485/23994549/2585726c-0a24-11e7-8a27-c7a45e0394a7.png)
-    | Edita o comando selecionado na lista |
-| ![apagar](https://cloud.githubusercontent.com/assets/26389485/23994550/25916202-0a24-11e7-895c-28a6473c41e3.png)
-    | Apaga o comando selecionado na lista |
+| ![editar](https://cloud.githubusercontent.com/assets/26389485/23994549/2585726c-0a24-11e7-8a27-c7a45e0394a7.png)    | Edita o comando selecionado na lista |
+| ![apagar](https://cloud.githubusercontent.com/assets/26389485/23994550/25916202-0a24-11e7-895c-28a6473c41e3.png)    | Apaga o comando selecionado na lista |
 
 ![prop_comandos](https://cloud.githubusercontent.com/assets/26389485/23994554/2595b032-0a24-11e7-9dc2-9e80a83596d9.png)
 
