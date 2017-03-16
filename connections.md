@@ -15,6 +15,8 @@
 
 ## OPC-DA
 
+  O tipo de conexão OPC-DA permite a conexão do Elipse Mobile com qualquer servidor que se utilize da tecnologia OPC-DA.
+
 ## Arduino
 
   O Elipse Mobile possui uma conexão nativa com as placas Arduino, o que faz com que a configuração e comunicação com o Arduino seja mais fácil e rápida.
