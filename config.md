@@ -38,3 +38,25 @@ Este usuário também vai ter acesso direto ao computador, e pode optar por evit
 ![smtp_gmail](https://cloud.githubusercontent.com/assets/26389485/23870246/99d9a56a-0804-11e7-8396-f8da5003b032.png)
 
   Após esta configuração, já é possível configurar eventos de envio de email. Para mais informações [clique aqui.](events.md#email)
+
+## Configuração de Firewall
+
+  A configuração do Firewall é necessária para conectar o celular ou outro computador no servidor Elipse Mobile Server.
+  A partir da versão 1.1 do Elipse Mobile Server está disponível a configuração automática do Firewall do Windows.
+  Para isto, clique com o botão direito do mouse no ícone do Elipse Mobile Server na área de notificações do Windows e selecione a opção Settings.
+  
+  O Elipse Mobile Server utiliza uma porta para o protocolo HTTP e outra para o protocolo HTTPS.
+O padrão da web é 80 para HTTP e 443 para HTTPS.
+
+Ao clicar em OK será verificada se existe a regra criada para o Elipse Mobile, caso ela não existir é mostrada a seguinte mensagem:
+
+Clique em Yes para criar a regra.
+
+Pronto, a regra já está criada e contém as portas usadas pelo servidor.
+Para visualizar o efeito desta configuração, abra o Firewall do Windows.
+
+Clique em Advanced Settings.
+
+Clique em Inbound Rules.
+
+Nesta lista aparece a regra Elipse Mobile Server que contém a configuração de portas.
