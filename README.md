@@ -32,6 +32,8 @@ https://www.elipse.com.br/produto/elipse-mobile/
   - [Setpoint](pages.md#setpoint)
   - [Page Link](pages.md#page-link)
   - [Commands](pages.md#commands)
+    -[Zonas](pages.md#zonas)
+    -[Comandos](pages.md#comandos)    
   - [Form](pages.md#form)
   - [Chart](pages.md#chart)
   - [Group](pages.md#group)
