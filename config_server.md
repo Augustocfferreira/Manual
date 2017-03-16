@@ -1,6 +1,8 @@
 # Configurações do Servidor
 
-Na aba de configurações do Elipse Mobile é possível configurar o servidor LDAP para autenticação externa de usuários e a configuração de um servidor de emails SMTP.
+## Configurações de porta e Conexões seguras
+
+N
 
 ## Configuração de Firewall
 
