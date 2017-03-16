@@ -151,6 +151,41 @@ O Commands permite criar uma lista de comandos a serem realizados de acordo com 
 | Pedir confirmação antes da alteração  | Habilita uma confirmação do valor antes da escrita |  
 | Tag leitura  | Tag referência para o estado atual do equipamento que será comandado |
 | Tag escrita  | Tag que receberá o valor do comando selecionado pelo usuário |
+
+### Zonas
+
+IMG1
+
+| Propriedade    | Função  |
+| -------------   | ------------- |
+| +    | Adiciona uma nova zona |
+| /    | Edita a zona selecionada na lista |
+| #    | Apaga a zona selecionada na lista |
+
+IMG2
+
+| Propriedade    | Função  |
+| -------------   | ------------- |
+| +    | Texto a ser exibido de acordo com o valor configurado no campo **Condição para exibir** |
+| /    | Valor para que o texto configurado acima seja exibido. Value é o valor do tag leitura |
+
+### Comandos
+
+IMG3
+
+| Propriedade    | Função  |
+| -------------   | ------------- |
+| +    | Adiciona um novo comando |
+| /    | Edita o comando selecionado na lista |
+| #    | Apaga o comando selecionado na lista |
+
+IMG4
+
+| Propriedade    | Função  |
+| -------------   | ------------- |
+| +    | Texto com o nome do comando a ser exibido na janela de comando |
+| /    | Condição para que este comando seja exibido na lista de comandos |
+| /    | Valor a ser escrito quando utilizado este comando|
   
 ## Form
   Mostra um Form.
