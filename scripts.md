@@ -61,7 +61,7 @@ WriteTag( tagName, value , function (er)
 ```
 Parâmetros:
 ```
- tagName  : <string> - Nome do tag
+ tagName  : <string> - Nome da conexão e nome do tag separados pelo caractere ":"
  value    : 
  callback : <function (er)> - Função que vai receber o retorno assincrono da operação
 ```
@@ -82,7 +82,7 @@ function (er)
 ```
 Parâmetros:
 ```
- tagName  : <string> - Nome do tag
+ tagName  : <string> - Nome da conexão e nome do tag separados pelo caractere ":"
  value    : 
  timestamp: <datetime> - 
  callback : <function (er)> - Função que vai receber o retorno assincrono da operação
