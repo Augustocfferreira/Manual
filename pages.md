@@ -145,8 +145,8 @@ O Commands permite criar uma lista de comandos a serem realizados de acordo com 
 | Subtítulo    | Subtítulo visível logo abaixo do título|
 | Cor    | Definição de cor do objeto Commands |
 | Imagem  | Imagem a ser exibida ao lado do valor |
-| Zonas  | Ver ítem Zonas |
-| Comandos  | Ver ítem Comandos |
+| Zonas  | Ver ítem [Zonas](#zonas) |
+| Comandos  | Ver ítem [Comandos](#comandos) |
 | Interlocked | Neste campo de travamento do comando, deve-se configurar uma expressão que informe quando os comandos não podem ser utilizados. Quando true, os comandos são bloqueados, quando false, os mesmos são liberados para a utilização. [Ver capítulo de Expressões.] |
 | Pedir confirmação antes da alteração  | Habilita uma confirmação do valor antes da escrita |  
 | Tag leitura  | Tag referência para o estado atual do equipamento que será comandado |
