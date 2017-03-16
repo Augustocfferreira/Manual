@@ -16,7 +16,7 @@ Dentro da página de usuários, é possível gerenciar todos os usuários da apl
 
   Ao adicionarmos um grupo, podemos adicionar políticas de segurança nos mesmos para que os usuários deste grupo.
   
-### Dispositivo Único
+- Dispositivo Único
 
 Quando a opção unique device é marcada na criação do usuário, significa que ele só poderá acessar o Elipse Mobile através de um mesmo aparelho de celular.
 
