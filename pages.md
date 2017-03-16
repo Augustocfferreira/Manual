@@ -166,8 +166,8 @@ O Commands permite criar uma lista de comandos a serem realizados de acordo com 
 
 | Propriedade    | Função  |
 | -------------   | ------------- |
-| +    | Texto a ser exibido de acordo com o valor configurado no campo **Condição para exibir** |
-| /    | Valor para que o texto configurado acima seja exibido. Value é o valor do tag leitura |
+| Texto    | Texto a ser exibido de acordo com o valor configurado no campo **Condição para exibir** |
+| Condição para exibir    | Valor para que o texto configurado acima seja exibido. Value é o valor do tag leitura |
 
 ### Comandos
 
@@ -184,8 +184,8 @@ O Commands permite criar uma lista de comandos a serem realizados de acordo com 
 | Propriedade    | Função  |
 | -------------   | ------------- |
 | Texto    | Texto com o nome do comando a ser exibido na janela de comando |
-| /    | Condição para que este comando seja exibido na lista de comandos |
-| /    | Valor a ser escrito quando utilizado este comando|
+| Condição para exibir    | Condição para que este comando seja exibido na lista de comandos |
+| Valor para escrita    | Valor a ser escrito quando utilizado este comando|
   
 ## Form
   Mostra um Form.
