@@ -65,11 +65,11 @@ https://www.elipse.com.br/produto/elipse-mobile/
   [original forms](forms.md)
 
 - [Configurações do aplicativo](config.md)
-  - [Autenticação externa de usuários](config.md#autenticação-externa-de-usuários)
-  - [Servidor de e-mails](config.md#servidor-de-e-mails)
+  - [Autenticação externa de usuários](config_app.md#autenticação-externa-de-usuários)
+  - [Servidor de e-mails](config_app.md#servidor-de-e-mails)
   
 - [Configurações do servidor](config.md)
-    - [Configuração de Firewall](config.md#configuração-de-firewall)
+    - [Configuração de Firewall](config_server.md#configuração-de-firewall)
 
 - [Referência de Scripts](scripts.md)
   - [SendMail](scripts.md#sendmail)
