@@ -64,7 +64,7 @@ https://www.elipse.com.br/produto/elipse-mobile/
   - [EPM (OPCA UA)](connections.md#epm-opca-ua)
   [original forms](forms.md)
 
-- [Configurações do aplicativo](config.md)
+- [Configurações do aplicativo](config_app.md)
   - [Autenticação externa de usuários](config_app.md#autenticação-externa-de-usuários)
   - [Servidor de e-mails](config_app.md#servidor-de-e-mails)
   
