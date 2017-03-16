@@ -20,7 +20,7 @@ A instalação do Elipse Mobile se divide em duas partes: Server (para o servido
  
 Execute o arquivo de instalação e siga as instruções que aparecem na tela. 
 
-Uma mensagem de Instalação Completa aparece quando a instalação for bem-sucedida. Um grupo de programas chamado Elipse E3 é criado no menu Iniciar do Windows. 
+Uma mensagem de Instalação Completa aparece quando a instalação for bem-sucedida.
  
  *Na primeira execução é necessário configurar um usuário e senha do administrador do sistema.*
  
