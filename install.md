@@ -18,8 +18,6 @@ A instalação do Elipse Mobile se divide em duas partes: Server (para o servido
  
  Para se fazer a instalação, faça o download da última versão do Elipse Mobile [neste link.](https://www.elipse.com.br/downloads/?cat=64&key=&language=ptbr)
  
- Conecte o dispositivo de proteção (do tipo Hardkey) na porta USB do seu computador. O Elipse Mobile Server valida as licenças a partir deste dispositivo. 
-
 Execute o arquivo de instalação e siga as instruções que aparecem na tela. 
 
 Uma mensagem de Instalação Completa aparece quando a instalação for bem-sucedida. Um grupo de programas chamado Elipse E3 é criado no menu Iniciar do Windows. 
