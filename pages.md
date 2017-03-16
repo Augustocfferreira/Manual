@@ -95,7 +95,7 @@ O Pulser permite realizar escritas quando a condição base é atendida. A escri
 | Imagem OFF  | Imagem que é visualizada quando falso |
 | Tag escrita  | Tag que terá o valor escrito |
 | Valor base  | Condição que o tag de leitura deve estar para que o Pulser escreva o valor do campo valor positivo|
-| Valor positivo  | Valor alto do pulso |
+| Valor positivo  | Valor a ser escrito caso o tag de leitura esteja com o mesmo valor configurado no campo valor base |
 | Pedir confirmação antes da alteração  | Habilita uma confirmação do valor antes da escrita |  
 
 ## Setpoint
@@ -108,13 +108,13 @@ O Setpoint permite realizar escrita de valores no tag. A escrita ela pode ser re
 | -------------   | ------------- |
 | Título    | Título visível no topo do objeto|
 | Subtítulo    | Subtítulo visível logo abaixo do título|
-| Cor    | Definição de cor do toggle |
-| Imagem  | Imagem visível à direita do objeto|
-| Tag  | Tag associado que terá o valor visualizado |
-| Incremento  | Resolução dos passos para a alteração do valor |
+| Cor    | Definição de cor do setpoint |
+| Imagem  | Imagem a ser exibida ao lado do valor |
+| Tag  | Tag que será utilizado para fazer a leitura e escrita de valor |
+| Incremento  | Valor de incremento caso o usuário opte em selecionar o valor desejado através desta opção |
 | Pedir confirmação antes da alteração  | Habilita uma confirmação do valor antes da escrita |  
 | Sufixo  | String que aparecerá ao lado do valor do tag |
-| Decimais  | Quantidade de casas decimais |
+| Decimais  | Número de casas decimais do valor|
 
 
 ## Page Link
@@ -129,9 +129,9 @@ O Page Link é um objeto que a funcionalidade de mudança de página. Para traba
 | -------------   | ------------- |
 | Título    | Título visível no topo do objeto|
 | Subtítulo    | Subtítulo visível logo abaixo do título|
-| Cor    | Definição de cor do toggle |
-| Imagem  | Imagem visível à direita do objeto|
-| Nome da Página  | Página que será aberta ao clicar no objeto |
+| Cor    | Definição de cor do Page Link |
+| Imagem  | Imagem a ser exibida ao lado do valor |
+| Nome da Página  | Seleção da página a ser aberta |
   
 ## Commands
 
@@ -143,14 +143,14 @@ O Commands permite criar uma lista de comandos a serem realizados de acordo com 
 | -------------   | ------------- |
 | Título    | Título visível no topo do objeto|
 | Subtítulo    | Subtítulo visível logo abaixo do título|
-| Cor    | Definição de cor do toggle |
-| Imagem  | Imagem visível à direita do objeto|
-| Zonas  | ABCD1234 |
-| Comandos  | ABCD1234 |
-| Interlocked | ABCD1234 |
+| Cor    | Definição de cor do objeto Commands |
+| Imagem  | Imagem a ser exibida ao lado do valor |
+| Zonas  | Ver ítem Zonas |
+| Comandos  | Ver ítem Comandos |
+| Interlocked | Neste campo de travamento do comando, deve-se configurar uma expressão que informe quando os comandos não podem ser utilizados. Quando true, os comandos são bloqueados, quando false, os mesmos são liberados para a utilização. [Ver capítulo de Expressões.] |
 | Pedir confirmação antes da alteração  | Habilita uma confirmação do valor antes da escrita |  
-| Tag leitura  | Tag referência que terá o valor lido |
-| Tag escrita  | Tag que terá o valor escrito |
+| Tag leitura  | Tag referência para o estado atual do equipamento que será comandado |
+| Tag escrita  | Tag que receberá o valor do comando selecionado pelo usuário |
   
 ## Form
   Mostra um Form.
