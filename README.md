@@ -42,8 +42,7 @@ https://www.elipse.com.br/produto/elipse-mobile/
   - [Mobile](users.md#mobile)
   - [LDAP](users.md#ldap)
   - [Grupo](users.md#grupo)
-  - [Dispositivo Único](users.md#dispositivo-Único)
- 
+   
 - [Conexões](connections.md)
   - [Elipse E3](connections.md#e3)
     - [E3 OPC-DA](connections.md#e3)
@@ -65,10 +64,12 @@ https://www.elipse.com.br/produto/elipse-mobile/
   - [EPM (OPCA UA)](connections.md#epm-opca-ua)
   [original forms](forms.md)
 
-- [Configurações](config.md)
+- [Configurações do aplicativo](config.md)
   - [Autenticação externa de usuários](config.md#autenticação-externa-de-usuários)
   - [Servidor de e-mails](config.md#servidor-de-e-mails)
-  - [Configuração de Firewall](config.md#configuração-de-firewall)
+  
+- [Configurações do servidor](config.md)
+    - [Configuração de Firewall](config.md#configuração-de-firewall)
 
 - [Referência de Scripts](scripts.md)
   - [SendMail](scripts.md#sendmail)
