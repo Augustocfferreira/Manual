@@ -28,5 +28,5 @@ Dentro da página de usuários, é possível gerenciar todos os usuários da apl
 | Repetir senha  | Senha a ser cadastrada par o usuário |
 | Administrador  | Propriedade que determia se o usuário é Administrador do sistema|
 | Acesso de escrita  | Propriedade que determina se o sitema permite ou não ao usuário escrever valores |
-| Dispositivo único  | Quando a opção unique device é marcada na criação do usuário, significa que ele só poderá acessar o Elipse Mobile através de um mesmo aparelho de celular. O primeiro login deste usuário vai determinar o dispositivo que ele poderá usar. Caso seja feito login no browser ou outro celular vai aparecer o seguinte erro: "This device is not registed for this user." |
+| Dispositivo único  | Quando a opção Dispositivo único é marcada na criação do usuário, significa que ele só poderá acessar o Elipse Mobile através de um mesmo aparelho de celular. O primeiro login deste usuário vai determinar o dispositivo que ele poderá usar. Caso seja feito login no browser ou outro celular vai aparecer o seguinte erro: "This device is not registed for this user." |
 
