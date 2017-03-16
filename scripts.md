@@ -37,7 +37,13 @@ SendMail("a", "Dia de preencher form", "message",
  function(er)
  {});
  ```
- 
+ Parâmetros:
+```
+ users    : <string> - Lista dos usuários separados por ponto e virgula
+ subject  : <string> - Assunto do e-mail
+ message  : <string> - Conteúdo do e-mail
+ callback : <function (er)> - Função que vai receber o retorno assincrono da operação
+```
  Exemplo:
  ```js
  WriteForm("form:", {campo: 1}, 
@@ -53,7 +59,12 @@ Escrita somente do valor no tag.
 WriteTag( tagName, value , function (er) 
 {});
 ```
-
+Parâmetros:
+```
+ tagName  : <string> - Nome do tag
+ value    : 
+ callback : <function (er)> - Função que vai receber o retorno assincrono da operação
+```
 Exemplo:
 ```js
 WriteTag( "demo:TagInternal3", 15,
@@ -69,7 +80,13 @@ WriteTagEx( tagName, value , timestamp, quality,
 function (er) 
 {});
 ```
-
+Parâmetros:
+```
+ tagName  : <string> - Nome do tag
+ value    : 
+ timestamp: <datetime> - 
+ callback : <function (er)> - Função que vai receber o retorno assincrono da operação
+```
 Exemplo:
 ```js
 WriteTagEx("e3:Data.InternalTag1", 2, new Date().getTime(), 0,
