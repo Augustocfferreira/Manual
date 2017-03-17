@@ -1,8 +1,16 @@
 # Configurações do Servidor
 
-## Configurações de porta e Conexões seguras
+  Ao lado do relógio do Windows, é possível verificar o ícone do Elipse Mobile Server. Para fazer qualquer tipo de configuração no mesmo, basta clicar com o botão direito e abrir a opção *Settings...*.
+   
+  ![2](https://cloud.githubusercontent.com/assets/26389485/23995618/33073ce0-0a29-11e7-8af1-d2ecba334448.png)
 
-N
+## Usuário Administrador do Sistema
+
+## HTTPS
+
+## Portas
+
+## Versionamento
 
 ## Configuração de Firewall
 
@@ -39,3 +47,7 @@ Clique em Inbound Rules.
 ![7](https://cloud.githubusercontent.com/assets/26389485/23995620/333cae3e-0a29-11e7-9b00-84139df331f2.png)
 
 Nesta lista aparece a regra Elipse Mobile Server que contém a configuração de portas.
+
+## Configurações de porta e Conexões seguras
+
+  Na janela de configuração do Elipse Mobile Server, é possível configurar 
