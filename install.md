@@ -12,7 +12,6 @@ A instalação do Elipse Mobile se divide em duas partes: Server (para o servido
 * 4 GB de memória RAM 
 * 4 GB de espaço em disco rígido
 * Windows XP SP3 ou superior
-
  
  ### Instalador
  
