@@ -70,7 +70,10 @@ https://www.elipse.com.br/produto/elipse-mobile/
   - [Servidor de e-mails](config_app.md#servidor-de-e-mails)
   
 - [Configurações do servidor](config_server.md)
-    - [Configurações de porta e Conexões seguras](config_server.md#configurações-de-porta-e-conexões-seguras)
+    - [Usuário Administrador do Sistema](config_server.md#usuário-administrador-do-sistema)
+    - [HTTPs](config_server.md#https)
+    - [Portas](config_server.md#portas)
+    - [Versionamento](config_server.md#versionamento)
     - [Configuração de Firewall](config_server.md#configuração-de-firewall)
 
 - [Referência de Scripts](scripts.md)
