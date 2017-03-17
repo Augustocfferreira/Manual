@@ -10,12 +10,28 @@
 
 ## Usuário Administrador do Sistema
 
+![adm](https://cloud.githubusercontent.com/assets/26389485/24041422/252be97c-0aec-11e7-9257-e774905669c3.png)
+
+  No ítem System Administrator, é possível ver o usuário administrador do sistema e, caso necessário, é possível alterar o nome e/ou a senha do mesmo clicando em *Change...*.
+
 ## HTTPS
+
+![https](https://cloud.githubusercontent.com/assets/26389485/24041424/253f9e7c-0aec-11e7-81bf-761895d09455.png)
+
+  No ítem HTTPS, é possível habilitar as conexões seguras, 
 
 ## Portas
 
+![ports](https://cloud.githubusercontent.com/assets/26389485/24041423/253f83ba-0aec-11e7-89f1-16751c4e3b34.png)
+
+  As portas utilizadas pelo Elipse Mobile Server podem ser configuradas manualmente no ítem Ports. Por padrão, a configuração HTTP estará em 8080 e a HTTPs em 443. Podendo ser alterado para qualquer outra porta disponível no Windows.
+
 ## Versionamento
 
+![sobre](https://cloud.githubusercontent.com/assets/26389485/24041421/2511f3f0-0aec-11e7-841c-d968735f8f74.png)
+
+  Na aba About da configuração do Elipse Mobile Sever, é possível ver a versão em que se encontra o mesmo.
+  
 ## Configuração de Firewall
 
   A configuração do Firewall é necessária para conectar o celular ou outro computador no servidor Elipse Mobile Server.
@@ -51,7 +67,3 @@ Clique em Inbound Rules.
 ![7](https://cloud.githubusercontent.com/assets/26389485/23995620/333cae3e-0a29-11e7-9b00-84139df331f2.png)
 
 Nesta lista aparece a regra Elipse Mobile Server que contém a configuração de portas.
-
-## Configurações de porta e Conexões seguras
-
-  Na janela de configuração do Elipse Mobile Server, é possível configurar 
