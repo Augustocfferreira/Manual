@@ -9,6 +9,8 @@
   
 ### E3 OPC-DA
 
+![e3opc](https://cloud.githubusercontent.com/assets/26389485/24060044/3744b53c-0b30-11e7-87d4-6f06cf2fcb62.png)
+
 | Propriedade    | Função  |
 | -------------   | ------------- |
 | Nome    | Nome da conexão  |
@@ -16,6 +18,8 @@
 | Testar   | Testa a conexão foi configurada corretamente |
   
 ### E3 Nativo
+
+![e3nativo](https://cloud.githubusercontent.com/assets/26389485/24060037/370bb75a-0b30-11e7-87e3-4a88a29185ab.png)
 
 | Propriedade    | Função  |
 | -------------   | ------------- |
@@ -27,16 +31,25 @@
 
 ## Elipse SCADA
 
+![scada](https://cloud.githubusercontent.com/assets/26389485/24060038/3726fee8-0b30-11e7-8d1e-ec47f2ec382f.png)
+
 ## OPC-DA
+
+![opc](https://cloud.githubusercontent.com/assets/26389485/24060039/3737eca8-0b30-11e7-9934-a2a1ef19c92a.png)
 
   O tipo de conexão OPC-DA permite a conexão do Elipse Mobile com qualquer servidor que se utilize da tecnologia OPC-DA.
 
 ## Arduino
 
+![arduino](https://cloud.githubusercontent.com/assets/26389485/24060040/3737fd4c-0b30-11e7-874f-cd6a6cb29709.png)
+
   O Elipse Mobile possui uma conexão nativa com as placas Arduino, o que faz com que a configuração e comunicação com o Arduino seja mais fácil e rápida.
   Veja a página [Elipse Mobile Arduino](https://github.com/elipsemobile/arduino#elipse-mobile-arduino) para maiores informações.
 
 ## Demo
+
+![demo](https://cloud.githubusercontent.com/assets/26389485/24060041/3738dbd6-0b30-11e7-89f8-a3fc52e5e13c.png)
+
   A conexão Demo permite ao desenvolvedor da aplicação ter acesso à vários tags de demonstração. Sendo eles:
   
 | Nome    | Tipo  |
@@ -52,6 +65,8 @@
 | TagDemoRamp3  | Rampa de subida 20 - 30|
 
 ## Form
+
+![form](https://cloud.githubusercontent.com/assets/26389485/24060042/37392780-0b30-11e7-82f9-0d982123aa72.png)
 
 O Elipse Mobile Forms permite a criação de formulários para serem preenchidos online ou offline.
 Estes formulários podem ser usados como pequenos bancos de dados e também para fazer coletas em campo.
@@ -275,4 +290,4 @@ Quando ele voltar ao modo online, as alterações dos formulários serão enviad
 
 ## EPM (OPCA UA)
 
-
+![ua](https://cloud.githubusercontent.com/assets/26389485/24060043/373b5e06-0b30-11e7-9029-ff3ec91bc257.png)
