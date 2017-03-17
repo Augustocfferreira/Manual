@@ -55,7 +55,7 @@ Client Android
 
 - Atualização da openssl para 1.0.1k de 8 Jan 2015
 
-- Agora os administradores podem ser marcados como read-only. Detalhes...
+- Agora os administradores podem ser marcados como read-only.
 
 **Bugs e correções**
 
