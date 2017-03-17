@@ -14,8 +14,8 @@
 | Propriedade    | Função  |
 | -------------   | ------------- |
 | Nome    | Nome da conexão  |
-| Servidor    | Nome da máquina com o Servidor OPC |
-| Testar   | Testa a conexão foi configurada corretamente |
+| Servidor    | Nome da máquina com o Servidor E3 OPC |
+
   
 ### E3 Nativo
 
@@ -24,26 +24,44 @@
 | Propriedade    | Função  |
 | -------------   | ------------- |
 | Nome    | Nome da conexão  |
-| Servidor    | Nome da máquina com o Servidor OPC |
+| Servidor    | Nome da máquina com E3 Server |
 | User    | Usuário       |
 | Password  | Senha       |
-| Testar   | Testa a conexão foi configurada corretamente |
 
 ## Elipse SCADA
 
 ![scada](https://cloud.githubusercontent.com/assets/26389485/24060038/3726fee8-0b30-11e7-8d1e-ec47f2ec382f.png)
+
+| Propriedade    | Função  |
+| -------------   | ------------- |
+| Nome    | Nome da conexão  |
+| Servidor    | Nome da máquina com o Servidor SCADA OPC |
 
 ## OPC-DA
 
 ![opc](https://cloud.githubusercontent.com/assets/26389485/24060039/3737eca8-0b30-11e7-9934-a2a1ef19c92a.png)
 
   O tipo de conexão OPC-DA permite a conexão do Elipse Mobile com qualquer servidor que se utilize da tecnologia OPC-DA.
+  
+| Propriedade    | Função  |
+| -------------   | ------------- |
+| Nome    | Nome da conexão  |
+| OPC Server program ID    |  ID do Servidor OPC  |
+| Servidor    | Nome da máquina com o Servidor OPC |
+  
 
 ## Arduino
 
 ![arduino](https://cloud.githubusercontent.com/assets/26389485/24060040/3737fd4c-0b30-11e7-874f-cd6a6cb29709.png)
 
   O Elipse Mobile possui uma conexão nativa com as placas Arduino, o que faz com que a configuração e comunicação com o Arduino seja mais fácil e rápida.
+  
+| Propriedade    | Função  |
+| -------------   | ------------- |
+| Nome    | Nome da conexão  |
+| Port    | Porta COM em que se encotra o Arduino |
+  
+  
   Veja a página [Elipse Mobile Arduino](https://github.com/elipsemobile/arduino#elipse-mobile-arduino) para maiores informações.
 
 ## Demo
@@ -291,3 +309,11 @@ Quando ele voltar ao modo online, as alterações dos formulários serão enviad
 ## EPM (OPCA UA)
 
 ![ua](https://cloud.githubusercontent.com/assets/26389485/24060043/373b5e06-0b30-11e7-9029-ff3ec91bc257.png)
+
+
+| Propriedade    | Função  |
+| -------------   | ------------- |
+| Nome    | Nome da conexão  |
+| Server    | Nome da máquina com E3 Server |
+| User    | Usuário       |
+| Password  | Senha       |
