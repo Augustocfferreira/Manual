@@ -18,7 +18,7 @@
 
 ![https](https://cloud.githubusercontent.com/assets/26389485/24041424/253f9e7c-0aec-11e7-81bf-761895d09455.png)
 
-  No ítem HTTPS, é possível habilitar as conexões seguras, 
+  No ítem HTTPS, é possível habilitar as conexões seguras e importar a chave e o certificado de segurança da conexão.
 
 ## Portas
 
