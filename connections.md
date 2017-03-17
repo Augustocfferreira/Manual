@@ -20,7 +20,7 @@
 ## Arduino
 
   O Elipse Mobile possui uma conexão nativa com as placas Arduino, o que faz com que a configuração e comunicação com o Arduino seja mais fácil e rápida.
-  Veja o capítulo [Arduino](https://github.com/elipsemobile/arduino#elipse-mobile-arduino) para maiores informações.
+  Veja a página [Elipse Mobile Arduino](https://github.com/elipsemobile/arduino#elipse-mobile-arduino) para maiores informações.
 
 ## Demo
   A conexão Demo permite ao desenvolvedor da aplicação ter acesso à vários tags de demonstração. Sendo eles:
