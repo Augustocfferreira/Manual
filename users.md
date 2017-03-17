@@ -6,6 +6,8 @@ Dentro da página de usuários, é possível gerenciar todos os usuários da apl
 
 ### Mobile
 
+![mobile_user](https://cloud.githubusercontent.com/assets/26389485/24060966/4d7be038-0b34-11e7-96a5-a4feecfb36ff.png)
+
   O usuário Mobile é o usuário que é gerenciado pelo Elipse Mobile Server. Ao adicionar um usuário deste tipo, o usuário será exclusivamente do Elipse Mobile.
   
   ![dispositivo](https://cloud.githubusercontent.com/assets/26389485/23913395/a668de50-08c1-11e7-81fc-b273cd815a9d.png)
@@ -24,9 +26,13 @@ Dentro da página de usuários, é possível gerenciar todos os usuários da apl
   
 ### LDAP
 
+![ldap_user](https://cloud.githubusercontent.com/assets/26389485/24060967/4d8f3fa2-0b34-11e7-8707-601f228da09b.png)
+
   O usuário LDAP é aquele que é gerenciado pelo servidor LDAP, servidor este que deve ser previamente configurado na aba **[Configurações](config.md#autenticação-externa-de-usuários)**.
 
 ### Grupo
+
+![group](https://cloud.githubusercontent.com/assets/26389485/24060964/4d59dd8a-0b34-11e7-9072-d463a1269367.png)
 
   Ao adicionarmos um grupo, podemos adicionar políticas de segurança nos mesmos para que os usuários deste grupo.
   
