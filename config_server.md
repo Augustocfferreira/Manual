@@ -2,7 +2,7 @@
 
   Ao lado do relógio do Windows, é possível verificar o ícone do Elipse Mobile Server. Para fazer qualquer tipo de configuração no mesmo, basta clicar com o botão direito e abrir a opção *Settings...*.
   
-  ![settings](https://cloud.githubusercontent.com/assets/26389485/24041286/698e6bd6-0aeb-11e7-8954-f83ebd7fa381.png)
+![1](https://cloud.githubusercontent.com/assets/26389485/23995614/3276a3b0-0a29-11e7-9e7d-0d3166075d6d.png)
   
 ![server](https://cloud.githubusercontent.com/assets/26389485/24042783/44fc5bd2-0af2-11e7-8b96-3165577f0531.png)
   
