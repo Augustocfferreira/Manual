@@ -39,9 +39,8 @@ SendMail("a", "Dia de preencher form", "message",
  ```
  Parâmetros:
 ```
- users    : <string> - Lista dos usuários separados por ponto e virgula
- subject  : <string> - Assunto do e-mail
- message  : <string> - Conteúdo do e-mail
+ form     : <string> - Formulário que receberá o valor
+ field    : <string> - Campo que receberá o valor
  callback : <function (er)> - Função que vai receber o retorno assincrono da operação
 ```
  Exemplo:
