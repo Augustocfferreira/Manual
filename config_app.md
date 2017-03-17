@@ -11,7 +11,7 @@ Caso este parâmetro esteja em branco, o elipse mobile tentar encontrar o servid
 
 Para isso vá em Configurações e informe o nome do servidor LDAP. O Active Directory da microsoft é um exemplo de serviço que aceita este protocolo.
 
-![7a1090776d_690x421](https://cloud.githubusercontent.com/assets/26389485/23913081/9a91761a-08c0-11e7-86a8-ba2203d4424d.png)
+![config](https://cloud.githubusercontent.com/assets/26389485/24053355/8c4aa29e-0b17-11e7-84c0-d2ffc2ab07ee.png)
 
 ### Como funciona a autenticação
 
