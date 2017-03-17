@@ -30,7 +30,7 @@
 
 ![sobre](https://cloud.githubusercontent.com/assets/26389485/24041421/2511f3f0-0aec-11e7-841c-d968735f8f74.png)
 
-  Na aba About da configuração do Elipse Mobile Sever, é possível ver a versão em que se encontra o mesmo.
+  Na aba *About* da configuração do Elipse Mobile Sever, é possível ver a versão em que se encontra o mesmo.
   
 ## Configuração de Firewall
 
