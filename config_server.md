@@ -1,8 +1,12 @@
 # Configurações do Servidor
 
   Ao lado do relógio do Windows, é possível verificar o ícone do Elipse Mobile Server. Para fazer qualquer tipo de configuração no mesmo, basta clicar com o botão direito e abrir a opção *Settings...*.
-   
+  
+  ![settings](https://cloud.githubusercontent.com/assets/26389485/24041286/698e6bd6-0aeb-11e7-8954-f83ebd7fa381.png)
+  
   ![2](https://cloud.githubusercontent.com/assets/26389485/23995618/33073ce0-0a29-11e7-8af1-d2ecba334448.png)
+  
+  As seguintes configurações estarão disponíveis:
 
 ## Usuário Administrador do Sistema
 
