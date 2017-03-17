@@ -24,7 +24,7 @@
 
 ![ports](https://cloud.githubusercontent.com/assets/26389485/24041423/253f83ba-0aec-11e7-89f1-16751c4e3b34.png)
 
-  As portas utilizadas pelo Elipse Mobile Server podem ser configuradas manualmente no ítem Ports. Por padrão, a configuração HTTP estará em 8080 e a HTTPs em 443. Podendo ser alterado para qualquer outra porta disponível no Windows.
+  As portas utilizadas pelo Elipse Mobile Server podem ser configuradas manualmente no ítem Ports. Por padrão, a configuração HTTP estará em 80 e a HTTPs em 443. Podendo ser alterado para qualquer outra porta disponível no Windows.
 
 ## Versionamento
 
