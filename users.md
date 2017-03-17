@@ -28,7 +28,7 @@ Dentro da página de usuários, é possível gerenciar todos os usuários da apl
 
 ![ldap_user](https://cloud.githubusercontent.com/assets/26389485/24060967/4d8f3fa2-0b34-11e7-8707-601f228da09b.png)
 
-  O usuário LDAP é aquele que é gerenciado pelo servidor LDAP, servidor este que deve ser previamente configurado na aba **[Configurações](config.md#autenticação-externa-de-usuários)**.
+  O usuário LDAP é aquele que é gerenciado pelo servidor LDAP, servidor este que deve ser previamente configurado na aba **[Configurações](config_app.md#autenticação-externa-de-usuários)**.
 
 ### Grupo
 
