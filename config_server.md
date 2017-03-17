@@ -16,7 +16,7 @@
 
 ## HTTPS
 
-![https](https://cloud.githubusercontent.com/assets/26389485/24041424/253f9e7c-0aec-11e7-81bf-761895d09455.png)
+![https](https://cloud.githubusercontent.com/assets/26389485/24041733/7e885a18-0aed-11e7-9e13-7566b0588783.png)
 
   No ítem HTTPS, é possível habilitar as conexões seguras e importar a chave e o certificado de segurança da conexão.
 
