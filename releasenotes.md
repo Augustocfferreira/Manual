@@ -25,9 +25,9 @@ Geral
 - Pequena alteração no licenciamento. Agora é possível criar/editar mais usuários do que número licenciado. Só não é possível fazer login.
 - O servidor ganhou atualizações e otimizações para rodar na nuvem
 - Corrigido: Campos do tipo read-only estavam podendo ser editados no configurador
-- Alterado o formato do arquivo de dados e configuração que agora é json. A importação é automática. mais detalhes...
+- Alterado o formato do arquivo de dados e configuração que agora é json. A importação é automática.
 - Adicionada proteção no server contra ataques do tipo cross-site request forgery. mais detalhes...
-- Criada uma opção no servidor para desabilitar conexões SSL3 e permitir apenas conexões TLS. mais detalhes...
+- Criada uma opção no servidor para desabilitar conexões SSL3 e permitir apenas conexões TLS.
 - Corrigido problema para enviar e-mails para mais de um usuário.
 
 Client Windows
