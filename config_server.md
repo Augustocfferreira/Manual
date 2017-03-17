@@ -4,7 +4,7 @@
   
   ![settings](https://cloud.githubusercontent.com/assets/26389485/24041286/698e6bd6-0aeb-11e7-8954-f83ebd7fa381.png)
   
-  ![2](https://cloud.githubusercontent.com/assets/26389485/23995618/33073ce0-0a29-11e7-8af1-d2ecba334448.png)
+![server](https://cloud.githubusercontent.com/assets/26389485/24042783/44fc5bd2-0af2-11e7-8b96-3165577f0531.png)
   
   As seguintes configurações estarão disponíveis:
 
@@ -43,7 +43,7 @@
   O Elipse Mobile Server utiliza uma porta para o protocolo HTTP e outra para o protocolo HTTPS.
 O padrão da web é 80 para HTTP e 443 para HTTPS.
 
-![2](https://cloud.githubusercontent.com/assets/26389485/23995618/33073ce0-0a29-11e7-8af1-d2ecba334448.png)
+![server](https://cloud.githubusercontent.com/assets/26389485/24042783/44fc5bd2-0af2-11e7-8b96-3165577f0531.png)
 
 Ao clicar em OK será verificada se existe a regra criada para o Elipse Mobile, caso ela não existir é mostrada a seguinte mensagem:
 
