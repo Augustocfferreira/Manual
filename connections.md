@@ -5,11 +5,25 @@
 
 ## Elipse E3
 
-  A conexão com o Elipse E3 pode se dar de duas formas, via OPC-DA, onde o Elipse Mobile interpreta o E3 como qualquer outro servidor OPC ou com a conexão E3 nativa presente no Mobile, o que possibilita uma gerência melhor do que é tag e o que é propriedade.
+  A conexão com o Elipse E3 pode se dar de duas formas, via OPC-DA, onde o Elipse Mobile interpreta o E3 como qualquer outro servidor OPC ou com a conexão E3 nativa presente no Mobile, o que possibilita uma resposta melhor em função da conexão não se dar pela DCOM do Windows.
   
 ### E3 OPC-DA
+
+| Propriedade    | Função  |
+| -------------   | ------------- |
+| Nome    | Nome da conexão  |
+| Servidor    | Nome da máquina com o Servidor OPC |
+| Testar   | Testa a conexão foi configurada corretamente |
   
 ### E3 Nativo
+
+| Propriedade    | Função  |
+| -------------   | ------------- |
+| Nome    | Nome da conexão  |
+| Servidor    | Nome da máquina com o Servidor OPC |
+| User    | Usuário       |
+| Password  | Senha       |
+| Testar   | Testa a conexão foi configurada corretamente |
 
 ## Elipse SCADA
 
