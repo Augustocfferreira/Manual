@@ -253,7 +253,7 @@ _assigned_to    : No estado Atribuído, indica o nome do usuário
 
 ### Modo OffLine
 
-Quando o usuário entra no modo offline, é feito uma cópia de todas as páginas dos servidor para o celular. 
+Quando o usuário entra no modo offline, é feito uma cópia de todas as páginas do servidor para o celular. 
 Além das páginas, todos os forms atribuídos para o usuário serão copiados.
 No modo offline o usuário pode editar os formularios que estão atribuídos para sí. 
 
