@@ -63,4 +63,4 @@ Uma mensagem de Instalação Completa aparece quando a instalação for bem-suce
   A sintaxe correta para o acesso é http://IP_DO_SERVIDOR:PORTA/. Exemplo: http://127.1.1.1:8080/.
   Podendo ser acessado pelo nome da máquina servidora na rede. http://Nome_da_Maquina:Porta/. Exemplo: http://localhost:8080/.
   
-  *A porta padrão utilizada pelo Elipse Mobile Server é a 8080. Para alterar, consute o capítulo [Configuração Elipse Mobile Server.]*
+  *A porta padrão utilizada pelo Elipse Mobile Server é a 8080. Para alterar, consute o capítulo [Configuração Elipse Mobile Server.](config_server.md#portas)*
