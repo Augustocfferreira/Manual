@@ -15,8 +15,6 @@ https://www.elipse.com.br/produto/elipse-mobile/
     - [Windows Phone](install.md#windows-phone)
     - [Navegador](install.md#navegador)
 
-- [Licenciamento](licence.md)
-
 - [Aplicações](applications.md)
 
 - [Eventos](events.md)
@@ -81,6 +79,8 @@ https://www.elipse.com.br/produto/elipse-mobile/
   - [WriteForm](scripts.md#writeform)
   - [WriteTag](scripts.md#writetag)
   - [WriteTagEx](scripts.md#writetagex)
+  
+- [Licenciamento](licence.md)
   
  - [Notas de Versão](releasenotes.md)
     - [Versão 1.1](releasenotes.md#versão-11)
