@@ -10,9 +10,6 @@ https://www.elipse.com.br/produto/elipse-mobile/
 - [Aplicações](applications.md)
 
 - [Eventos](events.md)
-  - [Condição](events.md#condição)
-  - [Email](events.md#email)
-  - [Script](events.md#script)
 
 - [Páginas e Objetos de Página](pages.md)
   - [Display](pages.md#display)
