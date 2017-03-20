@@ -1,5 +1,11 @@
 # Configurações do Servidor
 
+    - [Usuário Administrador do Sistema](config_server.md#usuário-administrador-do-sistema)
+    - [HTTPs](config_server.md#https)
+    - [Portas](config_server.md#portas)
+    - [Versionamento](config_server.md#versionamento)
+    - [Configuração de Firewall](config_server.md#configuração-de-firewall)
+
   Ao lado do relógio do Windows, é possível verificar o ícone do Elipse Mobile Server. Para fazer qualquer tipo de configuração no mesmo, basta clicar com o botão direito e abrir a opção *Settings...*.
   
 ![1](https://cloud.githubusercontent.com/assets/26389485/23995614/3276a3b0-0a29-11e7-9e7d-0d3166075d6d.png)
