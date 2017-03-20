@@ -3,8 +3,8 @@
   
   [Voltar ao Menu Inicial](https://elipsemobile.github.io/Manual/)
   
-  ## Arquitetura
+## Arquitetura
   
   ![elipse-mobile-architecture-pt-br](https://cloud.githubusercontent.com/assets/26389485/23917800/5bddf2fe-08cf-11e7-8f67-dccff1ca7bc4.png)
   
-  [Voltar ao Menu Inicial](https://elipsemobile.github.io/Manual/)
+[![home](https://cloud.githubusercontent.com/assets/26389485/24108995/1409dd3c-0d6e-11e7-97cc-4c0920a78259.png)Voltar ao Menu Inicial](https://elipsemobile.github.io/Manual/)
