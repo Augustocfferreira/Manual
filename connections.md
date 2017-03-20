@@ -102,7 +102,7 @@ Um formulário também pode ser visto como uma tabela de banco de dados aonde ca
 No Mobile as repostas possuem campos pré-definidos e um estado que controla o fluxo de edição.
 Ao ser criado o form nasce com o estado **pendente**, que significa que ele deve ser preenchido por alguém.
 
-Cada definição de form possui a definição de usuários administradores ou apenas usuários.
+Cada definição de form possui uma configuração de usuários administradores ou apenas usuários.
 Os administradores são aqueles que podem criar novas entradas no banco (criar um form novo) e usuário são aqueles que somentem podem preencher o form, mas não podem deletar ou criar uma formulário novo.
 
 Quando o form é criado e está pendente, qualquer usuário (grupo) do formulário pode atribuir a tarefa de preencher o formulário para si.
