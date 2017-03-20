@@ -124,6 +124,8 @@ Para criar um form vá em _Menu -> Conexões -> "+" -> Form_
 
 Entre com o nome do formulário:
 
+![campos](https://cloud.githubusercontent.com/assets/26389485/24098712/b0a03a34-0d4a-11e7-9bba-4e25e4c4f926.png)
+
 #### Tipos de campos
 
  * Número
@@ -154,10 +156,15 @@ Entre com o nome do formulário:
 Entrada de uma data.
 
 #### Fase de revisão 
-[X] Incluir fase de revisão
+
+![fase_revisao](https://cloud.githubusercontent.com/assets/26389485/24098713/b0a39e36-0d4a-11e7-925a-a1323dc3b23f.png)
+
 Esta opção faz com que exista uma fase adicional no fluxo do formário.
 
 #### Permissões
+
+![permissoes](https://cloud.githubusercontent.com/assets/26389485/24098711/b087edd0-0d4a-11e7-96f5-beb9c8cd3a7e.png)
+
 Administradores podem: 
  - Criar uma nova entrada (registro) no formulário
  - Podem deletar registros
@@ -182,6 +189,8 @@ Se o form estiver com a opção "etapa de revisão" então após a finalização
 Desta forma o form passa para o estado **3=Aprovado**.
 
 ### Scripts
+
+![script](https://cloud.githubusercontent.com/assets/26389485/24098715/b0b7b92a-0d4a-11e7-9474-43cf4d673197.png)
 
 Os scripts do Mobile são feitos na linguagem Javascript.
 
