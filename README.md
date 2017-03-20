@@ -12,23 +12,8 @@ https://www.elipse.com.br/produto/elipse-mobile/
 - [Eventos](events.md)
 
 - [Páginas e Objetos de Página](pages.md)
-  - [Display](pages.md#display)
-  - [Display Link](pages.md#display-link)
-  - [Toggle](pages.md#toggle)
-  - [Pulser](pages.md#pulser)
-  - [Setpoint](pages.md#setpoint)
-  - [Page Link](pages.md#page-link)
-  - [Commands](pages.md#commands)
-    - [Zonas](pages.md#zonas)
-    - [Comandos](pages.md#comandos)    
-  - [Form](pages.md#form)
-  - [Chart](pages.md#chart)
-  - [Group](pages.md#group)
 
 - [Usuários](users.md)
-  - [Mobile](users.md#mobile)
-  - [LDAP](users.md#ldap)
-  - [Grupo](users.md#grupo)
    
 - [Conexões](connections.md)
   - [Elipse E3](connections.md#e3)
