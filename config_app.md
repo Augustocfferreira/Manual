@@ -2,6 +2,9 @@
 
 Na aba de configurações do Elipse Mobile é possível configurar o servidor LDAP para autenticação externa de usuários e a configuração de um servidor de emails SMTP.
 
+  - [Autenticação externa de usuários](config_app.md#autenticação-externa-de-usuários)
+  - [Servidor de e-mails](config_app.md#servidor-de-e-mails)
+
 ## Autenticação externa de usuários
 
 LDAP (Lightweight Directory Access Protoco) é um protocolo independente de fabricante que permite compartilhar informações sobre sistemas, usuários etc.
