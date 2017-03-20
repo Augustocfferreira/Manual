@@ -1,7 +1,7 @@
 # Introdução
   Desenvolvido pela Elipse Software, o Elipse Mobile é uma solução móvel para integração com sistemas de automação (SCADA) que possibilita monitorar indicadores e comandar equipamentos do processo através de um smartphone ou tablet.
   
-  [Voltar ao Menu Inicial](https://elipsemobile.github.io/Manual/)
+[![home](https://cloud.githubusercontent.com/assets/26389485/24109075/5b23d236-0d6e-11e7-95e5-3dd9bfab5461.png)](https://elipsemobile.github.io/Manual/)
   
 ## Arquitetura
   
