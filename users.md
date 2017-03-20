@@ -2,6 +2,10 @@
 
 Dentro da página de usuários, é possível gerenciar todos os usuários da aplicação.
 
+  - [Mobile](users.md#mobile)
+  - [LDAP](users.md#ldap)
+  - [Grupo](users.md#grupo)
+
 ## Criação de usuários
 
 ### Mobile
