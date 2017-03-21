@@ -18,7 +18,7 @@ Os seguintes objetos podem ser inseridos em uma Página:
 * [Page Link](#page-link)
 * [Commands](#commands)
 * [Form](#form)
-<* [Chart](#chart)>
+* [Chart](#chart)
 * [Group](#group)
 
 ## Display
@@ -198,9 +198,9 @@ O Commands permite criar uma lista de comandos a serem realizados de acordo com 
 | Formulário    | Formulário que será mostrado |
 | Altura   | Quantos quadros de altura serão utilizados para a visualização |
   
-<## Chart>
+## Chart
   
-  <Lançamento previsto para a versão 1.5.>
+  Lançamento previsto para a versão 1.5.
   
 ## Group
 
