@@ -1,3 +1,5 @@
+[Índice](README.md#manual-elipse-mobile)
+
 # Conexões
 
   As conexões servem de caminho entre as fontes de dados (E3, servidor OPC, EPM, Arduino) e os objetos que estarão na tela para monitoramento e controle.
@@ -12,13 +14,8 @@
   - [Demo](connections.md#demo)
   - [Form](connections.md#form)  
     - [Conceitos](connections.md#conceitos)  
-      - [Tipos de Campos](connections.md#tipos-de-campos)  
-      - [Fase de Revisão](connections.md#fase-de-revisão)  
-      - [Permissões](connections.md#permissões)  
     - [Fluxo de edição do Form](connections.md#fluxo-de-edição-do-form)  
     - [Scripts](connections.md#scripts)  
-      - [Script para criar um Form de acordo com o dia da semana](connections.md#script-para-criar-um-form-de-acordo-com-o-dia-da-semana)  
-      - [Script no evento de modificação do Form](connections.md#script-no-evento-de-modificação-do-form)  
     - [Modo Offline](connections.md#modo-offline)      
   - [EPM (OPCA UA)](connections.md#epm-opca-ua#epm-opca-ua)
   
@@ -49,6 +46,8 @@
 | User    | Usuário       |
 | Password  | Senha       |
 
+[Voltar para o topo](connections.md)
+
 ## Elipse SCADA
 
 ![scada](https://cloud.githubusercontent.com/assets/26389485/24060038/3726fee8-0b30-11e7-8d1e-ec47f2ec382f.png)
@@ -57,6 +56,8 @@
 | -------------   | ------------- |
 | Nome    | Nome da conexão  |
 | Servidor    | Nome da máquina com o Servidor SCADA OPC |
+
+[Voltar para o topo](connections.md)
 
 ## OPC-DA
 
@@ -69,6 +70,8 @@
 | Nome    | Nome da conexão  |
 | OPC Server program ID    |  ID do Servidor OPC  |
 | Servidor    | Nome da máquina com o Servidor OPC |
+
+[Voltar para o topo](connections.md)
   
 
 ## Arduino
@@ -84,6 +87,8 @@
   
   
   Veja a página [Elipse Mobile Arduino](https://github.com/elipsemobile/arduino#elipse-mobile-arduino) para maiores informações.
+  
+ [Voltar para o topo](connections.md)
 
 ## Demo
 
@@ -102,6 +107,8 @@
 | TagDemoRamp1  | Rampa de subida 0 - 100|
 | TagDemoRamp2  | Rampa de subida 5 - 10|
 | TagDemoRamp3  | Rampa de subida 20 - 30|
+
+[Voltar para o topo](connections.md)
 
 ## Form
 
@@ -219,7 +226,7 @@ Existe vasta documentação na web, por exemplo:
 https://www.w3schools.com/jsref/default.asp
 
 
-## Script de agendamento de criação de forms
+#### Script de agendamento de criação de forms
 
 Menu -> Eventos -> + -> Script
 
@@ -336,6 +343,8 @@ No modo offline o usuário pode editar os formularios que estão atribuídos par
 
 Quando ele voltar ao modo online, as alterações dos formulários serão enviadas para o servidor.
 
+[Voltar para o topo](connections.md)
+
 ## EPM (OPCA UA)
 
 ![ua](https://cloud.githubusercontent.com/assets/26389485/24060043/373b5e06-0b30-11e7-9029-ff3ec91bc257.png)
@@ -347,3 +356,5 @@ Quando ele voltar ao modo online, as alterações dos formulários serão enviad
 | Server    | Nome da máquina com E3 Server |
 | User    | Usuário       |
 | Password  | Senha       |
+
+[Voltar para o topo](connections.md)
