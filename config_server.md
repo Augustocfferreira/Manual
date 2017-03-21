@@ -27,18 +27,24 @@
 ![https](https://cloud.githubusercontent.com/assets/26389485/24041733/7e885a18-0aed-11e7-9e13-7566b0588783.png)
 
   No ítem HTTPS, é possível habilitar as conexões seguras e importar a chave e o certificado de segurança da conexão.
+  
+  [Voltar para o topo](config_server.md)
 
 ## Portas
 
 ![ports](https://cloud.githubusercontent.com/assets/26389485/24041423/253f83ba-0aec-11e7-89f1-16751c4e3b34.png)
 
   As portas utilizadas pelo Elipse Mobile Server podem ser configuradas manualmente no ítem Ports. Por padrão, a configuração HTTP estará em 80 e a HTTPs em 443. Podendo ser alterado para qualquer outra porta disponível no Windows.
+  
+  [Voltar para o topo](config_server.md)
 
 ## Versionamento
 
 ![sobre](https://cloud.githubusercontent.com/assets/26389485/24041421/2511f3f0-0aec-11e7-841c-d968735f8f74.png)
 
   Na aba *About* da configuração do Elipse Mobile Sever, é possível ver a versão em que se encontra o mesmo.
+  
+  [Voltar para o topo](config_server.md)
   
 ## Configuração de Firewall
 
