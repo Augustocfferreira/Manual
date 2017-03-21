@@ -1,3 +1,5 @@
+[Índice](README.md#manual-elipse-mobile)
+
 # Configurações do Aplicativo
 
 Na aba de configurações do Elipse Mobile é possível configurar o servidor LDAP para autenticação externa de usuários e a configuração de um servidor de emails SMTP.
@@ -41,3 +43,5 @@ Este usuário também vai ter acesso direto ao computador, e pode optar por evit
 ![smtp_gmail](https://cloud.githubusercontent.com/assets/26389485/23870246/99d9a56a-0804-11e7-8396-f8da5003b032.png)
 
   Após esta configuração, já é possível configurar eventos de envio de email. Para mais informações [clique aqui.](events.md#email)
+  
+  [Voltar para o topo](config_app.md)
