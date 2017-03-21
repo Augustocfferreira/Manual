@@ -37,6 +37,8 @@ O display é um objeto para exibição de valores, para configurá-lo deve-se pr
 | Sufixo  | String que aparecerá ao lado do valor do tag |
 | Decimais  | Número de casas decimais do valor|
 
+[Voltar para o topo](pages.md)
+
 ## Display Link
 
 O Display Link é um objeto que possui as mesmas funcionalidades do display e também a função de mudança de página. Para trabalhar com ele é necessário executar as seguintes configurações:
@@ -57,6 +59,8 @@ O Display Link é um objeto que possui as mesmas funcionalidades do display e ta
 | Decimais  | Número de casas decimais do valor|
 | Nome da Página  | Seleção da página a ser aberta |
 
+[Voltar para o topo](pages.md)
+
 ## Toggle
 
 O objeto Toggle tem a funcionalidade de realizar escritas persistentes de dois valores em um tag. Para utiliza-lo deve-se configurar suas propriedades da seguinte forma:
@@ -76,6 +80,8 @@ O objeto Toggle tem a funcionalidade de realizar escritas persistentes de dois v
 | Valor OFF  | Valor que é intepretado como falso |
 | Texto OFF  | Texto que é visualizado quando falso |
 | Imagem OFF  | Imagem que é visualizada quando falso |
+
+[Voltar para o topo](pages.md)
   
 ## Pulser
   
@@ -100,6 +106,8 @@ O Pulser permite realizar escritas quando a condição base é atendida. A escri
 | Valor positivo  | Valor a ser escrito caso o tag de leitura esteja com o mesmo valor configurado no campo valor base |
 | Pedir confirmação antes da alteração  | Habilita uma confirmação do valor antes da escrita |  
 
+[Voltar para o topo](pages.md)
+
 ## Setpoint
 
 O Setpoint permite realizar escrita de valores no tag. A escrita ela pode ser realizada escrevendo o valor desejado diretamente no campo de valor, ou através dos botões de incremento (setas nas extremidades do valor). Para configurá-lo deve-se fazer da seguinte maneira:
@@ -118,6 +126,7 @@ O Setpoint permite realizar escrita de valores no tag. A escrita ela pode ser re
 | Sufixo  | String que aparecerá ao lado do valor do tag |
 | Decimais  | Número de casas decimais do valor|
 
+[Voltar para o topo](pages.md)
 
 ## Page Link
 
@@ -134,6 +143,8 @@ O Page Link é um objeto que a funcionalidade de mudança de página. Para traba
 | Cor    | Definição de cor do Page Link |
 | Imagem  | Imagem a ser exibida ao lado do valor |
 | Nome da Página  | Seleção da página a ser aberta |
+
+[Voltar para o topo](pages.md)
   
 ## Commands
 
@@ -154,6 +165,8 @@ O Commands permite criar uma lista de comandos a serem realizados de acordo com 
 | Tag leitura  | Tag referência para o estado atual do equipamento que será comandado |
 | Tag escrita  | Tag que receberá o valor do comando selecionado pelo usuário |
 
+[Voltar para o topo](pages.md)
+
 ### Zonas
 
 ![zonas](https://cloud.githubusercontent.com/assets/26389485/23994552/2594fc78-0a24-11e7-8eb5-d27cb460e179.png)
@@ -170,6 +183,8 @@ O Commands permite criar uma lista de comandos a serem realizados de acordo com 
 | -------------   | ------------- |
 | Texto    | Texto a ser exibido de acordo com o valor configurado no campo **Condição para exibir** |
 | Condição para exibir    | Valor para que o texto configurado acima seja exibido. Value é o valor do tag leitura |
+
+[Voltar para o topo](pages.md)
 
 ### Comandos
 
@@ -188,6 +203,8 @@ O Commands permite criar uma lista de comandos a serem realizados de acordo com 
 | Texto    | Texto com o nome do comando a ser exibido na janela de comando |
 | Condição para exibir    | Condição para que este comando seja exibido na lista de comandos |
 | Valor para escrita    | Valor a ser escrito quando utilizado este comando|
+
+[Voltar para o topo](pages.md)
   
 ## Form
   Mostra um Form.
@@ -197,6 +214,8 @@ O Commands permite criar uma lista de comandos a serem realizados de acordo com 
 | Título    | Título visível no topo do objeto|
 | Formulário    | Formulário que será mostrado |
 | Altura   | Quantos quadros de altura serão utilizados para a visualização |
+
+[Voltar para o topo](pages.md)
   
 ## Chart
   
