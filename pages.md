@@ -1,3 +1,5 @@
+[Índice](README.md#manual-elipse-mobile)
+
 # Páginas
 
 Dentro da aba Páginas, é possível gerenciar as páginas criadas na aplicação, criar mais páginas e até mesmo gerar QRCodes para fazer um acesso mais rápido pelo aplicativo.
@@ -204,3 +206,4 @@ O Group permite criar uma divisão de objetos dentro de uma página. Para utiliz
   
   ![group](https://cloud.githubusercontent.com/assets/26389485/23960371/9a654c0e-0986-11e7-8a57-c6879b868fcd.jpg)
 
+[Voltar para o topo](pages.md)
