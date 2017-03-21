@@ -1,3 +1,5 @@
+[Índice](README.md#manual-elipse-mobile)
+
 # Referência de Scripts
 
   Os Scripts são módulos de linguagem de programação nos quais se pode criar procedimentos associados a eventos específicos, permitindo uma maior flexibilidade no desenvolvimento de aplicações.
@@ -28,6 +30,8 @@ SendMail("a", "Dia de preencher form", "message",
  function (er) 
  {});
 ```
+
+[Voltar para o topo](scripts.md)
  
  ## WriteForm
   Escrita
@@ -49,7 +53,7 @@ SendMail("a", "Dia de preencher form", "message",
  function(er)
  {});
  ```
- 
+ [Voltar para o topo](scripts.md)
 
 ## WriteTag 
 Escrita somente do valor no tag.
@@ -71,6 +75,8 @@ function (er){});
 ```
 Escrevendo no tag interno 3, o valor 15.
 
+[Voltar para o topo](scripts.md)
+
 ## WriteTagEx 
 Escrita com timestamp e qualidade.
 
@@ -91,3 +97,4 @@ Exemplo:
 WriteTagEx("e3:Data.InternalTag1", 2, new Date().getTime(), 0,
 function (er){ });
 ```
+[Voltar para o topo](scripts.md)
