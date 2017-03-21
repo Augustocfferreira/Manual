@@ -12,9 +12,9 @@ A instalação do Elipse Mobile se divide em duas partes: Server (para o servido
     - [Navegador](install.md#navegador)
 
  
- ## Server
+## Server
  
- ### Requerimentos Mínimos
+### Requerimentos Mínimos
  
  Para executar o Elipse Mobile Server exige-se um computador com a seguinte configuração:
 
@@ -23,7 +23,7 @@ A instalação do Elipse Mobile se divide em duas partes: Server (para o servido
 * 4 GB de espaço em disco rígido
 * Windows XP SP3 ou superior
  
- ### Instalador
+### Instalador
  
  Para se fazer a instalação, faça o download da última versão do Elipse Mobile [neste link.](https://www.elipse.com.br/downloads/?cat=64&key=&language=ptbr)
  
