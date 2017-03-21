@@ -1,9 +1,20 @@
 # Notas de Versão
 
-- [Versão 1.1](releasenotes.md#versão-11)
-- [Versão 1.2](releasenotes.md#versão-12)
+- [Versão 1.3](releasenotes.md#versão-14)
 - [Versão 1.3](releasenotes.md#versão-13)
+- [Versão 1.2](releasenotes.md#versão-12)
+- [Versão 1.1](releasenotes.md#versão-11)
 
+
+## Versão 1.4
+- Conexão de dados com EPM via OPC-UA  
+- Grupos de usuários
+- Conexão nativa com E3 atualizada
+- Eventos de script no servidor
+- Forms
+- Permissões de usuários por tela
+- Atualizações de segurança
+- Correções
 
 ## Versão 1.3
 
