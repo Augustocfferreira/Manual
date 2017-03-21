@@ -1,11 +1,7 @@
 # Índice
 
-
-
-
 Site oficial: [https://www.elipse.com.br/produto/elipse-mobile](https://www.elipse.com.br/produto/elipse-mobile/)
 
-[Site oficial](https://www.elipse.com.br/produto/elipse-mobile/)
 
 - [Introdução](intro.md)
 
