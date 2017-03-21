@@ -1,6 +1,9 @@
+[Índice](README.md#manual-elipse-mobile)
+
 # Usuários
 
-Dentro da página de usuários, é possível gerenciar os usuários da aplicação.
+Dentro da página de usuários, é possível gerenciar os usuários da aplicação. Os mesmos podem ser do tipo [Mobile](users.md#mobile), com autenticação interna, ou [LDAP](users.md#ldap), com autenticação externa. Para a organização e configuração, pode-se utilizar os [Grupos](users.md#grupo).
+
   - [Mobile](users.md#mobile)
   - [LDAP](users.md#ldap)
   - [Grupo](users.md#grupo)
@@ -50,3 +53,4 @@ O objeto grupo define permissões que são herdadas por todos os usuários que p
 ## Pemirssões herdadas
 Quando um usário pertence a um grupo, as características positivas são herdadas para o usuário pertencente aquele grupo.
 
+[Voltar para o topo](users.md)
