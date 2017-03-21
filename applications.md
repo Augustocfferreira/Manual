@@ -1,4 +1,8 @@
+[Índice](README.md#manual-elipse-mobile)
+
 # Aplicações
+
+(*Esta opção só está disponível ao usuário administrador do sistema.*)
 
 O Elipse Mobile permite a criação de múltiplas aplicação dentro da mesma instalação, porém só é permitida a execução de um por vez.
 Na aba **Aplicações** é possível visualizar as aplicações disponíveis e gerenciar as mesmas.
@@ -20,3 +24,5 @@ Ao rodar uma aplicação, a aplicação que estava rodando antes será parada e 
 ![apagar2](https://cloud.githubusercontent.com/assets/26389485/24014049/349dc1d0-0a62-11e7-89ee-597d04e3ceae.png)
 
 Ao apagar uma aplicação, todo o diretório da aplicação é apagado e não será possível recuperar a mesma.
+
+[Voltar para o topo](applications.md)
