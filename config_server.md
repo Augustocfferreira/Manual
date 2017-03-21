@@ -1,3 +1,5 @@
+[Índice](README.md#manual-elipse-mobile)
+
 # Configurações do Servidor
 
    - [Usuário Administrador do Sistema](config_server.md#usuário-administrador-do-sistema)
@@ -73,3 +75,5 @@ Clique em Inbound Rules.
 ![7](https://cloud.githubusercontent.com/assets/26389485/23995620/333cae3e-0a29-11e7-9b00-84139df331f2.png)
 
 Nesta lista aparece a regra Elipse Mobile Server que contém a configuração de portas.
+
+[Voltar para o topo](config_server.md)
