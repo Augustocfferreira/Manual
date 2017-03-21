@@ -1,3 +1,5 @@
+[Índice](README.md#manual-elipse-mobile)
+
 # Notas de Versão
 
 - [Versão 1.4](releasenotes.md#versão-14)
@@ -23,6 +25,8 @@
 - Novo controle Commands: um controle que permite criar uma lista dinâmica de opções;
 - Edição no cliente: é possível editar as aplicações através dos aplicativos dos dispositivos móveis.
 - A conexão arduino remota, só está disponível no servidor online.
+
+[Voltar para o topo](releasenotes.md)
 
 ## Versão 1.2
 
@@ -52,6 +56,8 @@ Client Android
 - Separados os menus Sobre e Configurações
 - Alterado tela de login para ficar mais uniforme com outros clientes
 
+[Voltar para o topo](releasenotes.md)
+
 ## Versão 1.1
 
 **Novidades:**
@@ -75,3 +81,5 @@ Client Android
 - Outros pequenos bugs corrigidos no editor.
 
 - Corrido problema no login LDAP via HTTPs
+
+[Voltar para o topo](releasenotes.md)
