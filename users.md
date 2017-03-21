@@ -25,7 +25,7 @@ O usuário Mobile é o usuário que é autenticado pelo Elipse Mobile Server.
 | Repetir senha  | Senha a ser cadastrada par o usuário |
 
 
-### LDAP
+### LDAP (Autenticação Externa)
 
 ![ldap_user](https://cloud.githubusercontent.com/assets/26389485/24060967/4d8f3fa2-0b34-11e7-8707-601f228da09b.png)
 
