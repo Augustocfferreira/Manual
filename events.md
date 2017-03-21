@@ -1,8 +1,9 @@
+[Índice](README.md#manual-elipse-mobile)
+
 # Eventos
 
 Os eventos do Elipse Mobile possibilitam enviar emails e gerenciar ações para que decisões sejam tomadas pelo próprio servidor quando as condições dos eventos forem satisfeitas.
 
-  - [Condição](events.md#condição)
   - [Email](events.md#email)
   - [Script](events.md#script)
 
@@ -31,3 +32,5 @@ Permite que o servidor execute uma ou mais instruções ao validar a condição 
 	Após configurada a condição, já é possível escrever o script que será executado.
 
 *Para mais informações, consulte o capítulo [Referência de Scritps.](scripts.md)*
+
+[Voltar para o topo](events.md)
