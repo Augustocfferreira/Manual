@@ -49,7 +49,7 @@ O objeto grupo define permissões que são herdadas por todos os usuários que p
 | Acesso de escrita  | Se o usário não é adminitrador, ele pode ter um acesso somente leitura de tags ou leitura e escrita se esta opção estiver marcada|
 | Dispositivo único  | Quando a opção Dispositivo único é marcada na criação do usuário, significa que ele só poderá acessar o Elipse Mobile através de um mesmo aparelho de celular. O primeiro login deste usuário vai determinar o dispositivo que ele poderá usar. Caso seja feito login no browser ou outro celular vai aparecer o seguinte erro: "This device is not registed for this user."|
   
-## Pemirssões herdadas
+## Permissões herdadas
 Quando um usário pertence a um grupo, as características positivas são herdadas para o usuário pertencente aquele grupo.
 
 [Voltar para o topo](users.md)
