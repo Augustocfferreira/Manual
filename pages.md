@@ -200,6 +200,8 @@ O Commands permite criar uma lista de comandos a serem realizados de acordo com 
   
 ## Chart
   
+  Lançamento previsto para a versão 1.5.
+  
 ## Group
 
 O Group permite criar uma divisão de objetos dentro de uma página. Para utilizá-lo deve-se configurar da seguinte forma:
