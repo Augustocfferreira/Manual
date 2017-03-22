@@ -125,16 +125,16 @@ Estes formulários podem ser usados como pequenos bancos de dados e também para
 
 Um formulário ou form é a representação de uma folha com respostas.
 No servidor Mobile se encontra a definição do modelo de form e o armazenamento das respostas preenchidas.
-Um formulário também pode ser visto como uma tabela de banco de dados aonde cada linha representa um formulário e cada coluna a pergunta deste formulário.
 
 No Mobile as repostas possuem campos pré-definidos e um estado que controla o fluxo de edição.
 Ao ser criado o form nasce com o estado **pendente**, que significa que ele deve ser preenchido por alguém.
 
 Cada definição de form possui uma configuração de usuários administradores ou apenas usuários.
-Os administradores são aqueles que podem criar novas entradas no banco (criar um form novo) e usuário são aqueles que somentem podem preencher o form, mas não podem deletar ou criar uma formulário novo.
+Os administradores são aqueles que podem criar uma nova entrada (criar um form novo) e usuário são aqueles que somentem podem preencher o form, mas não podem deletar ou criar uma formulário novo.
 
 Quando o form é criado e está pendente, qualquer usuário (grupo) do formulário pode atribuir a tarefa de preencher o formulário para si.
-Sendo assim o form entra no estado **atribuído para alguém**. Neste estado outros usuários não poderão editar este form. Isso evita que ele seja preenchido por mais de uma pessoa ao mesmo tempo.
+Sendo assim, o form entra no estado **atribuído para alguém**. Neste estado outros usuários não poderão editar este form.
+Isso evita que ele seja preenchido por mais de uma pessoa ao mesmo tempo.
 
 O modelo de preenchimento offline também se baseia neste conceito de atribuição.
 Quando um usuário decide ir offline para fazer uma coleta todos os formulários que estão atribuídos para ele são armazenados no dipositivo móvel.
