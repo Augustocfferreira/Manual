@@ -26,7 +26,7 @@ Parâmetros:
 Exemplo:
  
 ```js
-SendMail("a", "Dia de preencher form", "message",
+SendMail("usuario1;usuario2", "Dia de preencher form", "message",
  function (er) 
  {});
 ```
