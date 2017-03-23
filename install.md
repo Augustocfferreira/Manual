@@ -1,5 +1,7 @@
 [Índice](README.md#manual-elipse-mobile)
 
+________________________________________
+
 # Instalação
 
 A instalação do Elipse Mobile se divide em dois módulos: Server (para o servidor da aplicação) e Client (para a visualização através de smartphones, tablets ou pc).
