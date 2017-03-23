@@ -2,7 +2,7 @@
 
 # Páginas
 
-Dentro do menu *Páginas*, é possível gerenciar as páginas criadas na aplicação, criar mais páginas e até mesmo gerar QRCodes para fazer um acesso mais rápido pelo aplicativo.
+Dentro do menu *Páginas*, é possível gerenciar as páginas da aplicação, criar mais páginas e até mesmo gerar QRCodes para fazer um acesso mais rápido pelo aplicativo.
 
 Também é possível configurar as permissões de usuários ao acesso das páginas. Para maiores informações, veja o capítulo de [Usuários](users.md).
 
