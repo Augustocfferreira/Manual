@@ -176,7 +176,7 @@ Esta etapa pode ser feita apenas pelos administradores do form e correspende a a
 | -------------   | ------------- |
 | Texto    | Texto a ser exibido para o usuário no preenchimento do formulário |
 | Nome    | Texto para identificar o campo |
-| Tipo    | Ver ítem [Tipos de Campo](#tipo_de_campo) |
+| Tipo    | Ver ítem [Tipo de Campo](#tipo_de_campo) |
 | Reservado para administradores    | Reserva o campo para que apenas administradores deste formulário consigam responder |
 
 ##### Tipo de campo
