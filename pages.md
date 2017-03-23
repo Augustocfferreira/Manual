@@ -8,7 +8,7 @@ No ítem *Permissões* é possível configurar quais usuários terão acesso à 
 
 # Objetos de Página
 
-Em cada Página são inseridos objetos que compõem a interface do operador com o sistema, chamados Objetos de Página.
+Em cada página são inseridos objetos que compõem a interface do operador com o sistema, chamados Objetos de Página.
 Os seguintes objetos podem ser inseridos em uma Página:
 * [Display](#display)
 * [Display Link](#display-link)
