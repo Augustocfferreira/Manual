@@ -368,7 +368,7 @@ Desta forma o form passa para o estado **3=Aprovado**.
 
 ______________________________________
 
-### Modo OffLine
+### Modo Offline
 
 Quando o usuário entra no modo offline, é feito uma cópia de todas as páginas do servidor para o celular. 
 Além das páginas, todos os forms atribuídos para o usuário serão copiados.
