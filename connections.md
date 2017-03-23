@@ -308,7 +308,7 @@ Exemplo:
 function OnChange(args)
 {
   //Se estado for 2 então é aprovado
-  if (args._state == 2/*aprovado*/)
+  if (args._state == 2/*Finalizado*/)
   {
      WriteTag("demo:TagInternal1", 
               args.campo.toString(),
