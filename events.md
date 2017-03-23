@@ -19,7 +19,7 @@ Exemplos:
 
 ## Email
 
-O mesmo permite enviar um ou mais emails para um usuário ou grupo de usuários quando a do evento condição ser verdadeira. Porém, primeiramente é necessário fazer a [configuração do servidor de email](config.md#servidor-de-e-mails), para depois ser possível configurar um evento de envio de emails. 
+O mesmo permite enviar um ou mais emails para um usuário ou grupo de usuários quando a condição do evento ser satisfeita. Porém, primeiramente é necessário fazer a [configuração do servidor de email](config.md#servidor-de-e-mails), para depois ser possível configurar um evento de envio de emails. 
 
 Após a configuração do servidor, basta configurar a condição de envio, selecionar para qual usuário será enviado (podendo selecionar um grupo para o envio coletivo)  e escrever o assunto e mensagem a ser enviada.
 
