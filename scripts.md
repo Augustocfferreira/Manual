@@ -33,7 +33,7 @@ SendMail("usuario1;usuario2", "Dia de preencher form", "message",
 
 [Voltar para o topo](scripts.md)
  
- ## WriteForm
+## WriteForm
   Escrita
  
  ```js
