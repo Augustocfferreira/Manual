@@ -44,10 +44,7 @@ Módulo de visualização e de gerência e edição de aplicações.
   
 ### Navegador
 
-  Caso não seja possível acessar com o aplicativo disponível nas lojas, é possível acessar via navegador, tanto nos dispositivos móveis como em qualquer computador.
-  
-  A sintaxe correta para o acesso é http://IP_DO_SERVIDOR:PORTA/. Exemplo: http://127.1.1.1:8080/.
-  Podendo ser acessado pelo nome da máquina servidora na rede. http://Nome_da_Maquina:Porta/. Exemplo: http://localhost:8080/.
+  Apesar do Elipse Mobile ter sido desenvolvido para aplicações móveis, é possível fazer o acesso à aplicação via navegador através do caminho http://IP_DO_SERVIDOR:PORTA/. Exemplo: http://127.1.1.1:8080/. Podendo ser acessado pelo nome da máquina servidora na rede. http://Nome_da_Maquina:Porta/. Exemplo: http://localhost:8080/.
   
   *A porta padrão utilizada pelo Elipse Mobile Server é a 8080. Para alterar, consute o capítulo [Configuração Elipse Mobile Server.](config_server.md#portas)*
   
@@ -68,5 +65,8 @@ Módulo de visualização e de gerência e edição de aplicações.
    *[Link para download](https://www.microsoft.com/pt-br/store/p/elipse-mobile/9wzdncrdh16c)*
 
 ![qr_code_wp](https://cloud.githubusercontent.com/assets/26389485/23900999/188d8986-089a-11e7-95c9-4b7bdbb491c6.png)
+
+### Gerenciador e editor de aplicações
+  O editor de aplicações está diponível em todas as plataformas para todos os usuários administradores do **aplicativo**. Já o gerenciador de aplicações só está disponível para o usuário administrador do **sistema**, aquele que é configurado no primeiro acesso ao aplicativo.
 
 [Voltar para o topo](install.md)
