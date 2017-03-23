@@ -176,10 +176,10 @@ Entre com o nome do formulário:
  Usado para fazer a separação de perguntas no form. Não salva nada no banco de dados.
  
  * Imagem estática
- Usado para colocar uma imagem de auxílio entre as perguntas do form. Não salva nada no banco de dados.
+  Usado para colocar uma imagem de auxílio entre as perguntas do form. Não salva nada no banco de dados.
  
  * Data
-Entrada de uma data.
+  Entrada de uma data.
 
 #### Fase de revisão 
 
@@ -224,7 +224,7 @@ Existe vasta documentação na web, por exemplo:
 https://www.w3schools.com/jsref/default.asp
 
 
-#### Script de agendamento de criação de forms
+* Exemplo de agendamento de criação de forms
 
 Menu -> Eventos -> + -> Script
 
@@ -258,7 +258,7 @@ WriteNode("form:",
 
 ```
 
-#### Script para criar um form de acordo com o dia da semana
+* Exemplo de como criar um form de acordo com o dia da semana
 
 ```
 Condição:  ValueOf("demo:_now") && (new Date().getDay() == 1)
@@ -289,7 +289,7 @@ Quando a condição for para false não acontece nada.
 
 
 
-### Script no evento de modificação do form
+* Exemplo de script de modificação do form
 
 Quando uma resposta é criada/edita, um evento de script de é chamado no lado do servidor.
 
@@ -317,7 +317,7 @@ function OnChange(form)
 
 ```
 
-args.campo é o nome dado ao campo do formulário.
+form.campo é o nome dado ao campo do formulário.
 
 Além dos campos definidos pelo usuário existe campos pré-definidos e reservados.
 
