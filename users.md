@@ -6,7 +6,7 @@ Dentro da página de usuários, é possível gerenciar os usuários da aplicaç�
 
 ## Usuário Administrador do Sistema
 
-Usuário este que é configurado no primeiro acesso ao sistema, o mesmo permite criar, parar/rodar e apagar as aplicações do sistema ([Veja o capítulo Aplicações](applications.md)).
+Usuário este que é configurado no primeiro acesso ao sistema, o mesmo permite criar, parar/rodar e apagar as aplicações do sistema. Para mais informações, [clique aqui.](applications.md).
 Para alterar o usuário ou a senha do administrador do sistema, veja o capítulo [Configuração do Servidor](config_server.md#usuário-administrador-do-sistema).
 
 ## Criação de usuários
