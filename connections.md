@@ -1,5 +1,7 @@
 [Índice](README.md#manual-elipse-mobile)
 
+________________________________________
+
 # Conexões
 
   As conexões servem de caminho entre as fontes de dados (E3, servidor OPC, EPM, Arduino) e os objetos que estarão na tela para monitoramento e controle.
@@ -18,10 +20,14 @@
     - [Scripts](connections.md#scripts)  
     - [Modo Offline](connections.md#modo-offline)      
   - [EPM (OPCA UA)](connections.md#epm-opca-ua#epm-opca-ua)
+  
+________________________________________
 
 ## Elipse E3
 
   A conexão com o Elipse E3 pode se dar de duas formas, via OPC-DA, onde o Elipse Mobile interpreta o E3 como qualquer outro servidor OPC ou com a conexão E3 nativa presente no Mobile, o que possibilita uma resposta melhor em função da conexão não se dar pela DCOM do Windows.
+  
+_______________________________________
   
 ### E3 OPC-DA
 
@@ -32,6 +38,7 @@
 | Nome    | Nome da conexão  |
 | Servidor    | Nome da máquina com o Servidor E3 OPC |
 
+____________________________________________
   
 ### E3 Nativo
 
@@ -45,6 +52,8 @@
 | Password  | Senha       |
 
 [Voltar para o topo](connections.md)
+
+______________________________________
 
 ## Elipse SCADA
 
@@ -70,7 +79,8 @@
 | Servidor    | Nome da máquina com o Servidor OPC |
 
 [Voltar para o topo](connections.md)
-  
+
+_____________________________________________
 
 ## Arduino
 
@@ -87,6 +97,8 @@
   Veja a página [Elipse Mobile Arduino](https://github.com/elipsemobile/arduino#elipse-mobile-arduino) para maiores informações.
   
  [Voltar para o topo](connections.md)
+ 
+___________________________________
 
 ## Demo
 
@@ -108,6 +120,8 @@
 
 [Voltar para o topo](connections.md)
 
+_________________________________________
+
 ## Form
 
 ![form](https://cloud.githubusercontent.com/assets/26389485/24060042/37392780-0b30-11e7-82f9-0d982123aa72.png)
@@ -118,6 +132,8 @@ Estes formulários podem ser usados como pequenos bancos de dados e também para
  * Visão geral
  * Agendamento
  * Eventos e integração
+
+________________________________
 
 ### Conceitos
 
@@ -160,13 +176,13 @@ O objeto possui as seguintes opções em sua criação:
 
 #### Campos
 
-![campos](https://cloud.githubusercontent.com/assets/26389485/24098712/b0a03a34-0d4a-11e7-9bba-4e25e4c4f926.png)
-
+|------------------- | -------------------|
+| ![campos](https://cloud.githubusercontent.com/assets/26389485/24098712/b0a03a34-0d4a-11e7-9bba-4e25e4c4f926.png) | 
 | Propriedade    | Função  |
 | -------------   | ------------- |
 | ![adicionar](https://cloud.githubusercontent.com/assets/26389485/23994544/25604f46-0a24-11e7-993d-4fbd0352950f.png)    | Adiciona um novo campo |
 | ![editar](https://cloud.githubusercontent.com/assets/26389485/23994549/2585726c-0a24-11e7-8a27-c7a45e0394a7.png)    | Edita o campo selecionado na lista |
-| ![apagar](https://cloud.githubusercontent.com/assets/26389485/23994550/25916202-0a24-11e7-895c-28a6473c41e3.png)    | Apaga o campo selecionado na lista |
+| ![apagar](https://cloud.githubusercontent.com/assets/26389485/23994550/25916202-0a24-11e7-895c-28a6473c41e3.png)    | Apaga o campo selecionado na lista | |
 
 ##### Propriedades do campo
 
