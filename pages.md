@@ -41,10 +41,7 @@ O display é um objeto para exibição de valores, para configurá-lo deve-se pr
 
 ## Display Link
 
-O Display Link é um objeto que possui as mesmas funcionalidades do display e também a função de mudança de página. Para trabalhar com ele é necessário executar as seguintes configurações:
-  
-1.	Deve-se criar uma página que será aberta por este display link;
-2.	Configurar o display link da seguinte maneira:
+O Display Link é um objeto que possui as mesmas funcionalidades do display e também a função de mudança de página. Para trabalhar com o Display Link, deve-se preencher seus campos da seguinte forma:
   
   ![disp_link](https://cloud.githubusercontent.com/assets/26389485/23960367/9a509958-0986-11e7-9ed7-f9afa0041c2e.jpg)
   
@@ -57,7 +54,9 @@ O Display Link é um objeto que possui as mesmas funcionalidades do display e ta
 | Tag  | Tag que será coletado o valor a ser exibido |
 | Sufixo  | String que aparecerá ao lado do valor do tag |
 | Decimais  | Número de casas decimais do valor|
-| Nome da Página  | Seleção da página a ser aberta |
+| Nome da Página  | Seleção da página a ser aberta|
+
+(*Caso a página não exista, é possível selecionar [Nova página...] e o mesmo irá criar uma nova página com o nome desejado.)
 
 [Voltar para o topo](pages.md)
 
