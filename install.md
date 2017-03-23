@@ -12,6 +12,7 @@ A instalação do Elipse Mobile se divide em dois módulos: Server (para o servi
     - [Android](install.md#android)
     - [IOS](install.md#ios)
     - [Windows Phone](install.md#windows-phone)
+    - [Gerenciador e Editor de Aplicações](install.md#gerenciador-e-editor-de-aplicações)
     
 
 ## Server
