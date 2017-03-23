@@ -303,13 +303,13 @@ Exemplo:
 
 ```js
 
-function OnChange(args)
+function OnChange(form)
 {
-  //Se estado for 2 então é aprovado
-  if (args._state == 2/*Finalizado*/)
+  //Se estado for 2 então é finalizado
+  if (form.state == 2/*Finalizado*/)
   {
      WriteTag("demo:TagInternal1", 
-              args.campo.toString(),
+              form.fields.campo.value,
               function (er) { }
       );
   }
