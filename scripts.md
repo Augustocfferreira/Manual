@@ -13,7 +13,7 @@
 ## SendMail
   Envio de email.
 
-```TypeScript
+```js
 SendMail(users : string, subject : string, message : string, callback);
 ```
 Parâmetros:
@@ -25,7 +25,7 @@ Parâmetros:
 ```
 Exemplo:
  
-```TypeScript
+```js
 SendMail("usuario1;usuario2", "Dia de preencher form", "message",
  function (er) 
  {});
