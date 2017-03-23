@@ -197,7 +197,7 @@ O objeto possui as seguintes opções em sua criação:
 
 ### Scripts
 
-![script](https://cloud.githubusercontent.com/assets/26389485/24098715/b0b7b92a-0d4a-11e7-9474-43cf4d673197.png)
+![script_form](https://cloud.githubusercontent.com/assets/26389485/24263769/ebcb4a06-0fdc-11e7-8600-f94577ba4091.png)
 
 Os scripts do Mobile são feitos na linguagem Javascript.
 
