@@ -144,65 +144,57 @@ Depois da fase de edição existe a fase de finalização. Mesmo quando as repos
 Existe uma opção para o formulário que é **revisão**. Quando esta opção estiver marcada existe uma etapa extra após a finalização.
 Esta etapa pode ser feita apenas pelos administradores do form e correspende a aprovação da coleta de dados.
 
-Cada form do Elipse Mobile representa uma tabela.
+![form](https://cloud.githubusercontent.com/assets/26389485/24262909/550173fe-0fda-11e7-8a1f-934b5504a467.png)
 
-Para criar um form vá em _Menu -> Conexões -> "+" -> Form_
+| Propriedade    | Função  |
+| -------------   | ------------- |
+| Nome    | Nome do Form  |
+| Campos    | Ver ítem [Campos](#campos) |
+| Incluir fase de Revisão    | Esta opção faz com que exista uma fase adicional no fluxo do formário. |
+| Script  | Ver ítem [Script](#script)|
 
-Entre com o nome do formulário:
+|     |  Permissões  |
+| -------------   | ------------- |
+| Administradores  | Criar uma nova entrada (registro) no formulário; -Podem deletar registros; Editar campos reservados para Administradores; Aprovar/revisar respostas de formulários caso esta opção seja usada; As demais opções de usuários |
+| Usuários  | Responder formulários; Atribuir (levar para edição) um formulário para si mesmo; Desistir de preencher um formulário atruibuido para si mesmo|
+
+#### Campos
 
 ![campos](https://cloud.githubusercontent.com/assets/26389485/24098712/b0a03a34-0d4a-11e7-9bba-4e25e4c4f926.png)
 
-#### Tipos de campos
+| Propriedade    | Função  |
+| -------------   | ------------- |
+| ![adicionar](https://cloud.githubusercontent.com/assets/26389485/23994544/25604f46-0a24-11e7-993d-4fbd0352950f.png)    | Adiciona um novo campo |
+| ![editar](https://cloud.githubusercontent.com/assets/26389485/23994549/2585726c-0a24-11e7-8a27-c7a45e0394a7.png)    | Edita o campo selecionado na lista |
+| ![apagar](https://cloud.githubusercontent.com/assets/26389485/23994550/25916202-0a24-11e7-895c-28a6473c41e3.png)    | Apaga o campo selecionado na lista |
 
- * Número
- Para valores numéricos
- 
- * Texto Curto
- Para nomes, descrições
- 
- * Texto Longo
- Para anotações maiores, comentários
- 
- * Digital
- True/False
- 
- * Imagem
- Imagem enviada para o servidor
- 
- * QRCode
- Ativa a leitura de um qrcode
- 
- * Grupo
- Usado para fazer a separação de perguntas no form. Não salva nada no banco de dados.
- 
- * Imagem estática
-  Usado para colocar uma imagem de auxílio entre as perguntas do form. Não salva nada no banco de dados.
- 
- * Data
-  Entrada de uma data.
+##### Propriedades do campo
 
-#### Fase de revisão 
+![prop_campo](https://cloud.githubusercontent.com/assets/26389485/24262908/54e5d8b0-0fda-11e7-97a5-4ce87934c8cf.png)
 
-![fase_revisao](https://cloud.githubusercontent.com/assets/26389485/24098713/b0a39e36-0d4a-11e7-925a-a1323dc3b23f.png)
+| Propriedade    | Função  |
+| -------------   | ------------- |
+| Texto    | Texto a ser exibido para o usuário no preenchimento do formulário |
+| Nome    | Texto para identificar o campo |
+| Tipo    | Ver ítem [Tipos de Campo](#tipo_de_campo) |
+| Reservado para administradores    | Reserva o campo para que apenas administradores deste formulário consigam responder |
 
-Esta opção faz com que exista uma fase adicional no fluxo do formário.
+##### Tipo de campo
 
-#### Permissões
+![tipo_de_campo](https://cloud.githubusercontent.com/assets/26389485/24262975/82957554-0fda-11e7-9f5f-50b81610f5e9.png)
 
-![permissoes](https://cloud.githubusercontent.com/assets/26389485/24098711/b087edd0-0d4a-11e7-96f5-beb9c8cd3a7e.png)
+| Tipo    | Descrição  |
+| -------------   | ------------- |
+| Número    | Para valores numéricos |
+| Texto Curto   | Para nomes, descrições |
+| Texto Longo   | Para anotações maiores, comentários |
+| Digital   | True/False |
+| Imagem   | Imagem enviada para o servidor |
+| QRCode   | Ativa a leitura de um QRCode |
+| Grupo   | Usado para fazer a separação de perguntas no form. Não salva nada no banco de dados |
+| Imagem Estática   | Usado para colocar uma imagem de auxílio entre as perguntas do form. Não salva nada no banco de dados |
+| Data | Entrada de uma data|
 
-Administradores podem: 
- - Criar uma nova entrada (registro) no formulário
- - Podem deletar registros
- - Editar campos reservados para Administradores
- - Aprovar/revisar respostas de formulários caso esta opção seja usada
- - As demais opções de usuários
-
-Usuários podem:
- - Responder formulários
- - Atribuir (levar para edição) um formulário para si mesmo
- - Desistir de preencher um formulário atruibuido para si mesmo
- 
 ### Fluxo de edição do Form
 
 Ao ser criado o form se encontra o estado **0=pendente**.
