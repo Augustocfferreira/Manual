@@ -129,10 +129,8 @@ O Setpoint permite realizar escrita de valores no tag. A escrita ela pode ser re
 
 ## Page Link
 
-O Page Link é um objeto que a funcionalidade de mudança de página. Para trabalhar com ele é necessário executar as seguintes configurações:
-1.	Deve-se criar uma página que será aberta pelo Page Link;
-2.	Configurar o Page Link da seguinte maneira:
-  
+O Page Link é um objeto que a funcionalidade de mudança de página. Para configurá-lo deve-se fazer da seguinte maneira:
+
   ![page_link](https://cloud.githubusercontent.com/assets/26389485/23960373/9a717402-0986-11e7-90ce-adf27a484bee.jpg)
   
 | Propriedade    | Função  |
@@ -141,7 +139,9 @@ O Page Link é um objeto que a funcionalidade de mudança de página. Para traba
 | Subtítulo    | Subtítulo visível logo abaixo do título|
 | Cor    | Definição de cor do Page Link |
 | Imagem  | Imagem a ser exibida ao lado do valor |
-| Nome da Página  | Seleção da página a ser aberta |
+| Nome da Página  | Seleção da página a ser aberta¹|
+
+*¹Caso a página não exista, é possível selecionar [Nova página...] e o mesmo irá criar uma nova página com o nome desejado.*
 
 [Voltar para o topo](pages.md)
   
