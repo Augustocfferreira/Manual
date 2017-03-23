@@ -78,6 +78,6 @@ Módulo de visualização e de gerência e edição de aplicações.
 [Voltar para o topo](install.md)
 
 ### Gerenciador e editor de aplicações
-  O editor de aplicações está diponível em todas as plataformas para todos os usuários administradores do **aplicativo**. Já o gerenciador de aplicações só está disponível para o usuário administrador do **sistema**, aquele que é configurado no primeiro acesso ao aplicativo.
+  O editor de aplicações está diponível em todas as plataformas para todos os usuários administradores do **aplicativo**. Já o gerenciador de aplicações só está disponível para o usuário administrador do **sistema**, este que é configurado no primeiro acesso ao aplicativo.
 
 [Voltar para o topo](install.md)
