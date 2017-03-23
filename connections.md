@@ -144,6 +144,8 @@ Depois da fase de edição existe a fase de finalização. Mesmo quando as repos
 Existe uma opção para o formulário que é **revisão**. Quando esta opção estiver marcada existe uma etapa extra após a finalização.
 Esta etapa pode ser feita apenas pelos administradores do form e correspende a aprovação da coleta de dados.
 
+O objeto possui as seguintes opções em sua criação:
+
 | Propriedade    | Função  |
 | -------------   | ------------- |
 | Nome    | Nome do Form  |
