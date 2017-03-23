@@ -133,7 +133,10 @@ Estes formulários podem ser usados como pequenos bancos de dados e também para
  * Agendamento
  * Eventos e integração
 
-________________________________
+[Voltar para o topo](connections.md)
+
+______________________________________
+
 
 ### Conceitos
 
@@ -174,6 +177,10 @@ O objeto possui as seguintes opções em sua criação:
 | Administradores  | Criar uma nova entrada (registro) no formulário; -Podem deletar registros; Editar campos reservados para Administradores; Aprovar/revisar respostas de formulários caso esta opção seja usada; As demais opções de usuários |
 | Usuários  | Responder formulários; Atribuir (levar para edição) um formulário para si mesmo; Desistir de preencher um formulário atruibuido para si mesmo|
 
+[Voltar para o topo](connections.md)
+
+______________________________________
+
 #### Campos
 
 |------------------- | -------------------|
@@ -183,6 +190,10 @@ O objeto possui as seguintes opções em sua criação:
 | ![adicionar](https://cloud.githubusercontent.com/assets/26389485/23994544/25604f46-0a24-11e7-993d-4fbd0352950f.png)    | Adiciona um novo campo |
 | ![editar](https://cloud.githubusercontent.com/assets/26389485/23994549/2585726c-0a24-11e7-8a27-c7a45e0394a7.png)    | Edita o campo selecionado na lista |
 | ![apagar](https://cloud.githubusercontent.com/assets/26389485/23994550/25916202-0a24-11e7-895c-28a6473c41e3.png)    | Apaga o campo selecionado na lista | |
+
+[Voltar para o topo](connections.md)
+
+______________________________________
 
 ##### Propriedades do campo
 
@@ -194,6 +205,10 @@ O objeto possui as seguintes opções em sua criação:
 | Nome    | Texto para identificar o campo |
 | Tipo    | Ver ítem [Tipo de Campo](#tipo-de-campo) |
 | Reservado para administradores    | Reserva o campo para que apenas administradores deste formulário consigam responder |
+
+[Voltar para o topo](connections.md)
+
+______________________________________
 
 ##### Tipo de campo
 
@@ -210,6 +225,10 @@ O objeto possui as seguintes opções em sua criação:
 | Grupo   | Usado para fazer a separação de perguntas no form. Não salva nada no banco de dados |
 | Imagem Estática   | Usado para colocar uma imagem de auxílio entre as perguntas do form. Não salva nada no banco de dados |
 | Data | Entrada de uma data|
+
+[Voltar para o topo](connections.md)
+
+______________________________________
 
 ### Scripts
 
@@ -327,6 +346,12 @@ lastupdate_by  : Nome do usuário que alterou o form por último
 
 
 ```
+
+[Voltar para o topo](connections.md)
+
+______________________________________
+
+
 ### Fluxo de edição do Form
 
 Ao ser criado o form se encontra o estado **0=pendente**.
@@ -337,6 +362,10 @@ Ele também pode desistir de preencher o form e ele volta para o estado **0=pend
 
 Se o form estiver com a opção "etapa de revisão" então após a finalização um administrador do form precisa aprovar.
 Desta forma o form passa para o estado **3=Aprovado**.
+
+[Voltar para o topo](connections.md)
+
+______________________________________
 
 ### Modo OffLine
 
