@@ -234,16 +234,81 @@ function OnChange(form)
 
 form.campo é o nome dado ao campo do formulário.
 
+- Exemplo de agendamento de criação de forms
+
+Menu -> Eventos -> + -> Script
+
+Condição - Ser sexta feira
+
+Condição:
+```
+(new Date(ValueOf("demo:_now"))).getDay() == 5
+```
+Esta condição precisa ter um tag do mobile.
+Por isso, o tag "demo:now" foi adicionado na expressão.
+
+
+Note: Sunday is 0, Monday is 1, and so on.
+http://www.w3schools.com/jsref/jsref_obj_date.asp
+
+Script
+
+```js
+SendMail("a",
+ "Dia de preencher form",
+ "message",
+ function (er) 
+ {
+ });
+
+WriteNode("form:", 
+         {campo: 1}, 
+         function(er){
+         });
+
+```
+
+* Exemplo de como criar um form de acordo com o dia da semana
+
+```
+Condição:  ValueOf("demo:_now") && (new Date().getDay() == 1)
+```
+
+Script:
+```js
+
+var day = new Date().getDay();
+var title = "Segunda";
+var formName = "FormName";
+
+if (formName)
+{
+  WriteNode(formName + ":", 
+            { Diario : title }, 
+              function(er)
+              {
+              }
+            );
+}
+
+```
+É possível criar outro script semelhante para outros dias.
+
+O script roda quando o evento **entrar na condição verdadeira**.
+Quando a condição for para false não acontece nada.
+
 Além dos campos definidos pelo usuário existe campos pré-definidos e reservados.
 
 São eles:
 
 ```
-_id             : Uso interno
-_lastupdate_at  : Momento da última atualização
-_lastupdate_by  : Nome do usuário que alterou o form por último
-_state          : 0=pendente, 1=Atribuído, 2=Finalizado e 3=Aprovado
-_assigned_to    : No estado Atribuído, indica o nome do usuário 
+id             : Uso interno
+state          : 0=pendente, 1=Atribuído, 2=Finalizado e 3=Aprovado
+assignedUser    : No estado Atribuído, indica o nome do usuário 
+
+lastupdate_at  : Momento da última atualização
+lastupdate_by  : Nome do usuário que alterou o form por último
+
 
 ```
 ### Fluxo de edição do Form
