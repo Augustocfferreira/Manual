@@ -1,5 +1,7 @@
 [Índice](README.md#manual-elipse-mobile)
 
+________________________________________
+
 # Eventos
 
 Os eventos do Elipse Mobile possibilitam enviar emails e gerenciar ações para que decisões sejam tomadas pelo próprio servidor quando as condições dos eventos forem satisfeitas.
@@ -17,11 +19,15 @@ Exemplos:
 
 *Obs: Os operadores lógicos possíveis são os mesmos utilizados em javascript.*
 
+________________________________________
+
 ## Email
 
 O mesmo permite enviar um ou mais emails para um usuário ou grupo de usuários quando a condição do evento ser satisfeita. Porém, primeiramente é necessário fazer a [configuração do servidor de email](config_app.md#servidor-de-e-mails), para depois ser possível configurar um evento de envio de emails. 
 
 Após a configuração do servidor, basta configurar a condição de envio, selecionar para qual usuário será enviado (podendo selecionar um grupo para o envio coletivo)  e preencher os campos de assunto e mensagem a ser enviada.
+
+________________________________________
 
 ## Script
 
