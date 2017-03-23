@@ -147,7 +147,7 @@ O Page Link é um objeto que a funcionalidade de mudança de página. Para confi
   
 ## Commands
 
-O Commands permite criar uma lista de comandos a serem realizados de acordo com uma condição previa, sendo possível também travar os comandos baseado em uma condição da tag de leitura. A condição e o comando são realizados em tags diferentes. Para utilizar este objeto deve-se fazer a configuração da seguinte maneira:
+O Commands permite criar uma lista de comandos a serem realizados de acordo com uma condição prévia, sendo possível também travar os comandos baseado em uma condição da tag de leitura. A condição e o comando são realizados em tags diferentes. Para utilizar este objeto deve-se fazer a configuração da seguinte maneira:
   
   ![commands](https://cloud.githubusercontent.com/assets/26389485/23960365/9a40f8b8-0986-11e7-9ad5-9e3f25b11db4.jpg)
   
@@ -159,7 +159,7 @@ O Commands permite criar uma lista de comandos a serem realizados de acordo com 
 | Imagem  | Imagem a ser exibida ao lado do valor |
 | Zonas  | Ver ítem [Zonas](#zonas) |
 | Comandos  | Ver ítem [Comandos](#comandos) |
-| Interlocked | Neste campo de travamento do comando, deve-se configurar uma expressão que informe quando os comandos não podem ser utilizados. Quando true, os comandos são bloqueados, quando false, os mesmos são liberados para a utilização. [Ver capítulo de Expressões.] |
+| Interlocked | Neste campo de travamento do comando, deve-se configurar uma expressão que informe quando os comandos não podem ser utilizados. Quando true, os comandos são bloqueados, quando false, os mesmos são liberados para a utilização|
 | Pedir confirmação antes da alteração  | Habilita uma confirmação do valor antes da escrita |  
 | Tag leitura  | Tag referência para o estado atual do equipamento que será comandado |
 | Tag escrita  | Tag que receberá o valor do comando selecionado pelo usuário |
