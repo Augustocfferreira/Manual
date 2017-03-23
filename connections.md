@@ -18,8 +18,6 @@
     - [Scripts](connections.md#scripts)  
     - [Modo Offline](connections.md#modo-offline)      
   - [EPM (OPCA UA)](connections.md#epm-opca-ua#epm-opca-ua)
-  
-    [original forms](forms.md)
 
 ## Elipse E3
 
