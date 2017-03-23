@@ -7,7 +7,7 @@ Os eventos do Elipse Mobile possibilitam enviar emails e gerenciar ações para 
   - [Email](events.md#email)
   - [Script](events.md#script)
 
-## Condição
+- Condição
 
 Tanto para os emails como para os Scripts, é necessário configurar a condição para que o evento ocorra. Para montar esta condição, utiliza-se a função ValueOf, pois a mesma permite a utilização de operadores lógicos, tais como == (comparação), != (diferente de), >= (maior ou igual), < (menor), entre outros. 
 
