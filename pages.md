@@ -54,9 +54,9 @@ O Display Link é um objeto que possui as mesmas funcionalidades do display e ta
 | Tag  | Tag que será coletado o valor a ser exibido |
 | Sufixo  | String que aparecerá ao lado do valor do tag |
 | Decimais  | Número de casas decimais do valor|
-| Nome da Página  | Seleção da página a ser aberta|
+| Nome da Página  | Seleção da página a ser aberta¹|
 
-(*Caso a página não exista, é possível selecionar [Nova página...] e o mesmo irá criar uma nova página com o nome desejado.)
+*¹Caso a página não exista, é possível selecionar [Nova página...] e o mesmo irá criar uma nova página com o nome desejado.*
 
 [Voltar para o topo](pages.md)
 
