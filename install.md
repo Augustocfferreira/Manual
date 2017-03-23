@@ -2,7 +2,7 @@
 
 # Instalação
 
-A instalação do Elipse Mobile se divide em duas partes: Server (para o servidor da aplicação) e Client (para a visualização através de smartphones, tablets ou pc).
+A instalação do Elipse Mobile se divide em dois módulos: Server (para o servidor da aplicação) e Client (para a visualização através de smartphones, tablets ou pc).
 
   - [Server](install.md#server)
     - [Requerimentos mínimos](install.md#requerimentos-mínimos)
@@ -15,7 +15,9 @@ A instalação do Elipse Mobile se divide em duas partes: Server (para o servido
     
 
 ## Server
- 
+
+Módulo responsável por gerenciar os serviços, conexões e portas.
+
 ### Requerimentos Mínimos
  
  Para executar o Elipse Mobile Server exige-se um computador com a seguinte configuração:
@@ -27,7 +29,7 @@ A instalação do Elipse Mobile se divide em duas partes: Server (para o servido
 
 ### Instalador
  
- Para se fazer a instalação, faça o download da última versão do Elipse Mobile [neste link.](https://www.elipse.com.br/downloads/?cat=64&key=&language=ptbr)
+Para se fazer a instalação, faça o download da última versão do Elipse Mobile [neste link.](https://www.elipse.com.br/downloads/?cat=64&key=&language=ptbr)
  
 Execute o arquivo de instalação e siga as instruções que aparecem na tela. 
 
@@ -38,7 +40,7 @@ Uma mensagem de Instalação Completa aparece quando a instalação for bem-suce
   
 ## Client
  
-  Para se ter acesso à visualização.
+Módulo de visualização e de gerência e edição de aplicações.
   
 ### Navegador
 
