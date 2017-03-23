@@ -8,10 +8,11 @@ A instalação do Elipse Mobile se divide em duas partes: Server (para o servido
     - [Requerimentos mínimos](install.md#requerimentos-mínimos)
     - [Instalador](install.md#instalador)
   - [Client](install.md#client)
+    - [Navegador](install.md#navegador)
     - [Android](install.md#android)
     - [IOS](install.md#ios)
     - [Windows Phone](install.md#windows-phone)
-    - [Navegador](install.md#navegador)
+    
 
 ## Server
  
