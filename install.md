@@ -2,7 +2,7 @@
 
 # Instalação
 
-A instalação do Elipse Mobile se divide em duas partes: Server (para o servidor da aplicação) e Client (para smartphones e tablets).
+A instalação do Elipse Mobile se divide em duas partes: Server (para o servidor da aplicação) e Client (para a visualização através de smartphones, tablets ou pc).
 
   - [Server](install.md#server)
     - [Requerimentos mínimos](install.md#requerimentos-mínimos)
