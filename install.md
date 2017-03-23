@@ -39,6 +39,15 @@ Uma mensagem de Instalação Completa aparece quando a instalação for bem-suce
  
   Para se ter acesso à visualização.
   
+### Navegador
+
+  Caso não seja possível acessar com o aplicativo disponível nas lojas, é possível acessar via navegador, tanto nos dispositivos móveis como em qualquer computador.
+  
+  A sintaxe correta para o acesso é http://IP_DO_SERVIDOR:PORTA/. Exemplo: http://127.1.1.1:8080/.
+  Podendo ser acessado pelo nome da máquina servidora na rede. http://Nome_da_Maquina:Porta/. Exemplo: http://localhost:8080/.
+  
+  *A porta padrão utilizada pelo Elipse Mobile Server é a 8080. Para alterar, consute o capítulo [Configuração Elipse Mobile Server.](config_server.md#portas)*
+  
 ### Android
    Para a instalação do aplicativo Elipse Mobile no Android, é necessário possuir a versão 4.0 ou superior do Android.
     *[Link para download](https://play.google.com/store/apps/details?id=com.elipse.mobile&hl=pt_BR)*
@@ -56,14 +65,5 @@ Uma mensagem de Instalação Completa aparece quando a instalação for bem-suce
    *[Link para download](https://www.microsoft.com/pt-br/store/p/elipse-mobile/9wzdncrdh16c)*
 
 ![qr_code_wp](https://cloud.githubusercontent.com/assets/26389485/23900999/188d8986-089a-11e7-95c9-4b7bdbb491c6.png)
-
-### Navegador
-
-  Caso não seja possível acessar com o aplicativo disponível nas lojas, é possível acessar via navegador, tanto nos dispositivos móveis como em qualquer computador.
-  
-  A sintaxe correta para o acesso é http://IP_DO_SERVIDOR:PORTA/. Exemplo: http://127.1.1.1:8080/.
-  Podendo ser acessado pelo nome da máquina servidora na rede. http://Nome_da_Maquina:Porta/. Exemplo: http://localhost:8080/.
-  
-  *A porta padrão utilizada pelo Elipse Mobile Server é a 8080. Para alterar, consute o capítulo [Configuração Elipse Mobile Server.](config_server.md#portas)*
 
 [Voltar para o topo](install.md)
