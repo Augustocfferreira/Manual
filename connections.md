@@ -144,14 +144,12 @@ Depois da fase de edição existe a fase de finalização. Mesmo quando as repos
 Existe uma opção para o formulário que é **revisão**. Quando esta opção estiver marcada existe uma etapa extra após a finalização.
 Esta etapa pode ser feita apenas pelos administradores do form e correspende a aprovação da coleta de dados.
 
-![form](https://cloud.githubusercontent.com/assets/26389485/24262909/550173fe-0fda-11e7-8a1f-934b5504a467.png)
-
 | Propriedade    | Função  |
 | -------------   | ------------- |
 | Nome    | Nome do Form  |
 | Campos    | Ver ítem [Campos](#campos) |
 | Incluir fase de Revisão    | Esta opção faz com que exista uma fase adicional no fluxo do formário. |
-| Script  | Ver ítem [Script](#scripts)|
+| Script  | Ver ítem [Scripts](#scripts)|
 
 |     |  Permissões  |
 | -------------   | ------------- |
@@ -194,17 +192,6 @@ Esta etapa pode ser feita apenas pelos administradores do form e correspende a a
 | Grupo   | Usado para fazer a separação de perguntas no form. Não salva nada no banco de dados |
 | Imagem Estática   | Usado para colocar uma imagem de auxílio entre as perguntas do form. Não salva nada no banco de dados |
 | Data | Entrada de uma data|
-
-### Fluxo de edição do Form
-
-Ao ser criado o form se encontra o estado **0=pendente**.
-Qualquer usuário do form pode atribuir um registro para si com a finalidade de editá-lo. 
-Estado **1=Atribuído**.
-Ao concluir, o usuário passa o form para o estado **2=Finalizado**.
-Ele também pode desistir de preencher o form e ele volta para o estado **0=pendente**.
-
-Se o form estiver com a opção "etapa de revisão" então após a finalização um administrador do form precisa aprovar.
-Desta forma o form passa para o estado **3=Aprovado**.
 
 ### Scripts
 
@@ -323,7 +310,16 @@ _state          : 0=pendente, 1=Atribuído, 2=Finalizado e 3=Aprovado
 _assigned_to    : No estado Atribuído, indica o nome do usuário 
 
 ```
+### Fluxo de edição do Form
 
+Ao ser criado o form se encontra o estado **0=pendente**.
+Qualquer usuário do form pode atribuir um registro para si com a finalidade de editá-lo. 
+Estado **1=Atribuído**.
+Ao concluir, o usuário passa o form para o estado **2=Finalizado**.
+Ele também pode desistir de preencher o form e ele volta para o estado **0=pendente**.
+
+Se o form estiver com a opção "etapa de revisão" então após a finalização um administrador do form precisa aprovar.
+Desta forma o form passa para o estado **3=Aprovado**.
 
 ### Modo OffLine
 
