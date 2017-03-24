@@ -9,3 +9,5 @@
 - [https://forum.elipse.com.br  -  ](https://forum.elipse.com.br/c/elipse-mobile) *Dúvidas, problemas e sugestões*
 
 - [http://kb.elipse.com.br  -  ](http://kb.elipse.com.br/pt-br/categories/Portugu%C3%AAs/Elipse+Mobile/) *Página com artigos sobre o Elipse Mobile e todas as outras ferramentas da Elipse*
+
+- [https://www.w3schools.com/jsref/default.asp  -  ](https://www.w3schools.com/jsref/default.asp) *Documentação Web sobre JavaScript*
