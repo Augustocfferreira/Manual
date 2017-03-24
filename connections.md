@@ -382,21 +382,6 @@ if (formName)
 O script roda quando o evento **entrar na condição verdadeira**.
 Quando a condição for para false não acontece nada.
 
-Além dos campos definidos pelo usuário existe campos pré-definidos e reservados.
-
-São eles:
-
-```
-id             : Uso interno
-state          : 0=pendente, 1=Atribuído, 2=Finalizado e 3=Aprovado
-assignedUser    : No estado Atribuído, indica o nome do usuário 
-
-lastupdate_at  : Momento da última atualização
-lastupdate_by  : Nome do usuário que alterou o form por último
-
-
-```
-
 [Voltar para o topo](connections.md)
 
 ______________________________________
