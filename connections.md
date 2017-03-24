@@ -235,10 +235,57 @@ ______________________________________
 
 ![script_form](https://cloud.githubusercontent.com/assets/26389485/24263769/ebcb4a06-0fdc-11e7-8600-f94577ba4091.png)
 
-Os scripts do Mobile são feitos na linguagem Javascript.
+Os scripts do Elipse Mobile são feitos na linguagem JavaScript.
+Existe vasta documentação na web sobre JavaScrit, por exemplo: https://www.w3schools.com/jsref/default.asp
 
-Existe vasta documentação na web, por exemplo:
-https://www.w3schools.com/jsref/default.asp
+Os parâmetros globais disponíveis para acesso via script no Form são:
+
+```
+state          : 0=pendente, 1=Atribuído, 2=Finalizado e 3=Aprovado
+assignedUser   : Usuário atribuído ao formulário
+user           : 
+timestamp      : Data/Hora da última atualização do Form
+fields         : Local onde os campos estarão listados e organizados
+```
+
+Para o acesso destas variáveis, a sintaxe correta é:
+
+```
+form.NOME_DO_PARAMETRO
+```
+
+Exemplo:
+
+```
+WriteTag("demo:TagInternal1", 
+          form.assignedUser, 
+          function(er)  { }
+          );
+```
+
+
+Dentro de cada campo, temos as propriedades:
+
+```
+value          : Valor do campo
+timestamp      : Data/Hora da última atualização do campo
+```
+
+Desta forma, para se ter acesso às propriedades do campo, a sintaxe correta é:
+
+```
+form.fields.NOME_DO_CAMPO.NOME_DA_PROPRIEDADE
+```
+
+Exemplo:
+```
+WriteTag("demo:TagInternal1", 
+          form.fields.campo1.value, 
+          function(er)  { }
+          );
+```
+
+*Para mais informações, consulte o capítulo [Referência de Scritps.](scripts.md)*
 
 * Exemplo de script de modificação do form
 
