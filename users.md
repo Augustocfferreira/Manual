@@ -14,7 +14,6 @@ Usuário este que é configurado no primeiro acesso ao sistema, o mesmo permite 
 
 Para alterar o usuário ou a senha do administrador do sistema, veja o capítulo [Configuração do Servidor](config_server.md#usuário-administrador-do-sistema).
 
-[Voltar para o topo](users.md)
 __________________________________________________
 
 ## Criação de usuários
@@ -22,7 +21,6 @@ __________________________________________________
   - [Mobile](users.md#mobile-autenticação-interna)
   - [LDAP](users.md#ldap-autenticação-externa)
   
-[Voltar para o topo](users.md)
 __________________________________________________
 
 ### Mobile (Autenticação Interna)
