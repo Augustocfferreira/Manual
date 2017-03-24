@@ -258,7 +258,7 @@ form.NOME_DO_PARAMETRO
 
 Exemplo:
 
-```
+```js
 WriteTag("demo:TagInternal1", 
           form.assignedUser, 
           function(er)  { }
@@ -281,23 +281,18 @@ form.fields.NOME_DO_CAMPO.NOME_DA_PROPRIEDADE
 ```
 
 Exemplo:
-```
+```js
 WriteTag("demo:TagInternal1", 
           form.fields.campo1.value, 
           function(er)  { }
           );
 ```
 
-*Para mais informações, consulte o capítulo [Referência de Scritps.](scripts.md)*
-
 * Exemplo de script de modificação do form
 
 Quando uma resposta é criada/edita, um evento de script de é chamado no lado do servidor.
 
-Este evento pode ser usado para :
- * Validar o form
- * Copiar dados para outros sistema (EPM/E3) via writetag
- * Enviar um e-mail de notificação sobre alteração do form
+Este evento pode ser usado para validar o form, copiar dados para outros sistema (EPM/E3) via writetag e/ou enviar um e-mail de notificação sobre alteração do form.
  
 Exemplo:
 
@@ -320,7 +315,7 @@ function OnChange(form)
 
 form.campo é o nome dado ao campo do formulário.
 
-- Exemplo de agendamento de criação de forms
+* Exemplo de agendamento de criação de forms
 
 Menu -> Eventos -> + -> Script
 
