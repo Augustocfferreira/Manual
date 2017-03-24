@@ -238,6 +238,8 @@ ______________________________________
 Os scripts do Elipse Mobile são feitos na linguagem JavaScript.
 Existe vasta documentação na web sobre JavaScrit, por exemplo: https://www.w3schools.com/jsref/default.asp
 
+* Parâmetros Globais
+
 Os parâmetros globais disponíveis para acesso via script no Form são:
 
 ```
@@ -263,6 +265,7 @@ WriteTag("demo:TagInternal1",
           );
 ```
 
+* Propriedades do Campo
 
 Dentro de cada campo, temos as propriedades:
 
