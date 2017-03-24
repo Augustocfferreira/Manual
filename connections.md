@@ -48,6 +48,8 @@ A conexão E3 nativa permite ao administrador do sistema adicionar duas máquina
 
 Para configurar esta opção, digite o nome dos servidores separados por vírgula no campo *Servidor*.
 
+![e3_hotstandby](https://cloud.githubusercontent.com/assets/26389485/24311869/ca766268-10b4-11e7-9706-e37b05809db9.png)
+
 | Propriedade    | Função  |
 | -------------   | ------------- |
 | Nome    | Nome da conexão  |
