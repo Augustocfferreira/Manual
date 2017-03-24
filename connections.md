@@ -44,10 +44,14 @@ ____________________________________________
 
 ![e3nativo](https://cloud.githubusercontent.com/assets/26389485/24060037/370bb75a-0b30-11e7-87e3-4a88a29185ab.png)
 
+A conexão E3 nativa permite ao administrador do sistema adicionar duas máquinas servidoras (HotStandby), para que no caso de falha do servidor principal, o servidor backup é ativado e o Elipse Mobile entende esta mudança.
+
+Para configurar esta opção, digite o nome dos servidores separados por vírgula no campo *Servidor*.
+
 | Propriedade    | Função  |
 | -------------   | ------------- |
 | Nome    | Nome da conexão  |
-| Servidor    | Nome da máquina com E3 Server |
+| Servidor    | Nome da(s) máquina(s) com E3 Server |
 | User    | Usuário       |
 | Password  | Senha       |
 
