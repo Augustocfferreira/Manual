@@ -1,3 +1,5 @@
+
+
 [Índice](README.md#manual-elipse-mobile)
 
 # Usuários
@@ -40,6 +42,10 @@ O usuário Mobile é o usuário que é autenticado pelo Elipse Mobile Server.
 O usuário LDAP é um usário autenticado por um servidor externo de acordo com o protocolo LDAP.
 
 Para configurar o servidor LDAP externo, vá no menu **[Configurações](config_app.md#autenticação-externa-de-usuários)**.
+
+Utilitário para windows - Active Directory Explorer v1.44
+https://technet.microsoft.com/en-us/sysinternals/adexplorer.aspx
+
 
 ### Grupo
 
