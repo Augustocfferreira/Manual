@@ -9,7 +9,7 @@ ________________________________________
   
   - [Elipse E3](connections.md#e3)
     - [E3 OPC-DA](connections.md#e3)
-    - [E3 Nativo](connections.md#e3)
+    - [E3 Nativo](connections.md#e3-nativo)
   - [Elipse SCADA](connections.md#e3)
   - [OPC-DA](connections.md#e3)
   - [Arduino](connections.md#e3)
