@@ -1,5 +1,7 @@
 [Índice](README.md#manual-elipse-mobile)
 
+_________________________________________
+
 # Configurações do Servidor
 
    - [Usuário Administrador do Sistema](config_server.md#usuário-administrador-do-sistema)
@@ -16,11 +18,15 @@
   
   As seguintes configurações estarão disponíveis:
 
+_________________________________________
+
 ## Usuário Administrador do Sistema
 
 ![adm](https://cloud.githubusercontent.com/assets/26389485/24041422/252be97c-0aec-11e7-9257-e774905669c3.png)
 
   No ítem System Administrator, é possível ver o usuário administrador do sistema e, caso necessário, é possível alterar o nome e/ou a senha do mesmo clicando em *Change...*.
+
+_________________________________________
 
 ## HTTPS
 
@@ -29,6 +35,8 @@
   No ítem HTTPS, é possível habilitar as conexões seguras e importar a chave e o certificado de segurança da conexão.
   
   [Voltar para o topo](config_server.md)
+  
+_________________________________________
 
 ## Portas
 
@@ -38,6 +46,8 @@
   
   [Voltar para o topo](config_server.md)
 
+_________________________________________
+
 ## Versionamento
 
 ![sobre](https://cloud.githubusercontent.com/assets/26389485/24041421/2511f3f0-0aec-11e7-841c-d968735f8f74.png)
@@ -45,7 +55,9 @@
   Na aba *About* da configuração do Elipse Mobile Sever, é possível ver a versão em que se encontra o mesmo.
   
   [Voltar para o topo](config_server.md)
-  
+
+_________________________________________
+
 ## Configuração de Firewall
 
   A configuração do Firewall é necessária para conectar o celular ou outro computador no servidor Elipse Mobile Server.
