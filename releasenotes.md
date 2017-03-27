@@ -1,5 +1,7 @@
 [Índice](README.md#manual-elipse-mobile)
 
+_________________________________________
+
 # Notas de Versão
 
 - [Versão 1.4](releasenotes.md#versão-14)
@@ -7,16 +9,19 @@
 - [Versão 1.2](releasenotes.md#versão-12)
 - [Versão 1.1](releasenotes.md#versão-11)
 
+_________________________________________
 
 ## Versão 1.4
-- Conexão de dados com EPM via OPC-UA  
-- Grupos de usuários
-- Conexão nativa com E3 atualizada
-- Eventos de script no servidor
-- Forms
-- Permissões de usuários por tela
-- Atualizações de segurança
-- Correções
+- Nova conexão de dados com [EPM via OPC-UA](connections.md#epm-opca-ua);
+- Possibilidade de criar [grupos de usuários](users.md#grupo);
+- [Conexão nativa com E3](connections.md#e3-nativo) atualizada;
+- Eventos de [script no servidor](events.md#script);
+- Novo tipo de conexão: [Forms](connections.md#form);
+- Possibilidade de configuração de [permissões de usuários por tela](pages.md#páginas);
+- Atualizações de segurança;
+- Correções;
+
+_________________________________________
 
 ## Versão 1.3
 
@@ -27,6 +32,8 @@
 - A conexão arduino remota, só está disponível no servidor online.
 
 [Voltar para o topo](releasenotes.md)
+
+_________________________________________
 
 ## Versão 1.2
 
@@ -57,6 +64,8 @@ Client Android
 - Alterado tela de login para ficar mais uniforme com outros clientes
 
 [Voltar para o topo](releasenotes.md)
+
+_________________________________________
 
 ## Versão 1.1
 
