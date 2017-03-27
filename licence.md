@@ -1,5 +1,7 @@
 [Índice](README.md#manual-elipse-mobile)
 
+_________________________________________
+
 # Licenciamento
 
 * O licenciamento se dá em função do número de usuários cadastrados dentro da aplicação. 
