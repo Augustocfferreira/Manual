@@ -18,15 +18,11 @@ _________________________________________
   
   As seguintes configurações estarão disponíveis:
 
-_________________________________________
-
 ## Usuário Administrador do Sistema
 
 ![adm](https://cloud.githubusercontent.com/assets/26389485/24041422/252be97c-0aec-11e7-9257-e774905669c3.png)
 
   No ítem System Administrator, é possível ver o usuário administrador do sistema e, caso necessário, é possível alterar o nome e/ou a senha do mesmo clicando em *Change...*.
-
-_________________________________________
 
 ## HTTPS
 
