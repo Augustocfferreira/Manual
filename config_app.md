@@ -1,4 +1,5 @@
 [Índice](README.md#manual-elipse-mobile)
+_________________________________________
 
 # Configurações do Aplicativo
 
@@ -6,6 +7,8 @@ Na aba de configurações do Elipse Mobile é possível configurar o servidor LD
 
   - [Autenticação externa de usuários](config_app.md#autenticação-externa-de-usuários)
   - [Servidor de e-mails](config_app.md#servidor-de-e-mails)
+
+_________________________________________
 
 ## Autenticação externa de usuários
 
@@ -17,6 +20,8 @@ Caso este parâmetro esteja em branco, o elipse mobile tentar encontrar o servid
 Para isso vá em Configurações e informe o nome do servidor LDAP. O Active Directory da microsoft é um exemplo de serviço que aceita este protocolo.
 
 ![config](https://cloud.githubusercontent.com/assets/26389485/24053355/8c4aa29e-0b17-11e7-84c0-d2ffc2ab07ee.png)
+
+_________________________________________
 
 ### Como funciona a autenticação
 
@@ -33,6 +38,7 @@ Para usuários internos do elipse Mobile é salvo o SHA1 usuário senha.
 Por questões de segurança, recomendamos que o usuário administrador geral do sistema tenha uma senha complexa, de um tamanho razoável com letras e números. Este usuário não é autenticado via LDAP mas vai usar a conexão segura que criptografa todas as informações.
 Este usuário também vai ter acesso direto ao computador, e pode optar por evitar conexões via internet.
 
+_________________________________________
 
 ## Servidor de e-mails
 
