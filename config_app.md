@@ -29,7 +29,7 @@ Como os aparelhos celulares podem estar em uma rede separada, e existe uma grand
 
 Isso significa que usuário e senha são passados pela internet do cliente até o server e o server verifica se o usuário existe.
 
-Por este motivo, esta autenticação só é feita quando o cliente está conversando com o server no modo seguro (https).
+Por este motivo, esta autenticação só é feita quando o cliente está conversando com o server no **modo seguro ([https](config_server.md#https))**.
 
 A configuração de usuários, fica dentro do aplicativo em questão, que por sua vez fica na pasta Projects de dentro do diretório do Elipse Mobile Server. Nas configurações de usuário externos não é salva e nunca é informada a senha LDAP.
 
