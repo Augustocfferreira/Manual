@@ -12,12 +12,12 @@ _________________________________________
 
 ## Autenticação externa de usuários
 
-LDAP (Lightweight Directory Access Protocol) é um protocolo independente de fabricante que permite compartilhar informações sobre sistemas, usuários etc.
+LDAP (Lightweight Directory Access Protocol) é um protocolo independente de fabricante que permite compartilhar informações sobre sistemas, usuários e etc.
 
 O Elipse Mobile pode usar um servidor LDAP para fazer a autenticação de usuários.
-Caso este parâmetro esteja em branco, o elipse mobile tentar encontrar o servidor LDAP padrão.
+Caso este parâmetro esteja em branco, o elipse mobile tentar encontrar o servidor LDAP padrão da rede.
 
-Para isso vá em Configurações e informe o nome do servidor LDAP. O Active Directory da microsoft é um exemplo de serviço que aceita este protocolo.
+Para isso vá em Configurações e informe o nome do servidor LDAP. O Active Directory da Microsoft é um exemplo de serviço que aceita este protocolo.
 
 ![config](https://cloud.githubusercontent.com/assets/26389485/24053355/8c4aa29e-0b17-11e7-84c0-d2ffc2ab07ee.png)
 
