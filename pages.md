@@ -1,10 +1,14 @@
 [Índice](README.md#manual-elipse-mobile)
 
+___________________________________________
+
 # Páginas
 
 Dentro do menu *Páginas*, é possível visualizar as páginas da aplicação, criar novas páginas e gerar QRCodes para se ter um acesso mais rápido pelo aplicativo.
 
 No ítem *Permissões* é possível configurar quais usuários terão acesso à página selecionada. Para maiores informações, veja o capítulo de [Usuários](users.md).
+
+_______________________________________
 
 # Objetos de Página
 
@@ -20,6 +24,8 @@ Os seguintes objetos podem ser inseridos em uma Página:
 * [Form](#form)
 * [Chart](#chart)
 * [Group](#group)
+
+_______________________________________
 
 ## Display
 
@@ -38,6 +44,8 @@ O display é um objeto para exibição de valores, para configurá-lo deve-se pr
 | Decimais  | Número de casas decimais do valor|
 
 [Voltar para o topo](pages.md)
+
+_______________________________________
 
 ## Display Link
 
@@ -60,6 +68,8 @@ O Display Link é um objeto que possui as mesmas funcionalidades do display e ta
 
 [Voltar para o topo](pages.md)
 
+_______________________________________
+
 ## Toggle
 
 O objeto Toggle tem a funcionalidade de realizar escritas persistentes de dois valores em um tag. Para utiliza-lo deve-se configurar suas propriedades da seguinte forma:
@@ -81,6 +91,8 @@ O objeto Toggle tem a funcionalidade de realizar escritas persistentes de dois v
 | Imagem OFF  | Imagem que é visualizada quando falso |
 
 [Voltar para o topo](pages.md)
+
+_______________________________________
   
 ## Pulser
   
@@ -107,6 +119,8 @@ O Pulser permite realizar escritas quando a condição base é atendida. A escri
 
 [Voltar para o topo](pages.md)
 
+_______________________________________
+
 ## Setpoint
 
 O Setpoint permite realizar escrita de valores no tag. A escrita ela pode ser realizada escrevendo o valor desejado diretamente no campo de valor, ou através dos botões de incremento (setas nas extremidades do valor). Para configurá-lo deve-se fazer da seguinte maneira:
@@ -127,6 +141,8 @@ O Setpoint permite realizar escrita de valores no tag. A escrita ela pode ser re
 
 [Voltar para o topo](pages.md)
 
+_______________________________________
+
 ## Page Link
 
 O Page Link é um objeto que a funcionalidade de mudança de página. Para configurá-lo deve-se fazer da seguinte maneira:
@@ -144,6 +160,8 @@ O Page Link é um objeto que a funcionalidade de mudança de página. Para confi
 *¹Caso a página não exista, é possível selecionar [Nova página...] e o mesmo irá criar uma nova página com o nome desejado.*
 
 [Voltar para o topo](pages.md)
+
+_______________________________________
   
 ## Commands
 
@@ -166,6 +184,8 @@ O Commands permite criar uma lista de comandos a serem realizados de acordo com 
 
 [Voltar para o topo](pages.md)
 
+_______________________________________
+
 ### Zonas
 
 ![zonas](https://cloud.githubusercontent.com/assets/26389485/23994552/2594fc78-0a24-11e7-8eb5-d27cb460e179.png)
@@ -184,6 +204,8 @@ O Commands permite criar uma lista de comandos a serem realizados de acordo com 
 | Condição para exibir    | Valor para que o texto configurado acima seja exibido. Value é o valor do tag leitura |
 
 [Voltar para o topo](pages.md)
+
+_______________________________________
 
 ### Comandos
 
@@ -204,6 +226,8 @@ O Commands permite criar uma lista de comandos a serem realizados de acordo com 
 | Valor para escrita    | Valor a ser escrito quando utilizado este comando|
 
 [Voltar para o topo](pages.md)
+
+_______________________________________
   
 ## Form
   Mostra um Form.
@@ -215,10 +239,14 @@ O Commands permite criar uma lista de comandos a serem realizados de acordo com 
 | Altura   | Quantos quadros de altura serão utilizados para a visualização |
 
 [Voltar para o topo](pages.md)
+
+_______________________________________
   
 ## Chart
   
   Lançamento previsto para a versão 1.5.
+  
+_______________________________________
   
 ## Group
 
