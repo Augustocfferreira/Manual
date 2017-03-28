@@ -33,7 +33,7 @@ Por este motivo, esta autenticação só é feita quando o cliente está convers
 
 A configuração de usuários, fica dentro do aplicativo em questão, que por sua vez fica na pasta Projects de dentro do diretório do Elipse Mobile Server. Nas configurações de usuário externos não é salva e nunca é informada a senha LDAP.
 
-Para usuários internos do elipse Mobile é salvo o SHA1 usuário senha.
+Para usuários internos do Elipse Mobile é salvo o SHA1 usuário senha.
 
 Por questões de segurança, recomendamos que o usuário administrador geral do sistema tenha uma senha complexa, de um tamanho razoável com letras e números. Este usuário não é autenticado via LDAP mas vai usar a conexão segura que criptografa todas as informações.
 Este usuário também vai ter acesso direto ao computador, e pode optar por evitar conexões via internet.
