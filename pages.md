@@ -230,7 +230,7 @@ _______________________________________
 _______________________________________
   
 ## Form
-  Mostra um Form.
+  Mostra um objeto Form previamente configurado. Veja mais [clicando aqui](connections.md#form).
   
 | Propriedade    | Função  |
 | -------------   | ------------- |
