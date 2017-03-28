@@ -39,7 +39,7 @@ _________________________________________
 
 Geral
 
-- Leitura em blocos no client web. mais detalhes...
+- Leitura em blocos no client web.
 - Controles nos aplicativos cliente agora têm fundo preenchido
 - Os clients também têm versão Francês e Chinês (Tradicional), além do Inglês e Português.
 - A web ganhou versão traduzida que escolhe o idioma através das configurações do browser.
@@ -48,7 +48,7 @@ Geral
 - O servidor ganhou atualizações e otimizações para rodar na nuvem
 - Corrigido: Campos do tipo read-only estavam podendo ser editados no configurador
 - Alterado o formato do arquivo de dados e configuração que agora é json. A importação é automática.
-- Adicionada proteção no server contra ataques do tipo cross-site request forgery. mais detalhes...
+- Adicionada proteção no server contra ataques do tipo cross-site request forgery.
 - Criada uma opção no servidor para desabilitar conexões SSL3 e permitir apenas conexões TLS.
 - Corrigido problema para enviar e-mails para mais de um usuário.
 
