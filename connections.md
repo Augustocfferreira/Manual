@@ -25,7 +25,7 @@ ________________________________________
 
 ## Elipse E3
 
-  A conexão com o Elipse E3 pode se dar de duas formas, via OPC-DA, onde o Elipse Mobile interpreta o E3 como qualquer outro servidor OPC ou com a conexão E3 nativa presente no Mobile, o que possibilita uma resposta melhor em função da conexão não se dar pela DCOM do Windows.
+  A conexão com o Elipse E3 pode se dar de duas formas, via OPC-DA, onde o Elipse Mobile interpreta o E3 como qualquer outro servidor OPC-DA ou com a conexão E3 nativa presente no Mobile, o que possibilita uma resposta melhor em função da conexão não se dar pela DCOM do Windows.
   
 _______________________________________
   
