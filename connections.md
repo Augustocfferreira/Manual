@@ -33,6 +33,8 @@ _______________________________________
 
 ![e3opc](https://cloud.githubusercontent.com/assets/26389485/24060044/3744b53c-0b30-11e7-87d4-6f06cf2fcb62.png)
 
+Conexão via OPC-DA com o Elipse E3.
+
 | Propriedade    | Função  |
 | -------------   | ------------- |
 | Nome    | Nome da conexão  |
@@ -64,6 +66,8 @@ ______________________________________
 ## Elipse SCADA
 
 ![scada](https://cloud.githubusercontent.com/assets/26389485/24060038/3726fee8-0b30-11e7-8d1e-ec47f2ec382f.png)
+
+Conexão via OPC-DA com o Elipse Mobile.
 
 | Propriedade    | Função  |
 | -------------   | ------------- |
@@ -420,6 +424,7 @@ ________________________________________
 
 ![ua](https://cloud.githubusercontent.com/assets/26389485/24060043/373b5e06-0b30-11e7-9029-ff3ec91bc257.png)
 
+Conexão com os tags do EPM via OPC-UA.
 
 | Propriedade    | Função  |
 | -------------   | ------------- |
