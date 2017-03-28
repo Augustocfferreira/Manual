@@ -7,12 +7,12 @@ ________________________________________
   As conexões servem de caminho entre as fontes de dados (E3, servidor OPC, EPM, Arduino) e os objetos que estarão na tela para monitoramento e controle.
   Os tipo de conexões são:
   
-  - [Elipse E3](connections.md#e3)
-    - [E3 OPC-DA](connections.md#e3)
+  - [Elipse E3](connections.md#elipse-e3)
+    - [E3 OPC-DA](connections.md#e3-opc-da)
     - [E3 Nativo](connections.md#e3-nativo)
-  - [Elipse SCADA](connections.md#e3)
+  - [Elipse SCADA](connections.md#elipse-scada)
   - [OPC-DA](connections.md#e3)
-  - [Arduino](connections.md#e3)
+  - [Arduino](connections.md#arduino)
   - [Demo](connections.md#demo)
   - [Form](connections.md#form)  
     - [Conceitos](connections.md#conceitos)  
