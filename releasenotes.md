@@ -26,10 +26,10 @@ _________________________________________
 ## Versão 1.3
 
 - Novo design: agora cada controle está com características individuais de acordo com seu tipo;
-- Suporte a expressões nos campos: é possível escrever expressões que também suportam valores de tags em diversos campos de edição dos controles, tornando-os dinâmicos;
-- Novo controle Commands: um controle que permite criar uma lista dinâmica de opções;
+- Suporte a [expressões](events.md#eventos) nos campos: é possível escrever expressões que também suportam valores de tags em diversos campos de edição dos controles, tornando-os dinâmicos;
+- Novo controle [Commands](pages.md#commands): um controle que permite criar uma lista dinâmica de opções;
 - Edição no cliente: é possível editar as aplicações através dos aplicativos dos dispositivos móveis.
-- A conexão arduino remota, só está disponível no servidor online.
+- A conexão [Arduino](connections.md#arduino) remota, só está disponível no servidor online.
 
 [Voltar para o topo](releasenotes.md)
 
