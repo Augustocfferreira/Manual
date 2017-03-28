@@ -24,6 +24,8 @@ _________________________________________
 
   No ítem System Administrator, é possível ver o usuário administrador do sistema e, caso necessário, é possível alterar o nome e/ou a senha do mesmo clicando em *Change...*.
 
+_________________________________________
+
 ## HTTPS
 
 ![https](https://cloud.githubusercontent.com/assets/26389485/24041733/7e885a18-0aed-11e7-9e13-7566b0588783.png)
@@ -31,7 +33,7 @@ _________________________________________
   No ítem HTTPS, é possível habilitar as conexões seguras e importar a chave e o certificado de segurança da conexão.
   
   [Voltar para o topo](config_server.md)
-  
+
 _________________________________________
 
 ## Portas
