@@ -4,7 +4,7 @@ ______________________________________________
 
 # Usuários
 
-Dentro da página de usuários, é possível gerenciar os usuários da aplicação. Os mesmos podem ser do tipo [Mobile](users.md#mobile-autenticação-interna), com autenticação interna, ou [LDAP](users.md#ldap-autenticação-externa), com autenticação externa. Para a organização e configuração de [permissões](users.md#permissões), pode-se utilizar os [Grupos](users.md#grupo).
+Dentro da página de usuários, é possível gerenciar os usuários da aplicação. Os mesmos podem ser do tipo [Mobile](users.md#mobile-autenticação-interna), com autenticação interna, ou [LDAP](users.html#ldap-autenticação-externa), com autenticação externa. Para a organização e configuração de [permissões](users.md#permissões), pode-se utilizar os [Grupos](users.md#grupo).
 
 __________________________________________________
 
