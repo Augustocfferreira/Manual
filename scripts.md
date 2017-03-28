@@ -98,8 +98,8 @@ function (er)
 Parâmetros:
 ```
  tagName  : <string> - Nome da conexão e nome do tag separados pelo caractere ":"
- value    : 
- timestamp: <datetime> - 
+ value    : <double> - Valor que será escrito no tag
+ timestamp: <datetime> - Estampa de tempo utilizada na escrita do tag
  callback : <function (er)> - Função que vai receber o retorno assincrono da operação
 ```
 Exemplo:
