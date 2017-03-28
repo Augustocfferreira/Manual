@@ -73,7 +73,7 @@ WriteTag( tagName, value , function (er)
 Parâmetros:
 ```
  tagName  : <string> - Nome da conexão e nome do tag separados pelo caractere ":"
- value    : 
+ value    : <double> - Valor que será escrito no tag
  callback : <function (er)> - Função que vai receber o retorno assincrono da operação
 ```
 Exemplo:
