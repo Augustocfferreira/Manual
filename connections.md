@@ -255,7 +255,7 @@ Os parâmetros globais disponíveis para acesso via script no Form são:
 ```
 state          : 0=pendente, 1=Atribuído, 2=Finalizado e 3=Aprovado
 assignedUser   : Usuário atribuído ao formulário
-user           : 
+user           : Usuário responsável pela última alteração no formulário
 timestamp      : Data/Hora da última atualização do Form
 fields         : Local onde os campos estarão listados e organizados
 ```
