@@ -8,7 +8,7 @@ _________________________________________
 
 * A licença de Server não possui nenhuma limitação de conexões ou tags. 
 
-* Para a verificar se a hardkey que está sendo utilizada possui licença para o Elipse Mobile, abra o ítem Sobre. A tela que abrirá informará as versões, a licença que foi reconhecida, o número de licenças e as sessões utilizadas.
+* Para a verificar se a hardkey que está sendo utilizada possui licença para o Elipse Mobile, abra o ítem Sobre. A tela que abrirá, informará as versões, a licença que foi reconhecida, o número de licenças e as sessões utilizadas.
 
 * Porém, sem a utilização de uma licença, o Mobile pode ser executado em modo de **Demonstração** (ou **Demo**) e a mesma permite a comunicação com 2 tags reais e a criação de apenas um usuário, além do administrador do Elipse Mobile.
 
