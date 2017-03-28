@@ -230,6 +230,9 @@ _______________________________________
 _______________________________________
   
 ## Form
+
+![form1](https://cloud.githubusercontent.com/assets/26389485/24421587/08189d8c-13cd-11e7-961c-740a82e33487.png)
+
   Mostra um objeto Form previamente configurado. Veja mais [clicando aqui](connections.md#form).
   
 | Propriedade    | Função  |
