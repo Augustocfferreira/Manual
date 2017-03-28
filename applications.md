@@ -6,7 +6,7 @@ ________________________________________
 
 (*Esta opção só está disponível ao usuário administrador do sistema.*)
 
-O Elipse Mobile permite a criação de múltiplas aplicações dentro da mesma instalação, porém só é permitida a execução de um por vez.
+O Elipse Mobile permite a criação de múltiplas aplicações dentro da mesma instalação, porém só é permitida a execução de uma por vez.
 Na aba **Aplicações** é possível visualizar as aplicações disponíveis e gerenciar as mesmas.
 
 ________________________________________
