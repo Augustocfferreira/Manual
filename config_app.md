@@ -12,7 +12,7 @@ _________________________________________
 
 ## Autenticação externa de usuários
 
-LDAP (Lightweight Directory Access Protoco) é um protocolo independente de fabricante que permite compartilhar informações sobre sistemas, usuários etc.
+LDAP (Lightweight Directory Access Protocol) é um protocolo independente de fabricante que permite compartilhar informações sobre sistemas, usuários etc.
 
 O Elipse Mobile pode usar um servidor LDAP para fazer a autenticação de usuários.
 Caso este parâmetro esteja em branco, o elipse mobile tentar encontrar o servidor LDAP padrão.
