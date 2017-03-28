@@ -41,6 +41,7 @@ O usuário Mobile é o usuário que é autenticado pelo Elipse Mobile Server.
 | Repetir senha  | Senha a ser cadastrada par o usuário |
 
 [Voltar para o topo](users.md)
+
 __________________________________________________
 
 ### LDAP (Autenticação Externa)
@@ -55,6 +56,7 @@ Utilitário para windows - Active Directory Explorer v1.44
 https://technet.microsoft.com/en-us/sysinternals/adexplorer.aspx
 
 [Voltar para o topo](users.md)
+
 __________________________________________________
 
 ### Grupo
@@ -64,6 +66,7 @@ __________________________________________________
 O objeto grupo define permissões que são herdadas por todos os usuários que pertencencem a este grupo.
 
 [Voltar para o topo](users.md)
+
 __________________________________________________
 
 ## Permissões
@@ -75,6 +78,7 @@ __________________________________________________
 | Dispositivo único  | Quando a opção Dispositivo único é marcada na criação do usuário, significa que ele só poderá acessar o Elipse Mobile através de um mesmo aparelho de celular. O primeiro login deste usuário vai determinar o dispositivo que ele poderá usar. Caso seja feito login no browser ou outro celular vai aparecer o seguinte erro: "This device is not registed for this user."|
 
 [Voltar para o topo](users.md)
+
 __________________________________________________
 
 ## Permissões herdadas
