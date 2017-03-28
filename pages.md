@@ -123,7 +123,7 @@ _______________________________________
 
 ## Setpoint
 
-O Setpoint permite realizar escrita de valores no tag. A escrita ela pode ser realizada escrevendo o valor desejado diretamente no campo de valor, ou através dos botões de incremento (setas nas extremidades do valor). Para configurá-lo deve-se fazer da seguinte maneira:
+O Setpoint permite realizar escrita de valores no tag. A escrita pode ser realizada escrevendo o valor desejado diretamente no campo de valor, ou através dos botões de incremento (setas nas extremidades do valor). Para configurá-lo deve-se fazer da seguinte maneira:
 
 ![setpoint](https://cloud.githubusercontent.com/assets/26389485/23960377/9a88096a-0986-11e7-8e9c-79d671bc0b41.jpg)
 
