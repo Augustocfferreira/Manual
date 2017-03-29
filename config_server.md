@@ -10,7 +10,7 @@ _________________________________________
    - [Versionamento](config_server.md#versionamento)
    - [Configuração de Firewall](config_server.md#configuração-de-firewall)
 
-  Ao lado do relógio do Windows, é possível verificar o ícone do Elipse Mobile Server. Para fazer qualquer tipo de configuração no mesmo, basta clicar com o botão direito e abrir a opção *Settings...*.
+Ao lado do relógio do Windows, é possível verificar o ícone do Elipse Mobile Server. Para fazer qualquer tipo de configuração no mesmo, basta clicar com o botão direito e abrir a opção *Settings...*.
   
 ![1](https://cloud.githubusercontent.com/assets/26389485/23995614/3276a3b0-0a29-11e7-9e7d-0d3166075d6d.png)
   
@@ -22,7 +22,7 @@ _________________________________________
 
 ![adm](https://cloud.githubusercontent.com/assets/26389485/24041422/252be97c-0aec-11e7-9257-e774905669c3.png)
 
-  No ítem System Administrator, é possível ver o usuário administrador do sistema e, caso necessário, é possível alterar o nome e/ou a senha do mesmo clicando em *Change...*.
+  No item System Administrator, é possível ver o usuário administrador do sistema e, caso necessário, é possível alterar o nome e/ou a senha do mesmo clicando em *Change...*.
 
 _________________________________________
 
@@ -62,11 +62,8 @@ _________________________________________
   A partir da versão 1.1 do Elipse Mobile Server está disponível a configuração automática do Firewall do Windows.
   Para isto, clique com o botão direito do mouse no ícone do Elipse Mobile Server na área de notificações do Windows e selecione a opção Settings.
   
-  ![1](https://cloud.githubusercontent.com/assets/26389485/23995614/3276a3b0-0a29-11e7-9e7d-0d3166075d6d.png)
+![1](https://cloud.githubusercontent.com/assets/26389485/23995614/3276a3b0-0a29-11e7-9e7d-0d3166075d6d.png)
   
-  O Elipse Mobile Server utiliza uma porta para o protocolo HTTP e outra para o protocolo HTTPS.
-O padrão da web é 80 para HTTP e 443 para HTTPS.
-
 ![server](https://cloud.githubusercontent.com/assets/26389485/24042783/44fc5bd2-0af2-11e7-8b96-3165577f0531.png)
 
 Ao clicar em OK será verificada se existe a regra criada para o Elipse Mobile, caso ela não existir é mostrada a seguinte mensagem:
