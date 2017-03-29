@@ -1,8 +1,9 @@
+
 # Índice
 
-________________________________________________
+Desenvolvido pela Elipse Software, o [Elipse Mobile](https://www.elipse.com.br/produto/elipse-mobile/) é uma solução móvel para integração com sistemas de automação (SCADA) que possibilita monitorar indicadores e comandar equipamentos do processo através de um smartphone ou tablet.
 
-Site oficial: [https://www.elipse.com.br/produto/elipse-mobile](https://www.elipse.com.br/produto/elipse-mobile/)
+Site oficial: 
 
 
 - [Introdução](intro.md)
