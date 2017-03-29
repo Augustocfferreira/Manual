@@ -12,9 +12,9 @@ Tanto para os emails como para os Scripts, é necessário configurar a condiçã
 
 Exemplos:
 ```
-	=ValueOf("demo:TagInternal1") == 5
-	=ValueOf("demo:TagInternal2") != 3
-	=ValueOf("demo:TagInternal3") >= 50
+	ValueOf("demo:TagInternal1") == 5
+	ValueOf("demo:TagInternal2") != 3
+	ValueOf("demo:TagInternal3") >= 50
 ```
 
 *Obs: Os operadores lógicos possíveis são os mesmos utilizados em javascript.*
