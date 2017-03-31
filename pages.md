@@ -225,7 +225,9 @@ _______________________________________
 | Condição para exibir    | Condição para que este comando seja exibido na lista de comandos |
 | Valor para escrita    | Valor a ser escrito quando utilizado este comando|
 
-## [Ver exemplo](samples/command.md)
+## Exemplos
+
+[Exemplo command do Demo](samples/command.md)
 
 [Voltar para o topo](pages.md)
 
