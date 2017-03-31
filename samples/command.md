@@ -12,6 +12,10 @@ Após isto, configuraremos os tags de leitura e escrita. O tag de leitura é o t
 
 ![2 - leitura escrita](https://cloud.githubusercontent.com/assets/26389485/24566290/4edee29e-162f-11e7-997d-28a2211288e3.png)
 
+[Voltar para o topo](command.md)
+
+_______________________________________
+
 ## ZONAS
 
 Com os tags configurados, é possível configurar as Zonas e os comandos.
@@ -32,6 +36,10 @@ Por fim, a última zona que será configurada, será o intervalo entre 10 e 23 g
 
 ![5 - cool](https://cloud.githubusercontent.com/assets/26389485/24566284/4e7abf30-162f-11e7-840d-ee0f946c7e31.png)
 
+[Voltar para o topo](command.md)
+
+_______________________________________
+
 ## COMANDOS
 
 Com a configuração das zonas feita, é possível configurar as ações possíveis em cada caso. Para isto, configuraremos os comandos *Exhaustion* para diminuir e *Warm* para aumentarmos a temperatura.
@@ -45,3 +53,5 @@ Já no comando *Warm*, o comportamento tem que ser o contrário, escrevendo 0 (f
 ![7 - warm](https://cloud.githubusercontent.com/assets/26389485/24566286/4ec13a78-162f-11e7-904c-93d0550a0966.png)
 
 Feito isto, nosso objeto Command está pronto para monitorar o tag de leitura e pronto para fazer a escrita caso entre nas condições configuradas.
+
+[Voltar para o topo](command.md)
