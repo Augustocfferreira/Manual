@@ -182,8 +182,6 @@ O Commands permite criar uma lista de comandos a serem realizados de acordo com 
 | Tag leitura  | Tag referência para o estado atual do equipamento que será comandado |
 | Tag escrita  | Tag que receberá o valor do comando selecionado pelo usuário |
 
-[Ver exemplo](samples/command.md)
-
 [Voltar para o topo](pages.md)
 
 _______________________________________
@@ -226,6 +224,8 @@ _______________________________________
 | Texto    | Texto com o nome do comando a ser exibido na janela de comando |
 | Condição para exibir    | Condição para que este comando seja exibido na lista de comandos |
 | Valor para escrita    | Valor a ser escrito quando utilizado este comando|
+
+## [Ver exemplo](samples/command.md)
 
 [Voltar para o topo](pages.md)
 
