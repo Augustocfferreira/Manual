@@ -182,7 +182,7 @@ O Commands permite criar uma lista de comandos a serem realizados de acordo com 
 | Tag leitura  | Tag referência para o estado atual do equipamento que será comandado |
 | Tag escrita  | Tag que receberá o valor do comando selecionado pelo usuário |
 
-[Ver exemplo.](samples/command.md)
+[Ver exemplo](samples/command.md)
 
 [Voltar para o topo](pages.md)
 
