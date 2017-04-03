@@ -28,6 +28,6 @@ Desenvolvido pela Elipse Software, o [Elipse Mobile](https://www.elipse.com.br/p
   
 - [Licenciamento](licence.md)
   
- - [Notas de Versão](releasenotes.md)
+- [Notas de Versão](releasenotes.md)
  
- - [Links úteis](links.md)
+- [Links úteis](links.md)
