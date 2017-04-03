@@ -26,7 +26,7 @@ Desenvolvido pela Elipse Software, o [Elipse Mobile](https://www.elipse.com.br/p
 
 - [Referência de Scripts](scripts.md)
   
-- [Licenciamento](licence.md)
+- [Licenciamento](licences.md)
   
 - [Notas de Versão](releasenotes.md)
  
