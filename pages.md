@@ -201,7 +201,7 @@ _______________________________________
 | Propriedade    | Função  |
 | -------------   | ------------- |
 | Texto    | Texto a ser exibido de acordo com o valor configurado no campo **Condição para exibir** |
-| Condição para exibir    | Valor para que o texto configurado acima seja exibido. Value é o valor do tag leitura |
+| Condição para exibir    | Valor para que o texto configurado acima seja exibido. Value é o valor do tag leitura. Exemplo: value >= 3 |
 
 [Voltar para o topo](pages.md)
 
@@ -222,7 +222,7 @@ _______________________________________
 | Propriedade    | Função  |
 | -------------   | ------------- |
 | Texto    | Texto com o nome do comando a ser exibido na janela de comando |
-| Condição para exibir    | Condição para que este comando seja exibido na lista de comandos |
+| Condição para exibir    | Condição para que este comando seja exibido na lista de comandos. Exemplo: value <= 10 |
 | Valor para escrita    | Valor a ser escrito quando utilizado este comando|
 
 [Voltar para o topo](pages.md)
