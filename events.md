@@ -17,6 +17,16 @@ Exemplos:
 	ValueOf("demo:TagInternal3") >= 50
 ```
 
+Existe também, a possibilidade de utilizar estas condições para condicionar outros campos, como Subtítulo, Cor e Imagem. Para isto, adicione o símbolo de igual "=" antes do ValueOf. Veja um exemplo:
+
+'''
+=ValueOf(demo:TagInternal1) < 15 ? "#0072B8" : "#117D10"
+'''
+
+![cor_var](https://cloud.githubusercontent.com/assets/26389485/24657913/79ff0bce-191e-11e7-8578-4212120a2587.png)
+
+*Veja mais exemplos no [artigo](https://forum.elipse.com.br/t/expressoes-no-elipse-mobile/823).*
+
 *Obs: Os operadores lógicos possíveis são os mesmos utilizados em javascript.*
 
 ________________________________________
