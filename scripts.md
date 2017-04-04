@@ -18,14 +18,14 @@ _________________________________________
   Envio de email.
 
 ```js
-SendMail(users : string, subject : string, message : string, callback);
+SendMail(users , subject , message , callback);
 ```
 Parâmetros:
 ```
- users    : Lista dos usuários separados por ponto e virgula
- subject  : Assunto do e-mail
- message  : Conteúdo do e-mail
- callback : Função que vai receber o retorno assincrono da operação
+ users    : <string> - Lista dos usuários separados por ponto e virgula
+ subject  : <string> - Assunto do e-mail
+ message  : <string> - Conteúdo do e-mail
+ callback : <function (er)> - Função que vai receber o retorno assincrono da operação
 ```
 Exemplo:
  
