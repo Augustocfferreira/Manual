@@ -20,6 +20,7 @@ __________________________________________________
 
   - [Mobile](users.md#mobile-autenticação-interna)
   - [LDAP](users.md#ldap-autenticação-externa)
+  - [Grupo](user.md#grupo)
   
 __________________________________________________
 
