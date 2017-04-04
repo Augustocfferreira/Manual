@@ -37,6 +37,8 @@ O mesmo permite enviar um ou mais emails para um usuário ou grupo de usuários 
 
 Após a configuração do servidor, basta configurar a condição de envio, selecionar para qual usuário será enviado (podendo selecionar um grupo para o envio coletivo)  e preencher os campos de assunto e mensagem a ser enviada.
 
+[Voltar para o topo](events.md)
+
 ________________________________________
 
 ## Script
