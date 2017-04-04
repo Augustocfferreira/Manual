@@ -4,7 +4,7 @@ ________________________________________
 
 # Instalação
 
-A instalação do Elipse Mobile se divide em dois módulos: Server (para o servidor da aplicação) e Client (para a visualização através de smartphones, tablets ou pc).
+A instalação do Elipse Mobile se divide em dois módulos: Server (para o servidor da aplicação) e Client (para a visualização através de smartphones, tablets ou navegador).
 
   - [Server](install.md#server)
     - [Requerimentos mínimos](install.md#requerimentos-mínimos)
@@ -66,6 +66,7 @@ ________________________________________
 ________________________________________
 
 ### Android
+
    Para a instalação do aplicativo Elipse Mobile no Android, é necessário possuir a versão 4.0 ou superior do Android.
     *[Link para download](https://play.google.com/store/apps/details?id=com.elipse.mobile&hl=pt_BR)*
       
@@ -76,6 +77,7 @@ ________________________________________
 ________________________________________
 
 ### IOS
+
   Para a instalação do aplicativo Elipse Mobile no IOS, é necessário possuir a versão 8.0 ou superior do IOS.
    *[Link para download](https://itunes.apple.com/br/app/elipse-mobile/id855194610?mt=8)*
    
@@ -86,6 +88,7 @@ ________________________________________
 ________________________________________
 
 ### Windows Phone
+
   Para a instalação do aplicativo Elipse Mobile no Windows Phone, é necessário possuir a versão 8.1 ou superior do Windows Phone.
    *[Link para download](https://www.microsoft.com/pt-br/store/p/elipse-mobile/9wzdncrdh16c)*
 
@@ -96,6 +99,7 @@ ________________________________________
 ________________________________________
 
 ### Gerenciador e editor de aplicações
+
   O editor de aplicações está diponível em todas as plataformas para todos os usuários administradores do **aplicativo**. Já o gerenciador de aplicações só está disponível para o usuário administrador do **sistema**, este que é configurado no primeiro acesso ao aplicativo.
 
 [Voltar para o topo](install.md)
