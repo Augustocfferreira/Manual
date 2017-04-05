@@ -43,9 +43,7 @@ _________________________________________
   Escrita
  
  ```js
- WriteForm("form:", {campo: 1}, 
- function(er)
- {});
+ WriteForm(form, field , callback (er) {});
  ```
  Parâmetros:
 ```
@@ -67,8 +65,7 @@ _________________________________________
 Escrita somente do valor no tag.
 
 ```js
-WriteTag( tagName, value , function (er) 
-{});
+WriteTag( tagName, value , callback (er) {});
 ```
 Parâmetros:
 ```
@@ -91,9 +88,7 @@ _________________________________________
 Escrita com timestamp e qualidade.
 
 ```js
-WriteTagEx( tagName, value , timestamp, quality, 
-function (er) 
-{});
+WriteTagEx( tagName, value , timestamp, quality, callback (er) {});
 ```
 Parâmetros:
 ```
