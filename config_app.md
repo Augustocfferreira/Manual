@@ -1,4 +1,5 @@
 [Índice](README.md#manual-elipse-mobile)
+
 _________________________________________
 
 # Configurações do Aplicativo
