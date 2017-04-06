@@ -8,17 +8,11 @@ ________________________________________
   Os tipo de conexões são:
   
   - [Elipse E3](connections.md#elipse-e3)
-    - [E3 OPC-DA](connections.md#e3-opc-da)
-    - [E3 Nativo](connections.md#e3-nativo)
   - [Elipse SCADA](connections.md#elipse-scada)
   - [OPC-DA](connections.md#opc-da)
   - [Arduino](connections.md#arduino)
   - [Demo](connections.md#demo)
   - [Form](connections.md#form)  
-    - [Conceitos](connections.md#conceitos)  
-    - [Fluxo de edição do Form](connections.md#fluxo-de-edição-do-form)  
-    - [Scripts](connections.md#scripts)  
-    - [Modo Offline](connections.md#modo-offline)      
   - [EPM (OPCA UA)](connections.md#epm-opca-ua)
   
 ________________________________________
