@@ -34,9 +34,7 @@ ________________________________________
 
 ## Script
 
-Permite que o servidor execute uma ou mais instruções ao validar a condição desejada.
-	Após configurada a condição, já é possível escrever o script que será executado.
-
-*Para mais informações, consulte o capítulo [Referência de Scritps.](scripts.md)*
+Quando a condição entrar no estado verdadeiro um script do usário será executado.
+Para mais informações, consulte o capítulo [Referência de Scritps.](scripts.md)
 
 [Voltar para o topo](events.md)
