@@ -30,9 +30,13 @@ Parâmetros:
 Exemplo:
  
 ```js
-SendMail("usuario1;usuario2", "Dia de preencher form", "message",
- function (er) 
- {});
+SendMail("usuario1;usuario2",
+         "Dia de preencher form", 
+         "message",
+         function (er)
+         {
+         }
+        );
 ```
 
 [Voltar para o topo](scripts.md)
