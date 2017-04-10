@@ -128,14 +128,12 @@ _________________________________________
 
 ## Form
 
+Conexão para criação de formulários.
 ![form](https://cloud.githubusercontent.com/assets/26389485/24060042/37392780-0b30-11e7-82f9-0d982123aa72.png)
 
 O Elipse Mobile Forms permite a criação de formulários para serem preenchidos online ou offline.
-Estes formulários podem ser usados como pequenos bancos de dados e também para fazer coletas em campo.
 
- * Visão geral
- * Agendamento
- * Eventos e integração
+[Forms](forms.md)
 
 [Voltar para o topo](connections.md)
 
