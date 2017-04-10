@@ -32,7 +32,7 @@ _________________________________________
 
   No ítem HTTPS, é possível habilitar as conexões seguras e importar a chave e o certificado de segurança da conexão.
   
-  * [Como gerar um certificado de teste para HTTPs?](kb.elipse.com.br/pt-br/questions/5441)
+  * [Como gerar um certificado de teste para HTTPs?](http://kb.elipse.com.br/pt-br/questions/5441)
   
   [Voltar para o topo](config_server.md)
 
