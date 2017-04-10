@@ -208,10 +208,11 @@ SendMail("a",
  {
  });
 
-WriteNode("form:", 
-         {campo: 1}, 
+WriteForm("form:", 
+         {campo:  {value : 1 }}, 
          function(er){
          });
+
 
 ```
 
