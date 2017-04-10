@@ -43,19 +43,21 @@ _________________________________________
   Escrita
  
  ```js
- WriteForm(form, field , callback);
+ WriteForm(formName, fields, callback);
  ```
  Parâmetros:
 ```
- form     : <string> - Formulário que receberá o valor
- field    : <string> - Campo que receberá o valor
+ formName  : <string> - Formulário que receberá o valor
+ fields    : <string> - Campo que receberá o valor
  callback : <function (er)> - Função que vai receber o retorno assincrono da operação
 ```
  Exemplo:
  ```js
- WriteForm("form:", {campo: 1}, 
- function(er)
- {});
+WriteForm("form:", 
+         {campo:  {value : 1 }}, 
+         function(er){
+         });
+
  ```
  [Voltar para o topo](scripts.md)
  
