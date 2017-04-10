@@ -5,7 +5,6 @@
 ![form](https://cloud.githubusercontent.com/assets/26389485/24060042/37392780-0b30-11e7-82f9-0d982123aa72.png)
 
 O Elipse Mobile Forms permite a criação de formulários para serem preenchidos online ou offline.
-Estes formulários podem ser usados como pequenos bancos de dados e também para fazer coletas em campo.
 
  * Visão geral
  * Agendamento
@@ -28,7 +27,7 @@ Cada definição de form possui uma configuração de usuários administradores 
 Os administradores são aqueles que podem criar uma nova entrada (criar um form novo) e usuário são aqueles que somentem podem preencher o form, mas não podem deletar ou criar uma formulário novo.
 
 Quando o form é criado e está pendente, qualquer usuário (grupo) do formulário pode atribuir a tarefa de preencher o formulário para si.
-Sendo assim, o form entra no estado **atribuído para alguém**. Neste estado outros usuários não poderão editar este form.
+Sendo assim, o form entra no estado **atribuído para alguém**. Neste estado, os outros usuários não poderão editar este form.
 Isso evita que ele seja preenchido por mais de uma pessoa ao mesmo tempo.
 
 O modelo de preenchimento offline também se baseia neste conceito de atribuição.
@@ -41,7 +40,7 @@ Depois da fase de edição existe a fase de finalização. Mesmo quando as repos
 Existe uma opção para o formulário que é **revisão**. Quando esta opção estiver marcada existe uma etapa extra após a finalização.
 Esta etapa pode ser feita apenas pelos administradores do form e correspende a aprovação da coleta de dados.
 
-O objeto possui as seguintes opções em sua criação:
+A conexão form, define o modelo de perguntas e possui as seguintes opções:
 
 | Propriedade    | Função  |
 | -------------   | ------------- |
@@ -111,15 +110,16 @@ ______________________________________
 
 ### Scripts
 
-![script_form](https://cloud.githubusercontent.com/assets/26389485/24263769/ebcb4a06-0fdc-11e7-8600-f94577ba4091.png)
+ Quando o form é alterado, um evento de script é executado no server.
+ 
 
-Os scripts do Elipse Mobile são feitos na linguagem JavaScript.
-Existe vasta documentação na web sobre JavaScrit, por exemplo: https://www.w3schools.com/jsref/default.asp
+Este evento pode ser usado para validar o form, copiar dados para outros sistema (EPM/E3) via writetag e/ou enviar um e-mail de notificação sobre alteração do form.
+ 
+ Ele também pode ser usado para enviar um e-mail.
+ 
+ Existe um argumento no evento que representa o form e suas respotas.
 
-* Parâmetros Globais
-
-Os parâmetros globais disponíveis para acesso via script no Form são:
-
+Este parametro "form" possui as seguintes propriedades:
 ```
 state          : 0=pendente, 1=Atribuído, 2=Finalizado e 3=Aprovado
 assignedUser   : Usuário atribuído ao formulário
@@ -130,16 +130,13 @@ fields         : Local onde os campos estarão listados e organizados
 
 Para o acesso destas variáveis, a sintaxe correta é:
 
-```
-form.NOME_DO_PARAMETRO
-```
-
 Exemplo:
 
 ```js
 WriteTag("demo:TagInternal1", 
           form.assignedUser, 
-          function(er)  { }
+          function(er)  { 
+           }
           );
 ```
 
@@ -166,14 +163,7 @@ WriteTag("demo:TagInternal1",
           );
 ```
 
-* Exemplo de script de modificação do form
-
-Quando uma resposta é criada/edita, um evento de script de é chamado no lado do servidor.
-
-Este evento pode ser usado para validar o form, copiar dados para outros sistema (EPM/E3) via writetag e/ou enviar um e-mail de notificação sobre alteração do form.
- 
-Exemplo:
-
+Exemplo de escrita de tag de acordo com a reposta da pergunta "campo" do form:
 
 ```js
 
@@ -191,9 +181,7 @@ function OnChange(form)
 
 ```
 
-form.campo é o nome dado ao campo do formulário.
-
-* Exemplo de agendamento de criação de forms
+* Agendamento de criação de forms
 
 Menu -> Eventos -> + -> Script
 
