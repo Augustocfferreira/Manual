@@ -40,22 +40,25 @@ SendMail("usuario1;usuario2", "Dia de preencher form", "message",
 _________________________________________
  
 ## WriteForm
-  Escrita
+
+  Escreve respostas em um formulário existente, ou cria o form se ele não existir.
+  
  
  ```js
  WriteForm(formName, fields, callback);
  ```
  Parâmetros:
 ```
- formName  : <string> - Formulário que receberá o valor
- fields    : <string> - Campo que receberá o valor
+ formName  : <string> - Nome do formulário
+ fields    : <string> - Lista de respostas a serem escritas
  callback : <function (er)> - Função que vai receber o retorno assincrono da operação
 ```
  Exemplo:
  ```js
 WriteForm("form:", 
          {campo:  {value : 1 }}, 
-         function(er){
+         function(er)
+         {
          });
 
  ```
@@ -64,7 +67,7 @@ WriteForm("form:",
 _________________________________________
 
 ## WriteTag 
-Escrita somente do valor no tag.
+Escreve o valor em um tag.
 
 ```js
 WriteTag( tagName, value , callback);
@@ -72,22 +75,26 @@ WriteTag( tagName, value , callback);
 Parâmetros:
 ```
  tagName  : <string> - Nome da conexão e nome do tag separados pelo caractere ":"
- value    : <double> - Valor que será escrito no tag
+ value    : <double|string|bool> - Valor que será escrito no tag
  callback : <function (er)> - Função que vai receber o retorno assincrono da operação
 ```
 Exemplo:
 ```js
-WriteTag( "demo:TagInternal3", 15,
-function (er){});
+WriteTag( "demo:TagInternal3", 
+          15,
+          function (er)
+          {
+          }
+        );
 ```
-Escrevendo no tag interno 3, o valor 15.
+Escrevendo no tag demo:TagInternal3, o valor 15.
 
 [Voltar para o topo](scripts.md)
 
 _________________________________________
 
 ## WriteTagEx 
-Escrita com timestamp e qualidade.
+Escrita de tag com timestamp e qualidade.
 
 ```js
 WriteTagEx( tagName, value , timestamp, quality, callback);
