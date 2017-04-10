@@ -20,6 +20,8 @@ Exemplos de condições:
 
 *Obs: Os operadores lógicos possíveis são os mesmos utilizados em javascript.*
 
+* [Como criar expressões no Elipse Mobile?](http://kb.elipse.com.br/pt-br/questions/5446)
+
 ________________________________________
 
 ## Email
