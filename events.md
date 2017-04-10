@@ -5,9 +5,10 @@ ________________________________________
 # Eventos
 
 Os eventos do elipse mobile permitem que o usário defina uma condição para enviar um e-mail ou executar um script no servidor.
-Os eventos podem ser usados como alarmes ou para agendamento da criação de formulários de coletada de dados.
 
-* Condição
+Os eventos podem ser usados, por exemplo, como alarmes ou para agendamento da criação de formulários.
+
+## Condição
 No campo condição o usário entra com uma expressão na qual ele acessa o valor dos tags através de "ValueOf".
 
 Exemplos de condições:
