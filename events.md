@@ -18,8 +18,6 @@ Exemplos de condições:
 	ValueOf("demo:TagInternal3") >= 50
 ```
 
-![cor_var](https://cloud.githubusercontent.com/assets/26389485/24657913/79ff0bce-191e-11e7-8578-4212120a2587.png)
-
 *Obs: Os operadores lógicos possíveis são os mesmos utilizados em javascript.*
 
 ________________________________________
