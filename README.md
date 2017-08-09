@@ -31,3 +31,5 @@ Desenvolvido pela Elipse Software, o [Elipse Mobile](https://www.elipse.com.br/p
 - [Notas de Versão](releasenotes.md)
  
 - [Links úteis](links.md)
+
+- [Política de privacidade](privacidade.md)
