@@ -421,7 +421,7 @@ Conexão com os tags do EPM via OPC-UA.
 | Propriedade    | Função  |
 | -------------   | ------------- |
 | Nome    | Nome da conexão  |
-| Server    | Nome da máquina com E3 Server |
+| Server    | Endereço do servidor UA|
 | User    | Usuário       |
 | Password  | Senha       |
 
