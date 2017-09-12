@@ -144,18 +144,16 @@ WriteTag("demo:TagInternal1",
 
 Dentro de cada campo, temos as propriedades:
 
+
 ```
 value          : Valor do campo
 timestamp      : Data/Hora da última atualização do campo
+notApplicable  : true quando a pergunta foi marcada como not applicable
+notes          : texto da anotação da pergunta.
 ```
 
-Desta forma, para se ter acesso às propriedades do campo, a sintaxe correta é:
+Exemplo que escreve no tag "demo:TagInternal1" o valor respondido na pergunta "campo1"
 
-```
-form.fields.NOME_DO_CAMPO.NOME_DA_PROPRIEDADE
-```
-
-Exemplo:
 ```js
 WriteTag("demo:TagInternal1", 
           form.fields.campo1.value, 
@@ -163,7 +161,7 @@ WriteTag("demo:TagInternal1",
           );
 ```
 
-Exemplo de escrita de tag de acordo com a reposta da pergunta "campo" do form:
+Geralmente se escreve no tag quando o form for para o estado Finalizado.
 
 ```js
 
