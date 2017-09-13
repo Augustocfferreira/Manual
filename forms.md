@@ -75,14 +75,16 @@ ______________________________________
 
 ##### Propriedades do campo
 
-![prop_campo](https://cloud.githubusercontent.com/assets/26389485/24262908/54e5d8b0-0fda-11e7-97a5-4ce87934c8cf.png)
+![form_fieldproperties](https://user-images.githubusercontent.com/26389485/30390674-4a75f28e-988d-11e7-88d2-f976a7ecd59c.png)
 
 | Propriedade    | Função  |
 | -------------   | ------------- |
 | Texto    | Texto a ser exibido para o usuário no preenchimento do formulário |
 | Nome    | Texto para identificar o campo |
 | Tipo    | Ver ítem [Tipo de Campo](#tipo-de-campo) |
+| Complemento   | Ver ítem [Complementos](#tipo-de-campo)  |
 | Reservado para administradores    | Reserva o campo para que apenas administradores deste formulário consigam responder |
+| Permitir que valor esteja indisponível    | Opção que permite ao usuário negar a resposta por alguma indisponibilidade  |
 
 [Voltar para o topo](connections.md)
 
@@ -99,7 +101,9 @@ ______________________________________
 | Texto Longo   | Para anotações maiores, comentários |
 | Digital   | True/False |
 | Imagem   | Imagem enviada para o servidor |
-| QRCode   | Ativa a leitura de um QRCode |
+| QR Code   | Ativa a leitura de um QR Code |
+| QRCODE Check   | Faz a verificação através de um QRCODE |
+| Options   | Define opções para a seleção do usuário como um ComboBox |
 | Grupo   | Usado para fazer a separação de perguntas no form. Não salva nada no banco de dados |
 | Imagem Estática   | Usado para colocar uma imagem de auxílio entre as perguntas do form. Não salva nada no banco de dados |
 | Data | Entrada de uma data|
