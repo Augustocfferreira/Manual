@@ -15,7 +15,7 @@ _________________________________________
   Limitações da versão DEMO:
   - Comunicação com 2 tags de comunicação;
   - Criação de apenas um usuário. Além do administrador do Elipse Mobile;
-  - Utilização de um Form com apena uma pergunta.
+  - Utilização de um Form com uma pergunta.
 
 ![about](https://cloud.githubusercontent.com/assets/26389485/24013925/bf366a32-0a61-11e7-8e4f-e0bddb9ed6b9.png)
 
