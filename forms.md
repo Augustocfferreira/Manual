@@ -90,7 +90,7 @@ ______________________________________
 
 ##### Tipo de campo
 
-![tipo_de_campo](https://cloud.githubusercontent.com/assets/26389485/24262975/82957554-0fda-11e7-9f5f-50b81610f5e9.png)
+![forms_fieldtypes](https://user-images.githubusercontent.com/26389485/30390255-e20d7902-988b-11e7-8cfb-a98b4fd1371d.png)
 
 | Tipo    | Descrição  |
 | -------------   | ------------- |
