@@ -82,7 +82,7 @@ ______________________________________
 | Texto    | Texto a ser exibido para o usuário no preenchimento do formulário |
 | Nome    | Texto para identificar o campo |
 | Tipo    | Ver ítem [Tipo de Campo](#tipo-de-campo) |
-| Complemento   | Ver ítem [Complementos](#tipo-de-campo)  |
+| Complemento   | Ver ítem [Complementos](#complementos)  |
 | Reservado para administradores    | Reserva o campo para que apenas administradores deste formulário consigam responder |
 | Permitir que valor esteja indisponível    | Opção que permite ao usuário negar a resposta por alguma indisponibilidade  |
 
