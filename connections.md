@@ -200,14 +200,16 @@ ______________________________________
 
 ##### Propriedades do campo
 
-![prop_campo](https://cloud.githubusercontent.com/assets/26389485/24262908/54e5d8b0-0fda-11e7-97a5-4ce87934c8cf.png)
+![form_fieldproperties](https://user-images.githubusercontent.com/26389485/30390674-4a75f28e-988d-11e7-88d2-f976a7ecd59c.png)
 
 | Propriedade    | Função  |
 | -------------   | ------------- |
 | Texto    | Texto a ser exibido para o usuário no preenchimento do formulário |
 | Nome    | Texto para identificar o campo |
 | Tipo    | Ver ítem [Tipo de Campo](#tipo-de-campo) |
+| Complemento   | Ver ítem [Complementos](#complementos)  |
 | Reservado para administradores    | Reserva o campo para que apenas administradores deste formulário consigam responder |
+| Permitir que valor esteja indisponível    | Opção que permite ao usuário negar a resposta por alguma indisponibilidade  |
 
 [Voltar para o topo](connections.md)
 
@@ -215,7 +217,7 @@ ______________________________________
 
 ##### Tipo de campo
 
-![tipo_de_campo](https://cloud.githubusercontent.com/assets/26389485/24262975/82957554-0fda-11e7-9f5f-50b81610f5e9.png)
+![forms_fieldtypes](https://user-images.githubusercontent.com/26389485/30390255-e20d7902-988b-11e7-8cfb-a98b4fd1371d.png)
 
 | Tipo    | Descrição  |
 | -------------   | ------------- |
@@ -224,10 +226,29 @@ ______________________________________
 | Texto Longo   | Para anotações maiores, comentários |
 | Digital   | True/False |
 | Imagem   | Imagem enviada para o servidor |
-| QRCode   | Ativa a leitura de um QRCode |
+| QR Code   | Ativa a leitura de um QR Code |
+| QRCODE Check   | Faz a verificação através de um QR Code |
+| Options   | Define opções para a seleção do usuário como um ComboBox |
 | Grupo   | Usado para fazer a separação de perguntas no form. Não salva nada no banco de dados |
 | Imagem Estática   | Usado para colocar uma imagem de auxílio entre as perguntas do form. Não salva nada no banco de dados |
 | Data | Entrada de uma data|
+
+[Voltar para o topo](connections.md)
+
+______________________________________
+
+##### Complementos
+
+![form_comple](https://user-images.githubusercontent.com/26389485/30391403-946ba7ec-988f-11e7-90ff-689f818548cb.png)
+
+Alguns tipos de campos necessitam do campo Complemento para o seu funcionamento.
+
+| Tipo    | Descrição  |
+| -------------   | ------------- |
+| QRCODE Check   | Define qual a string que deve ser lida no QR Code. Exemplo: PT100 |
+| Options   | Campo para definir as opções. Exemplo: a ; b; c |
+
+Observação: O QRCODE Check não gera o QRCode para verificação. O mesmo pode ser gerado no mesmo gerador de QR Code utilizado pelas páginas ou gerado em qualquer outro gerador de QR Code.
 
 [Voltar para o topo](connections.md)
 
