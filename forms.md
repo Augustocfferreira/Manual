@@ -114,9 +114,9 @@ ______________________________________
 
 ##### Complementos
 
-Alguns tipos de campos necessitam do campo Complemento para o seu funcionamento.
-
 ![form_comple](https://user-images.githubusercontent.com/26389485/30391403-946ba7ec-988f-11e7-90ff-689f818548cb.png)
+
+Alguns tipos de campos necessitam do campo Complemento para o seu funcionamento.
 
 | Tipo    | Descrição  |
 | -------------   | ------------- |
