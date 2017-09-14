@@ -6,6 +6,8 @@ ___________________________________________
 
 Dentro do menu *Páginas*, é possível visualizar as páginas da aplicação, criar novas páginas e gerar QRCodes para se ter um acesso mais rápido pelo aplicativo.
 
+Através da opção *Navegação* pode-se configurar links para facilitar a navegação entre as páginas. Exemplo: ["home", "Página Inicial"]
+
 No ítem *Permissões* é possível configurar quais usuários terão acesso à página selecionada. Para maiores informações, veja o capítulo de [Usuários](users.md).
 
 _______________________________________
