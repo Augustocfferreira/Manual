@@ -246,7 +246,7 @@ Alguns tipos de campos necessitam do campo Complemento para o seu funcionamento.
 
 | Tipo    | Descrição  |
 | -------------   | ------------- |
-| QRCODE Check   | Define qual a string que deve ser lida no QR Code. Exemplo: PT100 |
+| QRCODE Check   | Define qual a string que deve ser lida no QR Code. Estados: 0 - Não verificado, -1 - Verificado Incorretamente e 1 - Verificado Corretamente. Exemplo: PT100 |
 | Options   | Campo para definir as opções. Exemplo: a ; b; c |
 
 Observação: O QRCODE Check não gera o QRCode para verificação. O mesmo pode ser gerado no mesmo gerador de QR Code utilizado pelas páginas ou gerado em qualquer outro gerador de QR Code.
