@@ -6,7 +6,7 @@ ___________________________________________
 
 Dentro do menu *Páginas*, é possível visualizar as páginas da aplicação, criar novas páginas e gerar QRCodes para se ter um acesso mais rápido pelo aplicativo.
 
-Através da opção *Navegação* pode-se configurar links para facilitar a navegação entre as páginas. A sintaxe é ["nome_da_página" , "texto a ser visualizado"].  Exemplo: ["home", "Página Inicial"], ["motores", "Página de Motores"]
+Através da opção *Navegação* pode-se configurar links para facilitar a navegação entre as páginas. A sintaxe é: ["nome_da_página" , "texto a ser visualizado"].  Exemplo: ["home", "Página Inicial"], ["motores", "Página de Motores"]
 
 No ítem *Permissões* é possível configurar quais usuários terão acesso à página selecionada. Para maiores informações, veja o capítulo de [Usuários](users.md).
 
