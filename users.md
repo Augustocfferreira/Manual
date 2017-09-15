@@ -64,7 +64,7 @@ __________________________________________________
 
 ![group](https://cloud.githubusercontent.com/assets/26389485/24060964/4d59dd8a-0b34-11e7-9072-d463a1269367.png)
 
-O objeto grupo define permissões que são herdadas por todos os usuários que pertencencem a este grupo.
+O objeto grupo define permissões que são herdadas por todos os usuários que pertencem a este grupo.
 
 [Voltar para o topo](users.md)
 
