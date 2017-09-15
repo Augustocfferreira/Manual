@@ -53,6 +53,8 @@ Para configurar esta opção, digite o nome dos servidores separados por vírgul
 | User    | Usuário       |
 | Password  | Senha       |
 
+A conexão E3 nativa é compatível para versões E3 4.6 ou superiores.
+
 [Voltar para o topo](connections.md)
 
 ______________________________________
