@@ -13,7 +13,7 @@ ________________________________________
   - [Arduino](connections.md#arduino)
   - [Demo](connections.md#demo)
   - [Form](connections.md#form)  
-  - [EPM (OPCA UA)](connections.md#epm-opca-ua)
+  - [EPM (OPC UA)](connections.md#epm-opc-ua)
   
 ________________________________________
 
@@ -436,7 +436,7 @@ Quando ele voltar ao modo online, as alterações dos formulários serão enviad
 
 ________________________________________
 
-## EPM (OPCA UA)
+## EPM (OPC UA)
 
 ![ua](https://cloud.githubusercontent.com/assets/26389485/24060043/373b5e06-0b30-11e7-9029-ff3ec91bc257.png)
 
