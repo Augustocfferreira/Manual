@@ -4,7 +4,7 @@ ________________________________________
 
 # Eventos
 
-Os eventos do elipse mobile permitem que o usário defina uma condição para enviar um e-mail ou executar um script no servidor.
+Os eventos do elipse mobile permitem que o usário defina uma condição para enviar um e-mail ou executar um script no servidor. A linguagem utilizada nos scripts é JavaScript.
 
 Os eventos podem ser usados, por exemplo, como alarmes ou para agendamento da criação de formulários.
 
