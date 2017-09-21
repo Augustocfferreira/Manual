@@ -6,6 +6,8 @@ _________________________________________
 
 * O licenciamento se dá em função do número de usuários cadastrados dentro da aplicação. 
 
+* O usuário adminstrador do sistema não consume licença de usuário
+
 * A licença de Server não possui nenhuma limitação de conexões ou tags. 
 
 * Para verificar se a hardkey que está sendo utilizada possui licença para o Elipse Mobile, abra o ítem Sobre. A tela que abrirá, informará as versões (Server e Client), a licença que foi reconhecida, o número de licenças e as sessões utilizadas.
