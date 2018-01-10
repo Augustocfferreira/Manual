@@ -32,7 +32,14 @@ _________________________________________
 
   No ítem HTTPS, é possível habilitar as conexões seguras e importar a chave e o certificado de segurança da conexão.
   
+  
+  
   * [Como gerar um certificado de teste para HTTPs?](http://kb.elipse.com.br/pt-br/questions/5441)
+  
+  Veja tambem:
+  Lists of available trusted root certificates in iOS
+  https://support.apple.com/en-us/HT204132
+  
   
   [Voltar para o topo](config_server.md)
 
