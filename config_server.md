@@ -8,7 +8,8 @@ _________________________________________
    - [HTTPs](config_server.md#https)
    - [Portas](config_server.md#portas)
    - [Versionamento](config_server.md#versionamento)
-   - [Configuração de Firewall](config_server.md#configuração-de-firewall)
+
+- [Configuração de Firewall](config_server.md#configuração-de-firewall)
 
 Ao lado do relógio do Windows, é possível verificar o ícone do Elipse Mobile Server. Para fazer qualquer tipo de configuração no mesmo, basta clicar com o botão direito e abrir a opção *Settings...*.
   
@@ -38,6 +39,7 @@ _________________________________________
   
   Veja tambem:
   Lists of available trusted root certificates in iOS
+  
   https://support.apple.com/en-us/HT204132
   
   
