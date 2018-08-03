@@ -115,4 +115,21 @@ Exemplo:
 WriteTagEx("e3:Data.InternalTag1", 2, new Date().getTime(), 0,
 function (er){ });
 ```
+
+## LogMessage
+
+Escreve uma mensagem no log que o adminstrador do sistema pode ver no menu About -> Logs.
+
+```js
+LogMessage( texto );
+```
+Parâmetros:
+```
+ texto  : <string> - Texto que vai ser enviado no log
+```
+Exemplo:
+```js
+LogMessage("Mensagem");
+```
+
 [Voltar para o topo](scripts.md)
