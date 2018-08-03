@@ -11,6 +11,7 @@ _________________________________________
 * [WriteForm](#writeform)
 * [WriteTag](#writetag)
 * [WriteTagEx](#writetagex)
+* [LogMessage](#logmessage)
 
 _________________________________________
 
